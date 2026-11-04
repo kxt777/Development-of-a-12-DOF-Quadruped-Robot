@@ -1,0 +1,22 @@
+{
+  "/home/robot/dog_navigation/ws/src/dog_navigation": {
+    "sha256": "cbddfd6d4f5d4bcaa2e0b13f9e7d36f5da615ff4444ccf2070f5acb7c889b61b",
+    "files": 1808
+  },
+  "/home/robot/dog_navigation/versions/dog_nav_v6_three30_20261024": {
+    "sha256": "2c0a59d219fc7e9afdd8800da68486b7c9697a23917e60416f3ce4bf287f9be0",
+    "files": 92
+  },
+  "/home/robot/dog_navigation/archives/dog_nav_v6_three30_20261024_FROZEN": {
+    "sha256": "a821dba6c6af5ed9ce047762f42e2ff92b4934f5b02df36c0f98963a3e0bea8f",
+    "files": 219
+  },
+  "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source": {
+    "sha256": "db06121e0ade6eb7f14e067498563b07a3aa558a54affd73489144c4660fdaf8",
+    "files": 25
+  },
+  "/home/robot/.config/systemd/user": {
+    "sha256": "261d9b0b9c8ec6c167f10c3b4b641c6781c0813c5603a6ff83569a08c8e3a377",
+    "files": 7
+  }
+}

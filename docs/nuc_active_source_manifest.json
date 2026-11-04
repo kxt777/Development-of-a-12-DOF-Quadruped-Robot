@@ -1,0 +1,1250 @@
+[
+  {
+    "path": "ros2_ws/src/dog_ik_walk/README.md",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/README.md",
+    "size": 6273,
+    "sha256": "a59b99154989de376699b84dfea1c47d0ab8aa7925911586581daa4d13c9be7b"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/package.xml",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/package.xml",
+    "size": 629,
+    "sha256": "786e18e5ed60c5fcaa4edd144bc525724e25494e8ba06aed5d3ae82633c21055"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/setup.cfg",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/setup.cfg",
+    "size": 95,
+    "sha256": "a517a88e4a860e081b805392d9930978e9c71e208b0b22afc8b12cd3281b15b1"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/setup.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/setup.py",
+    "size": 577,
+    "sha256": "4a5fc1f219a9e9a8dc1e30c2bbbbf738a2013f0f57107fca264ba2a06a1df7e5"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/__init__.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/__init__.py",
+    "size": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/controller.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/controller.py",
+    "size": 13202,
+    "sha256": "d8b4aba219a1730a14573a8389303e1e60003c590396625e0a2c805a07e00176"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/heading.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/heading.py",
+    "size": 9535,
+    "sha256": "b521eaeef360303867dc3197e7beb62775cf02246a752684b09b4a5c7a2e5715"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/imu_controller.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/imu_controller.py",
+    "size": 8280,
+    "sha256": "c6f07d2d18c4dcbedf049cbb4858dcc77314008ca3a9111981506c7a2261bf75"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/node.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/node.py",
+    "size": 14636,
+    "sha256": "50ba27aca7366d34b847a9b7f840de8de0b17009f408b2d7e62a996c6615d4ac"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/replay_heading.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/replay_heading.py",
+    "size": 4958,
+    "sha256": "7596e3b63143d5a065574eac651611e1e75e379f0bbc36dbbd532ac8c88aecf1"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/sequence.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/sequence.py",
+    "size": 2201,
+    "sha256": "6054edeb867f559d142071f12302a1962b5ac1ecb6b1b9c1385ce6f4d6e8782f"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/teleop.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/teleop.py",
+    "size": 10517,
+    "sha256": "2925277af87cbfb507ff33fbea002ea31b6dc1572d9529cbece118f62ff7408e"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/web_server.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/web_server.py",
+    "size": 10604,
+    "sha256": "f53217d3ecd7e0e7cfc6037ca9a6fc9d67a201257ac2ccdfc70e34a62cf6faff"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/web/app.js",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/web/app.js",
+    "size": 5881,
+    "sha256": "fa1e07e4a3314c7c868ce7a51dbcd5ec776a98e1c463e57fe970788a4d59d77a"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/web/index.html",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/web/index.html",
+    "size": 3736,
+    "sha256": "21ff11c125b953b0737e1c61d1e0557a7b63d54e0eaa5643637abc2d0e2eed3b"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/web/style.css",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/dog_ik_walk/web/style.css",
+    "size": 6523,
+    "sha256": "e78a1464e24e24e4144f8e8f2e338f0cad085ed60d8b4a77f8a1a303d2052e16"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/test/test_command_receipt.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/test/test_command_receipt.py",
+    "size": 4836,
+    "sha256": "fb49a0e4150735928c9c246b80bc77138def55f2bd40330735df893d92e9e14a"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/test/test_controller.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/test/test_controller.py",
+    "size": 7100,
+    "sha256": "d9e4e9301e2544748665f00909568f9ca37f779049803c4d1c09f88f17d57296"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/test/test_heading.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/test/test_heading.py",
+    "size": 7975,
+    "sha256": "6d3259c16971601842bcf5e3c1fcec0ad4672b27ee419f51a36f52fdddf6c0cc"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/test/test_heading_response.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/test/test_heading_response.py",
+    "size": 3918,
+    "sha256": "c8044624a8eac8f8719db14af90045dcf744c238bc05d355f5357fb335ee4b63"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/test/test_teleop.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/test/test_teleop.py",
+    "size": 3927,
+    "sha256": "a7cb04fafc60352517c11b23ba25bcdb702fc9a5d692fafbeed2250dec7aa552"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/test/test_web.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/test/test_web.py",
+    "size": 2732,
+    "sha256": "6999ea656ba1b05f326538b211523e060153b4b6e7a965aea423f0dc2a30d703"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/resource/dog_ik_walk",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/resource/dog_ik_walk",
+    "size": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/launch/ik_walk.launch.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/launch/ik_walk.launch.py",
+    "size": 748,
+    "sha256": "dda40c64b8eb613319201e35a8124771c079958dca06cf5c83fa21d319042cd7"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/launch/ik_walk_imu.launch.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/source/dog_ik_walk/launch/ik_walk_imu.launch.py",
+    "size": 1125,
+    "sha256": "8270137e7843c19600efc733e5a0d7df2e9c336be55e1f10bfea016d74ecb52b"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/.gitignore",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/.gitignore",
+    "size": 108,
+    "sha256": "795630267d82a868299154c5d0e6bc4e0fe875e799534da04be6a320f55114e2"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/.gitmodules",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/.gitmodules",
+    "size": 123,
+    "sha256": "dce23769c95c9f6038a738f13da0d73f6bbf098926f628cd0faa31e9fcc2a0c8"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/CMakeLists.txt",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/CMakeLists.txt",
+    "size": 3506,
+    "sha256": "4483d4f3072cb2fb448d69b4105b410839fd9bbfcb5c9794737dd68eb2f74f45"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/LICENSE",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/LICENSE",
+    "size": 18092,
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/README.md",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/README.md",
+    "size": 10863,
+    "sha256": "81d183c08616cbf83d7bf935e73009de7383299c3087e8f0bebb7ff00a82d08d"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/package.xml",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/package.xml",
+    "size": 1144,
+    "sha256": "a5c9a445f5dd7e69e0ad3c181627ff881e10bfc0ec897830fc69848e4e5cb554"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/msg/Pose6D.msg",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/msg/Pose6D.msg",
+    "size": 597,
+    "sha256": "91b5397207076295c2b20273552b80267e258a749ae1a932dc00f48cfc31334f"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/config/avia.yaml",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/config/avia.yaml",
+    "size": 2066,
+    "sha256": "47de1f48a605b04a8fcec4a98a41a13a502dcd5ad39d06ad1c75c9d737e74e00"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/config/horizon.yaml",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/config/horizon.yaml",
+    "size": 2079,
+    "sha256": "816688b9c73a6d93e7f1331ac5d15d4f5720c55bf2bac9c4076b9e2c91e1d730"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/config/mid360.yaml",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/config/mid360.yaml",
+    "size": 2328,
+    "sha256": "0fba8e5d317235b964b84813c9f6019dabd4267f29bedfa03595f29c0cf80aa1"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/config/ouster64.yaml",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/config/ouster64.yaml",
+    "size": 2185,
+    "sha256": "fbf800038ce8ed2a7be23d1a55f6263f86fa6288b881ba871a59ec7f3ace9cb1"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/config/velodyne.yaml",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/config/velodyne.yaml",
+    "size": 2297,
+    "sha256": "c3a5c83dd3073a62416a2e0f5a0b436288e1fa41fad46e30d6dd8cacbc635e6f"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/src/IMU_Processing.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/src/IMU_Processing.hpp",
+    "size": 12672,
+    "sha256": "2b786c50c255a118fe95c9b017ef13af9e27a79b0624a718d4e192c3e5ca138d"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/src/laserMapping.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/src/laserMapping.cpp",
+    "size": 51910,
+    "sha256": "68e050d69b87cbc21d58359dc8a72bf0f870c0b6e4f1c72b757b2c7f7572f491"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/src/preprocess.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/src/preprocess.cpp",
+    "size": 27476,
+    "sha256": "b95e50ff9b7ea976ada49b1f90a33c9c738c0d74481da6c4639e8d99f512260b"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/src/preprocess.h",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/src/preprocess.h",
+    "size": 5143,
+    "sha256": "a03d369d1104a7bf1a3c4fe7e73cfac30de568c0cb0ed5791aa09be21ee52dee"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/.github/stale.yml",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/.github/stale.yml",
+    "size": 682,
+    "sha256": "43f4c7c1cd847756a97d5415b630aa143768865b8252273cb1b3ab10326b1ab8"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/launch/gdb_debug_example.launch",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/launch/gdb_debug_example.launch",
+    "size": 962,
+    "sha256": "f635965b011c5f4872be2a1cc0fe711d0a999bc7d489bab4c401cbb41318103e"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/launch/mapping.launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/launch/mapping.launch.py",
+    "size": 2334,
+    "sha256": "60f12a49d9706074bd4a691e8d68d67ddf4cedcd720978a166940118e59518f4"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/Exp_mat.h",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/Exp_mat.h",
+    "size": 2743,
+    "sha256": "abce87e1fb0e60febf42f38b75f4c018bac24c1bf652e26b7a510a9296d3031d"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/common_lib.h",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/common_lib.h",
+    "size": 8059,
+    "sha256": "bd9d6cf500f6f77e880c0cbf451ce6fc8b0e6d638773a4580a1ee779744e9e54"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/matplotlibcpp.h",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/matplotlibcpp.h",
+    "size": 81837,
+    "sha256": "360d70cb9a7dd6cb981622871204c394b56f856ef42abd0e07a011a5e146f4d6"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/so3_math.h",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/so3_math.h",
+    "size": 2936,
+    "sha256": "e02f73dc804c3f539a80fe49d4221a85dbfeaee4cf0b643d7af062b49148e9f7"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/use-ikfom.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/use-ikfom.hpp",
+    "size": 4337,
+    "sha256": "1ee2c078ee757ff2dffedf48da764daec152baa79876a70785d010cc2e6165ab"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/ikd-Tree/.git",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/ikd-Tree/.git",
+    "size": 44,
+    "sha256": "8fde9af261f4f33eac3687ac18e4bbe5acea19fb4b2c2c1bcfa342bbe840ee38"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/ikd-Tree/README.md",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/ikd-Tree/README.md",
+    "size": 73,
+    "sha256": "a7f6feab008dc54a053963fb518e360389ee807af63ebddcc15e90b1ede78073"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/ikd-Tree/ikd_Tree.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/ikd-Tree/ikd_Tree.cpp",
+    "size": 68733,
+    "sha256": "ec3cbbbb6386eb6c68f9aa081c48b5d62209ada44fe167a002d4e3b112a1ea9f"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/ikd-Tree/ikd_Tree.h",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/ikd-Tree/ikd_Tree.h",
+    "size": 10279,
+    "sha256": "bb87cab944c6c59e0be61cb0b3a2cd0e334d93dc1bf768875058857278135a4b"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/build_manifold.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/build_manifold.hpp",
+    "size": 9436,
+    "sha256": "0e88522551d02e78dc995e6c9d7883d9ecca7190379ec047ab839fff7186ea0f"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/startIdx.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/startIdx.hpp",
+    "size": 12515,
+    "sha256": "79cdc368bb4e083f5fda7549094c0aba8b599aee1f88e9f2a8b7fa785bf1f757"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/S2.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/S2.hpp",
+    "size": 9971,
+    "sha256": "f861be0bbb1a80d968189c90f9ef6b8e56b5f4bb19a9043a2e41c9397c215d56"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/SOn.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/SOn.hpp",
+    "size": 10624,
+    "sha256": "90a8384a05d656698e6826b892561dc6cd619b62a7e32f9e6e3a9253e5e0c8aa"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/vect.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/vect.hpp",
+    "size": 14226,
+    "sha256": "771ecededd51dc694bdadb57f8a49fad7bc6091c6f6112142096954649ac405f"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/wrapped_cv_mat.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/wrapped_cv_mat.hpp",
+    "size": 3236,
+    "sha256": "3040f43fcb4195a2572a8819be012ebd2c4b59a38cfae86fcac3e01d7039a589"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/src/SubManifold.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/src/SubManifold.hpp",
+    "size": 4886,
+    "sha256": "96709f0f453a0c8776b1969064275ebf14dc5234b7024e68eb1cfc51a513864f"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/src/mtkmath.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/src/mtkmath.hpp",
+    "size": 10176,
+    "sha256": "f9627989cf578f35ec5594a6956b4e9283d4dd109b26e7d2621682c508546295"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/src/vectview.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/src/vectview.hpp",
+    "size": 6540,
+    "sha256": "7855408124ea65df4423bae5f97d5104af5552318796bc6324bdbf98a45101f3"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/esekfom/esekfom.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/esekfom/esekfom.hpp",
+    "size": 68556,
+    "sha256": "b990411209fe06ae64112c8bc807b0c2a13922fc1460ec2745c6701cc9344e85"
+  },
+  {
+    "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/esekfom/util.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/esekfom/util.hpp",
+    "size": 2363,
+    "sha256": "3c4265d25ea3f8c7f586d1e34bc352e981e09e30555e42011cd23a0a147d6918"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/.gitignore",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/.gitignore",
+    "size": 37,
+    "sha256": "2da9e4085d66ed68d16a4d7d4c97ced71bf404f0cb1a4c7c028f44079b86351b"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/CHANGELOG.md",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/CHANGELOG.md",
+    "size": 1623,
+    "sha256": "2f0073345de013886e27cbbd6aaace3eaca2badba8d1dbc5da364b67a9bd7f3b"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/CMakeLists.txt",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/CMakeLists.txt",
+    "size": 10968,
+    "sha256": "9c9f681c973ccf1f50a0d1b1e9e1dbf2b076ac88d17e636c1c0a6882ab02440a"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/LICENSE.txt",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/LICENSE.txt",
+    "size": 19928,
+    "sha256": "5d965fd1439196751d5ccad8064a51dafdb2d88548174bb5516d393c7a4c0717"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/README.md",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/README.md",
+    "size": 19951,
+    "sha256": "281d4149b6bdfb8dfb93a99c11607a5fb24986d774d06881fd80734b4b2c476c"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/build.sh",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/build.sh",
+    "size": 1638,
+    "sha256": "bb19f5ee4f25f2d63ce278cd785be451a7bef456a1b1721004acf590f95ca801"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/package.xml",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/package.xml",
+    "size": 1123,
+    "sha256": "084b1db3a68ef3cf979da0c8ce6a8bf9566dc586ebfdd51d0dbe012f43c3d2dd"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/package_ROS1.xml",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/package_ROS1.xml",
+    "size": 3395,
+    "sha256": "2e3eb6932e9fe365d31aa69926aa6cae76464f4176008cf33de26f0fbee29c27"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/package_ROS2.xml",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/package_ROS2.xml",
+    "size": 1123,
+    "sha256": "084b1db3a68ef3cf979da0c8ce6a8bf9566dc586ebfdd51d0dbe012f43c3d2dd"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/msg/CustomMsg.msg",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/msg/CustomMsg.msg",
+    "size": 341,
+    "sha256": "f42d6709db951b1fa307e929e742c0593cbf0d1b0ff977d2ed63ad8d7cee0a96"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/msg/CustomPoint.msg",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/msg/CustomPoint.msg",
+    "size": 353,
+    "sha256": "b64b31a8edc8c8b3765d82b5d3ccd2d2e1f217b9525ef7007ab918674c619c59"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/config/HAP_config.json",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/config/HAP_config.json",
+    "size": 863,
+    "sha256": "956414d48bf17af2427e2b8f3dbbeff92345f93fe81e97422f22117ea0ef3f35"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/config/MID360_config.json",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/config/MID360_config.json",
+    "size": 885,
+    "sha256": "79de5b85fd0237a6fb1e7ad9b2549a8597ef3c1bc4c75c2b9b2146ed02c80ef1"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/config/MID360s_config.json",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/config/MID360s_config.json",
+    "size": 794,
+    "sha256": "874b4c619dfe7ed7172631df462c0ac433eb9b5e667ef9595567f9261e77bcae"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/config/display_point_cloud_ROS1.rviz",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/config/display_point_cloud_ROS1.rviz",
+    "size": 5650,
+    "sha256": "89d934b783d9f0386dbaef7cbbf0ea3f4ee0c87c57b313178d822cec93320caf"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/config/display_point_cloud_ROS2.rviz",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/config/display_point_cloud_ROS2.rviz",
+    "size": 4834,
+    "sha256": "ae7cea85c28bcb532f3504994aa287ad14100048cd53b30821b73df0a1f94e61"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/config/mixed_HAP_MID360_config.json",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/config/mixed_HAP_MID360_config.json",
+    "size": 1665,
+    "sha256": "99895013db7bfc1d58fef1abb2d25461624ab468bce5f5c4381172f3b7d235cf"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/driver_node.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/driver_node.cpp",
+    "size": 1485,
+    "sha256": "2367146dbf888b8eb6ac661792c3858ae7c2f8bb3136888fbbaee7593f1c1a1c"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/driver_node.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/driver_node.h",
+    "size": 2482,
+    "sha256": "503851a1fe806c633377f891479b8b434e89a0ac4070db80d9e3b8fc36070a6a"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/lddc.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/lddc.cpp",
+    "size": 22762,
+    "sha256": "37dcc252a743fafe14c7ee5341d8827f1a5298ec910502b201bd0feb3476c71e"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/lddc.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/lddc.h",
+    "size": 5868,
+    "sha256": "31a78f172caf82f3b2938c9e2c296cd582da228d0043c17849f7a9b20788d4ea"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/lds.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/lds.cpp",
+    "size": 5950,
+    "sha256": "a53c0f737a61282c523a00bbdc5a76bfbb7ed5616fc5bbb4265bc64ca0853efe"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/lds.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/lds.h",
+    "size": 2689,
+    "sha256": "090334fb09e5b9a946042af06abe46d0f5a098b9978527b42ac1d0b7ce022b63"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/lds_lidar.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/lds_lidar.cpp",
+    "size": 6520,
+    "sha256": "637cac3ab27239717bb434ac35210551a98d17b08153e7205eb733da84a1153d"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/lds_lidar.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/lds_lidar.h",
+    "size": 2705,
+    "sha256": "2a36a2f0c890ce7a4692a8e546a8dca5b1c8815766788f1ad95dc89a3d943822"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/lds_lvx.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/lds_lvx.cpp",
+    "size": 2615,
+    "sha256": "adb055a237752a41fa7cc628aa36eb676f448a9c7a329138da9d8429f9a3aafd"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/lds_lvx.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/lds_lvx.h",
+    "size": 2079,
+    "sha256": "2e7d3db2075463afab02c623ef5ca457cafe83ea9acb5e9bfe1f29f5f854fc0c"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/livox_ros_driver2.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/livox_ros_driver2.cpp",
+    "size": 7899,
+    "sha256": "5be8fe1854e345660e78cf4f1c600eb87bb34ead54ef50b16033fba0cecdd621"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp",
+    "size": 2381,
+    "sha256": "f893a7397f05e81826d6097233ae6a90d3428f921ceb04d9f957427f4bcf7e5e"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h",
+    "size": 1721,
+    "sha256": "c0512f0ddb732861ec152e93d7d6477dd620865b4a92c385379d013286506998"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp",
+    "size": 5293,
+    "sha256": "ce7cc5df5f7e09768a2d256f0d1cae30ae9c6214d821be95036311cef08912ed"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h",
+    "size": 2018,
+    "sha256": "1d5b9f606deedb7c78e1a6d0c3c10d62a886fcc2aac1ac42e1a4a1ae6a9b6d49"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/call_back/lidar_common_callback.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/call_back/lidar_common_callback.cpp",
+    "size": 2276,
+    "sha256": "8f37b7dda4236edbcb4a87cfa6a016e4105ca1e0b8e0e99f2446953636412196"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/call_back/lidar_common_callback.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/call_back/lidar_common_callback.h",
+    "size": 1575,
+    "sha256": "e0fd66f13ad20b0426b9b5384abee61c8b2b85ace2e9904c470da9fd7c0cc366"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp",
+    "size": 15386,
+    "sha256": "4ea8189ca228f5f5730b07006f7472b46b28bfd942795b865455117c89b980c0"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/call_back/livox_lidar_callback.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/call_back/livox_lidar_callback.h",
+    "size": 3238,
+    "sha256": "8b491e57ee77c0b020458338f5bf9a5b8776c0d875c96654531e622e92159c45"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/cache_index.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/cache_index.cpp",
+    "size": 3858,
+    "sha256": "dca25f47674f530249e94c0ac8ac368d122910ca66336bd1bee65a06d2f01667"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/cache_index.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/cache_index.h",
+    "size": 2055,
+    "sha256": "65c635bd6903564bc1e0547113a6aff52e592c16295ed23264b5726317327c01"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/comm.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/comm.cpp",
+    "size": 2209,
+    "sha256": "73e6b7469337528ffb60b0f670bedc3c01dfcd7d8a048e72e8f04bd5d839f126"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/comm.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/comm.h",
+    "size": 8580,
+    "sha256": "72c639ba1d6eaf7c355050672c865c7615cea3619abee628683d98920fb31fa4"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/ldq.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/ldq.cpp",
+    "size": 4682,
+    "sha256": "b5a11f2b4b658e4fc2c53dc261a7401e09516a6276e9b1a9c7568a4ee6d86a3f"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/ldq.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/ldq.h",
+    "size": 2330,
+    "sha256": "01ccf8d13f84475cb126dea1f15546a59ce9398968360e6484da5832729aa077"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp",
+    "size": 2248,
+    "sha256": "7f9ecbdad433653233b2701dbd06dd4f7f523d0e972cc5cb4bf0aca2ed7494b5"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/lidar_imu_data_queue.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h",
+    "size": 2632,
+    "sha256": "cc8ae6d425cf6fb173b59072e5310f7b984e776a9d8277c8e9e0ef9d9dc58998"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/pub_handler.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/pub_handler.cpp",
+    "size": 16204,
+    "sha256": "b98444be352bf6ed7b59ff7393bd488ddfc9825fb0357f67f0e6b49a48cbe9ae"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/pub_handler.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/pub_handler.h",
+    "size": 4436,
+    "sha256": "dbf0633c2117026936b72bdb825a62cb8dfb831b845a05e985cf12c51cd30e07"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/semaphore.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/semaphore.cpp",
+    "size": 1470,
+    "sha256": "7ea77d2b2b9f5aca1aa1c4f239d427398699b504a25b5bcd1667545650a0c587"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/comm/semaphore.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/comm/semaphore.h",
+    "size": 1623,
+    "sha256": "a07dedf139d6a1f85d572b23f4a69b1f0574577366b2ecd759f06da4995eadcb"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/include/livox_ros_driver2.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/include/livox_ros_driver2.h",
+    "size": 1734,
+    "sha256": "4b1c99eb8ccc2c24dfc30e7c842a74cb8797e0caf2ef4065a103ca98856ed98d"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/include/ros1_headers.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/include/ros1_headers.h",
+    "size": 2216,
+    "sha256": "25d868b0c4e1972ad61619b26e47c5538d282b520143f6c03300b0adeab8fb0b"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/include/ros2_headers.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/include/ros2_headers.h",
+    "size": 2478,
+    "sha256": "16aa2833be3b35acb0bbb9c71e78e261f65d7251740565571ae24d2c43b579d1"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/src/include/ros_headers.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/src/include/ros_headers.h",
+    "size": 1341,
+    "sha256": "67c52fefe87f71fb83d99774ba8569fff0de7c698a6917c31de2f4ccff3c78eb"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/allocators.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/allocators.h",
+    "size": 10437,
+    "sha256": "49b554ebfc2369438fd9365b28f0453485d936437847de31a7bb770001abca55"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/cursorstreamwrapper.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/cursorstreamwrapper.h",
+    "size": 2230,
+    "sha256": "de1a52b674c998a7581f9cb69c9310757f825595c3fef985d5d153f7ac1b6aaf"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/document.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/document.h",
+    "size": 117966,
+    "sha256": "6afae6a8825b03b4c6baa42a513e5a5242ac96b4c95968c07ee8bda8163eb3ff"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h",
+    "size": 10634,
+    "sha256": "4bb5e4853943d5ead467e46b5313d95aa23645018cda93e7907a934a06cfbb26"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/encodings.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/encodings.h",
+    "size": 29827,
+    "sha256": "0201c664e471c615b5cd27d2e981cf8b21ac9c210bdf108062fb2fd9d493a501"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/filereadstream.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/filereadstream.h",
+    "size": 2961,
+    "sha256": "8c7d282eb32897969430f5a94178cab238433e25fa139ee74eda87eb1d42690a"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/filewritestream.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/filewritestream.h",
+    "size": 3073,
+    "sha256": "1db49a4cd9038f2670667e5900f346d231a0eece06ac1817f33feb63f33545b9"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/fwd.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/fwd.h",
+    "size": 4120,
+    "sha256": "2a0e024b8b6b87d1d3f50d1d0dd4656124c161fea88406265d097d613498854e"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/istreamwrapper.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/istreamwrapper.h",
+    "size": 4112,
+    "sha256": "b3c03a5826b8d8c9dfcef64eb09d8ec4a955e0c6edd38d9c3a127dbca53ec2dc"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/license.txt",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/license.txt",
+    "size": 5152,
+    "sha256": "a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/memorybuffer.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/memorybuffer.h",
+    "size": 2573,
+    "sha256": "cf661606aa41bee3466cee20174bc7454210e8aabac929b1d8e9e189fef601ab"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/memorystream.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/memorystream.h",
+    "size": 2673,
+    "sha256": "8dd07eb66381de95a69c9cadce537d76c0349f913cfe183ab6243c54863c4dcf"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/ostreamwrapper.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/ostreamwrapper.h",
+    "size": 2342,
+    "sha256": "366d953184777b0de0a102ef38cf56f9fc766422246f16be9af2dad8ad787054"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/pointer.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/pointer.h",
+    "size": 60230,
+    "sha256": "d74ab63c76a99a5a92418d2420cc733c22767b6d9e9a6f989689940de4f7c478"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/prettywriter.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/prettywriter.h",
+    "size": 10253,
+    "sha256": "e8495e521c5d726c7e2ff59b1f7eb6f08a1e0298055d1fbbc4f29f08d736360d"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h",
+    "size": 24293,
+    "sha256": "22ffbcb054cecc5180bdb72478ab32598c9aa40421322f17923809acdcf99629"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/reader.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/reader.h",
+    "size": 89290,
+    "sha256": "291f6d315a3617c9bd83d8b2836f9dc1e45a2a9770dcb0745f9eaaa603b715a6"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/schema.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/schema.h",
+    "size": 101259,
+    "sha256": "473b44fcb9f88d2fa7439e1c9f86899deae44205323a7ba7709e6b4b513f01fa"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/stream.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/stream.h",
+    "size": 6694,
+    "sha256": "58e37336dafded31177eb2381f0d553de8a5fd33c8580873de32b0e467d85677"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/stringbuffer.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/stringbuffer.h",
+    "size": 3984,
+    "sha256": "8434f52ca786bf876b3d3d693ce8e2d399325ddf891e0437becd41ed590806e9"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/writer.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/writer.h",
+    "size": 26178,
+    "sha256": "b42eca28a42d7b3806aaf691ee921accabcf911be6728c35fa04e14162a72bdf"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/error/en.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/error/en.h",
+    "size": 3739,
+    "sha256": "484dcd32c0b35b7a81561740fad970402c0ffcec44311381a2fb265cfe5e273c"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/error/error.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/error/error.h",
+    "size": 6472,
+    "sha256": "aa9b40b61754b227248b4b092331dbd5721ef6565d962e4c225c6c1e7974817e"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/msinttypes/inttypes.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/inttypes.h",
+    "size": 7824,
+    "sha256": "92f53d3ba0cdebaeb20a52893f89d0c29aae5111a3a8bb555eabdd8c96e3244f"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/msinttypes/stdint.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/msinttypes/stdint.h",
+    "size": 9151,
+    "sha256": "515ff5e244372892293c20bbfe6a5b3dcca7265442941df31dcebdfbe2a828fe"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/biginteger.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/biginteger.h",
+    "size": 8296,
+    "sha256": "0be8375c2d39bc1f8f57b755a26569db9ed35c86d066b294911690513786afb3"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h",
+    "size": 2035,
+    "sha256": "93d71c879a805a8c17cfd8913cf1add4d2f25407bbf668abe1dcca6e40ebc746"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/diyfp.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/diyfp.h",
+    "size": 11387,
+    "sha256": "f2c45af9e73a451e5472e5dd10a7672085e9a3504d1f3ab864a5b9cc7445c1eb"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/dtoa.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/dtoa.h",
+    "size": 7724,
+    "sha256": "965deca8d1382c30db9e0a1d51200a4934bfe032eda3dcde10d4bdb39817c05a"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/ieee754.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/ieee754.h",
+    "size": 2990,
+    "sha256": "a1b4a88d5e0f633e99c7d68a34fdebc6289e6be0f0cfba452a7793166d7ea970"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/itoa.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/itoa.h",
+    "size": 9272,
+    "sha256": "45c96bab2327aee5ff999167fac8f768a3a9e1003142fa68e3aee50b54d93e12"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h",
+    "size": 6731,
+    "sha256": "a20dad578c7d714ff04029f04719df19be5835c30bf9c7028d226e67d065bf0b"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/pow10.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/pow10.h",
+    "size": 3957,
+    "sha256": "7a7693969c936ddb6d036467a0f6b53def076922bb838d250eb40f12b2e2ce0e"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/regex.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/regex.h",
+    "size": 23238,
+    "sha256": "624cf078b8179a198374eebe94331aa2d8b70b08997f4e270ccfaccc90fd09b2"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h",
+    "size": 6805,
+    "sha256": "46c4f98ff2acce64d1280458dd1224aaee9a9035eebd3462cdf31ee25a13702e"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/strfunc.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/strfunc.h",
+    "size": 2184,
+    "sha256": "e083b68f7bf3570653fce1e3ea0a573a75745a096dd80194e1a2fde4d7695bb8"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/strtod.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/strtod.h",
+    "size": 8656,
+    "sha256": "2134c15ad40b9584ecb8e1a7f6163277a6d783574b3fb08574f88ab769b91751"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/swap.h",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/3rdparty/rapidjson/internal/swap.h",
+    "size": 1421,
+    "sha256": "48ecb57c3b2ca955ad3cccdfff03835be495a56c9c5da07ab9c02f488b7d7fe1"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch/msg_HAP_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch/msg_HAP_launch.py",
+    "size": 1968,
+    "sha256": "bb58699d0b6d344f579f5b2991db54561621ddb395e6ade8c94425c563cd9ef6"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch/msg_MID360_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch/msg_MID360_launch.py",
+    "size": 1902,
+    "sha256": "11b0618d2a9a0def7f6e1a6831646d261674014344496fa1497fea67d6c0e826"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch/msg_MID360s_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch/msg_MID360s_launch.py",
+    "size": 1903,
+    "sha256": "29d48e9e2dd2b21352e4ecff9c0a7db2a18994fe688dc68f361b3b70b33ee05a"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch/rviz_HAP_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch/rviz_HAP_launch.py",
+    "size": 2186,
+    "sha256": "da07dc3d0402cccffe3e068108066fede37ed71ef47c191541158665d67b478f"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch/rviz_MID360_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch/rviz_MID360_launch.py",
+    "size": 2189,
+    "sha256": "8331565b4c8fe1a80ec77d518b4bb2fcbe40ea8bf60a20de691d9c61417b678e"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch/rviz_MID360s_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch/rviz_MID360s_launch.py",
+    "size": 2190,
+    "sha256": "5660e8982e12c003bac4880b6804b27a611e2c6fda999ebc454e173282e9614b"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch/rviz_mixed.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch/rviz_mixed.py",
+    "size": 2199,
+    "sha256": "decc75ab24173f20455c849c0cbe6cb3931d33d4901f39b52c105d381405b8d0"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py",
+    "size": 1968,
+    "sha256": "bb58699d0b6d344f579f5b2991db54561621ddb395e6ade8c94425c563cd9ef6"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py",
+    "size": 1902,
+    "sha256": "11b0618d2a9a0def7f6e1a6831646d261674014344496fa1497fea67d6c0e826"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py",
+    "size": 1903,
+    "sha256": "29d48e9e2dd2b21352e4ecff9c0a7db2a18994fe688dc68f361b3b70b33ee05a"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py",
+    "size": 2186,
+    "sha256": "da07dc3d0402cccffe3e068108066fede37ed71ef47c191541158665d67b478f"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py",
+    "size": 2189,
+    "sha256": "8331565b4c8fe1a80ec77d518b4bb2fcbe40ea8bf60a20de691d9c61417b678e"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py",
+    "size": 2190,
+    "sha256": "5660e8982e12c003bac4880b6804b27a611e2c6fda999ebc454e173282e9614b"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS2/rviz_mixed.py",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS2/rviz_mixed.py",
+    "size": 2199,
+    "sha256": "decc75ab24173f20455c849c0cbe6cb3931d33d4901f39b52c105d381405b8d0"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS1/msg_HAP.launch",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS1/msg_HAP.launch",
+    "size": 1743,
+    "sha256": "2bb9adeab763da7a414fe756fa0569e41ab4795722817ad950a39450f97813ef"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS1/msg_MID360.launch",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS1/msg_MID360.launch",
+    "size": 1744,
+    "sha256": "b4a86ae5e58d354e454140fe6e3b0032193826f764ed8da9f6d1519ba99f60dd"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS1/msg_MID360s.launch",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS1/msg_MID360s.launch",
+    "size": 1745,
+    "sha256": "623d0aac93ff6bb54688fb132f441248b33d7331376df30ebb77e736023da850"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS1/msg_mixed.launch",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS1/msg_mixed.launch",
+    "size": 1754,
+    "sha256": "77c8f7eed8d2702211f52db053f792f2b5906123e8ab647a913313bb015c6ab8"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS1/rviz_HAP.launch",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS1/rviz_HAP.launch",
+    "size": 1930,
+    "sha256": "be4b09a282eb005128933ec802d0658d273ebe5b91dc65d0413a78c603ee3f78"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS1/rviz_MID360.launch",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS1/rviz_MID360.launch",
+    "size": 1933,
+    "sha256": "03a622737d58ac346261ad5bf87df109d3c339184c1baeee11ba8371396f6578"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS1/rviz_MID360s.launch",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS1/rviz_MID360s.launch",
+    "size": 1934,
+    "sha256": "0786538975f8cb314680f747d3ddacd4d093093e944d94b1d9f10a67bccb2b95"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/launch_ROS1/rviz_mixed.launch",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/launch_ROS1/rviz_mixed.launch",
+    "size": 1943,
+    "sha256": "bb9830540646897bb52e4abd76947232a751b27f0f9ec7c4fedc953bb4fbcb79"
+  },
+  {
+    "path": "reference/third_party/livox_ros_driver2/cmake/version.cmake",
+    "source": "/home/robot/dog_navigation/ws/src/livox_ros_driver2/cmake/version.cmake",
+    "size": 990,
+    "sha256": "698b065d680a20695f2163ca5bbe601792b24069357919bee3136768d75f8f7f"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/CMakeLists.txt",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/CMakeLists.txt",
+    "size": 3189,
+    "sha256": "cc309424fc72f65d1ef79badf8a65288c20993b05f6d14298b062899ae46070d"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/README.md",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/README.md",
+    "size": 1150,
+    "sha256": "344c0f84196c0cd03b5ec01f189765a1154d28dc2b79cb879340d06e989c14b2"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/package.xml",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/package.xml",
+    "size": 1082,
+    "sha256": "79a576e2b2faf6a368ed7b4e8c5e209f72bd2233f53afc5c2feb27c1e3634e8e"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/plugins.xml",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/plugins.xml",
+    "size": 1367,
+    "sha256": "b4bc70cb8cf704c49d883423e6039625e9c46d45c99dfbf7a14e2b606048a058"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/plugins/pose_progress_checker.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/plugins/pose_progress_checker.cpp",
+    "size": 3347,
+    "sha256": "558c2efe99ed189d7a626724e504a82f55c42137e9d3663b3673b0247967be07"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/plugins/position_goal_checker.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/plugins/position_goal_checker.cpp",
+    "size": 4603,
+    "sha256": "d5dd75061706cbbdc4a92779af536a44af19656fc0e72bdfe385cea099ea7a43"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/plugins/simple_goal_checker.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/plugins/simple_goal_checker.cpp",
+    "size": 5930,
+    "sha256": "a65943f72061fc3c27067a7e6a6cf514fe5065d526a55ccac890a9c3a2e61613"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/plugins/simple_progress_checker.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/plugins/simple_progress_checker.cpp",
+    "size": 4065,
+    "sha256": "098fff9e37a524d0f01a991ec14715aaab67358e9f30505da24b25093ed6a9eb"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/plugins/stopped_goal_checker.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/plugins/stopped_goal_checker.cpp",
+    "size": 4979,
+    "sha256": "5434867d22595162fc5e2831b1758867976f1b85a058fb2d6b5ccf76fdd5772f"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/plugins/test/CMakeLists.txt",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/plugins/test/CMakeLists.txt",
+    "size": 233,
+    "sha256": "5d20c477faa3b199bbbb4fa4af97b79e01286492a338b921d7ec9e8d1e0ca86a"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/plugins/test/goal_checker.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/plugins/test/goal_checker.cpp",
+    "size": 8153,
+    "sha256": "948d3087d25978b4cdf8020b9846b9a34aabfc78dfe36fa68b9f7149b4d27171"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/plugins/test/progress_checker.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/plugins/test/progress_checker.cpp",
+    "size": 9105,
+    "sha256": "54064391435cffd48e933c7d6b26ce3d195f97b5f20b35bdbcdebb5e3044f74d"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/src/controller_server.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/src/controller_server.cpp",
+    "size": 23491,
+    "sha256": "128c3a90ea115980c8b819be0346508b4855de9e92116a393b5fe644803d812d"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/src/main.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/src/main.cpp",
+    "size": 915,
+    "sha256": "cdec7e6f5e7bdbe95eadac16371c9aaa74d78855b67812ebae9b4525e32ed3ea"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/test/CMakeLists.txt",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/test/CMakeLists.txt",
+    "size": 234,
+    "sha256": "4e286f0ab7b8121a398f8fd8bf916b1c1faffc95ee9521be7483e8d590188ed0"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/test/test_dynamic_parameters.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/test/test_dynamic_parameters.cpp",
+    "size": 3005,
+    "sha256": "8454207f7cf73210d0ae348b774738dc47583aab3a089a416ea75b4c40ee40d5"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/include/nav2_controller/controller_server.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/include/nav2_controller/controller_server.hpp",
+    "size": 9867,
+    "sha256": "b607b9d512a830046b26130e240655098bac6c17ec6a5596d4f604a172237e09"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/pose_progress_checker.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/include/nav2_controller/plugins/pose_progress_checker.hpp",
+    "size": 2274,
+    "sha256": "ec24870cf603e02e4cd2fbc7e4422fecb3d0def1335610cef21083abcc5c43e7"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/position_goal_checker.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/include/nav2_controller/plugins/position_goal_checker.hpp",
+    "size": 2448,
+    "sha256": "252d7d9c02fbab781ba7c726d9649e49906e6ed87b93afd10f10a806646867e4"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/simple_goal_checker.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/include/nav2_controller/plugins/simple_goal_checker.hpp",
+    "size": 3659,
+    "sha256": "b38bcdb1bfe560ffe6ec057c2f2fbd37edfd07c071a2bcf9b04295d60f409512"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/simple_progress_checker.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/include/nav2_controller/plugins/simple_progress_checker.hpp",
+    "size": 2723,
+    "sha256": "7a3e73329949c4e2a94cf7c3faf62f3abfcddf2d3bd85fd3b1730d344bf117e0"
+  },
+  {
+    "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/stopped_goal_checker.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_controller/include/nav2_controller/plugins/stopped_goal_checker.hpp",
+    "size": 3302,
+    "sha256": "bace7c79cca6e86f3ce429932e50793d7d4c972703f4b6234efbd8395664f529"
+  },
+  {
+    "path": "reference/third_party/nav2_planner/CHANGELOG.rst",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_planner/CHANGELOG.rst",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reference/third_party/nav2_planner/CMakeLists.txt",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_planner/CMakeLists.txt",
+    "size": 1984,
+    "sha256": "c35de36a975fd1ebf6c01cf1b7fed1a4fa9e5cb03b95b7c61f17db314f725605"
+  },
+  {
+    "path": "reference/third_party/nav2_planner/README.md",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_planner/README.md",
+    "size": 840,
+    "sha256": "fd2e5cae817b7e6e288fab3a61d4d86006d4a14d488143525580a64617e579a8"
+  },
+  {
+    "path": "reference/third_party/nav2_planner/package.xml",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_planner/package.xml",
+    "size": 1023,
+    "sha256": "de252b52b2197ee0cc9c57745cf852660303ec8739d725f1d056a9fbec982076"
+  },
+  {
+    "path": "reference/third_party/nav2_planner/src/main.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_planner/src/main.cpp",
+    "size": 950,
+    "sha256": "da075fd196cd1c73504f016225a608500d5f8c66f41984d891cb9c8c48ac87d6"
+  },
+  {
+    "path": "reference/third_party/nav2_planner/src/planner_server.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_planner/src/planner_server.cpp",
+    "size": 20720,
+    "sha256": "84b6616bf155088f613093192132dff7e489e46be30fa30cf412fbb0f9abd5b0"
+  },
+  {
+    "path": "reference/third_party/nav2_planner/test/CMakeLists.txt",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_planner/test/CMakeLists.txt",
+    "size": 234,
+    "sha256": "4e286f0ab7b8121a398f8fd8bf916b1c1faffc95ee9521be7483e8d590188ed0"
+  },
+  {
+    "path": "reference/third_party/nav2_planner/test/test_dynamic_parameters.cpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_planner/test/test_dynamic_parameters.cpp",
+    "size": 2705,
+    "sha256": "f4b31c5fb9ba9f38b9291b03253780dd8000a923f9f05388535b9e4b4ed27bd1"
+  },
+  {
+    "path": "reference/third_party/nav2_planner/include/nav2_planner/planner_server.hpp",
+    "source": "/home/robot/dog_navigation/ws/src/nav2_planner/include/nav2_planner/planner_server.hpp",
+    "size": 9210,
+    "sha256": "19df53e907e6ddfe4da47bc3de5b9ead105fb488c68e5cb6153d9809ef7f73f5"
+  }
+]

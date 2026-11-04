@@ -1,0 +1,21 @@
+{
+  "release": "dog_final_20261030",
+  "ssh_host": "robot@192.168.30.176",
+  "ros_distro": "humble",
+  "dependency_underlays": [
+    "/home/robot/dog_ik_walk_imu_ws_20261007_v031/install/setup.bash",
+    "/home/robot/dog_navigation/ws/install/setup.bash"
+  ],
+  "vision_python": "/home/robot/dog_vision_custom_20261026/venv/bin/python",
+  "vision_port": 8182,
+  "imu_port": "/dev/serial/by-id/usb-DM-Tech_DM-IMU-L1_DMIMU20250212-if00",
+  "motor_port": "/dev/serial/by-id/usb-STMicroelectronics_STM32_Virtual_ComPort_316F36463233-if00",
+  "lidar_config": "config/mid360.json",
+  "camera_config": "config/dog_oak.yaml",
+  "mounting_config": "ros2_ws/src/dog_navigation/config/dog_mounting_approx_20261021.json",
+  "map_yaml": "maps/fire_scene/map.yaml",
+  "model": "models/dog_fire_chemical_human_yolov8n.onnx",
+  "grid_resolution": 0.05,
+  "grid_min_z": 0.1,
+  "grid_max_z": 1.5
+}

@@ -1,0 +1,584 @@
+{
+  "schema": "dog.cad_camera_lidar_initial_extrinsics.v1",
+  "status": "complete_6dof_initial_estimate_not_jointly_calibrated",
+  "calibrated": false,
+  "valid_for_navigation": false,
+  "source_frame": "dog_oak_rgb_camera_optical_frame",
+  "target_frame": "MID360_native_pointcloud_coordinates",
+  "convention": "Column vectors: p_lidar = R_lidar_camera @ p_camera + t_lidar_camera; all translations in metres.",
+  "camera_axes": "X right, Y down, Z forward",
+  "lidar_axes": "X away from connector / robot forward, Y left, Z up",
+  "user_confirmed_cad_matches_demov3_installation": true,
+  "assembly_path": "E:\\Project\\dog_record_ros2\\四足机器人_0705_v12 (2)\\四足机器人_0705_v12\\dog.SLDASM",
+  "sensor_instances": [
+    "oak-d-pro-1",
+    "mid-360-asm-2"
+  ],
+  "mechanically_measured_lidar_from_rgb_front_glass": {
+    "matrix_4x4_m": [
+      [
+        -0.001520042288927911,
+        -0.06155664925665771,
+        0.9981024338231684,
+        0.14442630242864504
+      ],
+      [
+        -0.9999988447350524,
+        9.356881813154241e-05,
+        -0.0015171596608144673,
+        -0.0003831243097698611
+      ],
+      [
+        5.603776285003627e-17,
+        -0.9981035868972564,
+        -0.06155672037097904,
+        -0.05101859917915913
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "translation_m": [
+      0.14442630242864504,
+      -0.0003831243097698611,
+      -0.05101859917915913
+    ],
+    "quaternion_xyzw": [
+      -0.5147676925720764,
+      0.5155507568314779,
+      -0.4847343997231416,
+      0.4839981420827523
+    ],
+    "rpy_xyz_radians": [
+      -1.6323919890311136,
+      0.0,
+      -1.5723163696691755
+    ],
+    "det_R": 0.9999999999999996,
+    "orthogonality_max_error": 4.440892098500626e-16
+  },
+  "initial_lidar_from_rgb_optical": {
+    "matrix_4x4_m": [
+      [
+        -0.004799084860294369,
+        -0.06521642888603871,
+        0.9978596024430771,
+        0.14551479172688506
+      ],
+      [
+        -0.9999101854492097,
+        0.01280004721418582,
+        -0.0039723829425066465,
+        -0.0005776965734410819
+      ],
+      [
+        -0.012513585394721976,
+        -0.9977890439339706,
+        -0.06527200001457063,
+        -0.05037544729981425
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "translation_m": [
+      0.14551479172688506,
+      -0.0005776965734410819,
+      -0.05037544729981425
+    ],
+    "quaternion_xyzw": [
+      -0.5117794612770454,
+      0.5203054708748147,
+      -0.48133331425103376,
+      0.48547115319535744
+    ],
+    "rpy_xyz_radians": [
+      -1.6361198857235875,
+      0.012513912001082872,
+      -1.575595805869219
+    ],
+    "det_R": 1.0000000000000002,
+    "orthogonality_max_error": 2.220446049250313e-16
+  },
+  "initial_rgb_optical_from_lidar": {
+    "matrix_4x4_m": [
+      [
+        -0.004799084860294162,
+        -0.9999101854492095,
+        -0.01251358539472198,
+        -0.0005096843155410354
+      ],
+      [
+        -0.06521642888603854,
+        0.012800047214185827,
+        -0.9977890439339704,
+        -0.04076671978908915
+      ],
+      [
+        0.9978596024430773,
+        -0.003972382942506853,
+        -0.06527200001457081,
+        -0.14849373325107848
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "translation_m": [
+      -0.0005096843155410354,
+      -0.04076671978908915,
+      -0.14849373325107848
+    ],
+    "quaternion_xyzw": [
+      -0.5117794612770452,
+      0.5203054708748147,
+      -0.48133331425103376,
+      -0.48547115319535755
+    ],
+    "rpy_xyz_radians": [
+      -3.080808711040428,
+      -1.5053568655605594,
+      -1.6442509845079791
+    ],
+    "det_R": 1.0,
+    "orthogonality_max_error": 2.220446049250313e-16
+  },
+  "front_glass_pitch_down_deg": 3.529171482448579,
+  "front_glass_yaw_left_deg": -0.0870920413751049,
+  "factory_adjusted_optical_pitch_down_deg": 3.7424707610321257,
+  "transform_chain": {
+    "assembly_from_lidar_cad": {
+      "matrix_4x4_m": [
+        [
+          -0.9999983029712212,
+          -3.5609099324452634e-15,
+          -0.0018422960343370516,
+          -0.012377783913231414
+        ],
+        [
+          -3.561339006744601e-15,
+          1.0,
+          2.296214053913823e-16,
+          0.1698706558369207
+        ],
+        [
+          0.0018422960343370516,
+          2.3618205644630453e-16,
+          -0.9999983029712212,
+          0.06351007327305139
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        -0.012377783913231414,
+        0.1698706558369207,
+        0.06351007327305139
+      ],
+      "quaternion_xyzw": [
+        -1.7805629902142855e-15,
+        0.9999995757427153,
+        1.1645091486457063e-16,
+        -0.0009211484079724481
+      ],
+      "rpy_xyz_radians": [
+        3.1415926535897927,
+        -0.00184229707648087,
+        -3.14159265358979
+      ],
+      "det_R": 1.0000000000000004,
+      "orthogonality_max_error": 4.440892098500626e-16
+    },
+    "assembly_from_oak_cad": {
+      "matrix_4x4_m": [
+        [
+          -0.00032225419662461856,
+          0.061556717174711416,
+          0.9981035350718408,
+          0.1225813019160711
+        ],
+        [
+          1.789967631632455e-16,
+          0.9981035868972566,
+          -0.06155672037097549,
+          0.14751924153294751
+        ],
+        [
+          -0.999999948076115,
+          -1.9836911469816338e-05,
+          -0.0003216430695437366,
+          0.1081301242379514
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.1225813019160711,
+        0.14751924153294751,
+        0.1081301242379514
+      ],
+      "quaternion_xyzw": [
+        0.021770404082506602,
+        0.7068853308994721,
+        -0.021777420817352573,
+        0.7066575708274638
+      ],
+      "rpy_xyz_radians": [
+        -3.079996991354123,
+        1.5704740725926944,
+        3.14159265358925
+      ],
+      "det_R": 1.0,
+      "orthogonality_max_error": 7.186443998948942e-18
+    },
+    "lidar_cad_from_lidar_native": {
+      "matrix_4x4_m": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0210829
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.0,
+        0.0210829,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "rpy_xyz_radians": [
+        1.5707963267948966,
+        0.0,
+        3.141592653589793
+      ],
+      "det_R": 1.0,
+      "orthogonality_max_error": 0.0
+    },
+    "oak_cad_from_front_glass_rdf": {
+      "matrix_4x4_m": [
+        [
+          -1.0,
+          3.3440360997927568e-21,
+          -1.5895388383255303e-20,
+          0.04449995000000001
+        ],
+        [
+          -4.409551329947932e-23,
+          -1.0,
+          -2.4754900527260574e-19,
+          -0.0069862199999999874
+        ],
+        [
+          -3.8314717426220475e-20,
+          2.607078088650824e-19,
+          1.0,
+          0.009930899999999979
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.04449995000000001,
+        -0.0069862199999999874,
+        0.009930899999999979
+      ],
+      "quaternion_xyzw": [
+        -1.3552526452368944e-20,
+        3.2897008981191715e-21,
+        1.0,
+        -8.47032903273059e-22
+      ],
+      "rpy_xyz_radians": [
+        0.0,
+        0.0,
+        3.141592653589793
+      ],
+      "det_R": 1.0,
+      "orthogonality_max_error": 5.082568141376882e-19
+    },
+    "oak_cad_from_nominal_right_housing_rdf": {
+      "matrix_4x4_m": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.006999950000000012
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.0069862199999999874
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.009730899706482887
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.006999950000000012,
+        -0.0069862199999999874,
+        0.009730899706482887
+      ],
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rpy_xyz_radians": [
+        0.0,
+        0.0,
+        3.141592653589793
+      ],
+      "det_R": 1.0,
+      "orthogonality_max_error": 0.0
+    },
+    "physical_CAM_A_from_CAM_C": {
+      "matrix_4x4_m": [
+        [
+          0.9999440312385559,
+          0.010178232565522194,
+          0.0028835951816290617,
+          0.037316079139709475
+        ],
+        [
+          -0.010151942260563374,
+          0.9999080300331116,
+          -0.008989475667476654,
+          0.00023966234177351
+        ],
+        [
+          -0.0029748270753771067,
+          0.008959698490798473,
+          0.999955415725708,
+          -0.0011528662592172622
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.037316079139709475,
+        0.00023966234177351,
+        -0.0011528662592172622
+      ],
+      "quaternion_xyzw": [
+        0.004487401609554464,
+        0.0014646408246111278,
+        -0.005082666089256063,
+        0.9999759419903433
+      ],
+      "rpy_xyz_radians": [
+        0.008959858268842623,
+        0.0029748314922029007,
+        -0.010152162068485595
+      ],
+      "det_R": 0.9999999387552141,
+      "orthogonality_max_error": 5.886009823985461e-08
+    },
+    "physical_CAM_C_from_housing_origin": {
+      "matrix_4x4_m": [
+        [
+          0.9999819993972778,
+          0.0025288695469498634,
+          -0.005439841188490391,
+          0.0
+        ],
+        [
+          -0.002500350819900632,
+          0.9999831318855286,
+          0.005243001505732536,
+          0.0
+        ],
+        [
+          0.005453008692711592,
+          -0.005229305475950241,
+          0.9999714493751526,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_xyzw": [
+        -0.0026180975052719465,
+        -0.0027232340764722957,
+        -0.0012573150599813948,
+        0.9999920743288206
+      ],
+      "rpy_xyz_radians": [
+        -0.005229407167447728,
+        -0.005453035557710262,
+        -0.0025003905857064637
+      ],
+      "det_R": 0.9999999857757638,
+      "orthogonality_max_error": 1.949761152530982e-08
+    },
+    "housing_origin_from_physical_CAM_A": {
+      "matrix_4x4_m": [
+        [
+          0.999916343439159,
+          -0.012700901322640696,
+          0.0024555894603396937,
+          -0.03730708251087564
+        ],
+        [
+          0.01269170958614013,
+          0.9999125532358514,
+          0.0037229521078743963,
+          -0.0007089541575419979
+        ],
+        [
+          -0.002502659823337867,
+          -0.003691475138441525,
+          0.9999900849354278,
+          0.0012471289880775839
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_m": [
+        -0.03730708251087564,
+        -0.0007089541575419979,
+        0.0012471289880775839
+      ],
+      "quaternion_xyzw": [
+        -0.0018536487203683037,
+        0.0012395903514987635,
+        0.006348296289688383,
+        0.9999773630119836
+      ],
+      "rpy_xyz_radians": [
+        -0.0036914948895789773,
+        0.002502662216895324,
+        0.012692090139765126
+      ],
+      "det_R": 1.000000075469027,
+      "orthogonality_max_error": 6.026115939583576e-08
+    }
+  },
+  "nominal_origin_evidence": {
+    "description": "CAD back-case planar faces agree with official depthai-ros mesh after depth translation; ROS RGB camera frame is colocated with its base frame. This is a nominal mechanical datum, not a measured optical principal plane.",
+    "mesh_datum_matches": [
+      {
+        "cad_plane_z_m": -0.002,
+        "official_ros_mesh_plane_z_m": -0.011730900034308434,
+        "offset_m": 0.009730899706482887
+      },
+      {
+        "cad_plane_z_m": -0.005,
+        "official_ros_mesh_plane_z_m": -0.014730899594724178,
+        "offset_m": 0.009730899706482887
+      },
+      {
+        "cad_plane_z_m": -0.0013,
+        "official_ros_mesh_plane_z_m": -0.011030900292098522,
+        "offset_m": 0.009730900637805462
+      },
+      {
+        "cad_plane_z_m": 0.0077,
+        "official_ros_mesh_plane_z_m": -0.0020308999810367823,
+        "offset_m": 0.009730899706482887
+      }
+    ],
+    "nominal_right_camera_in_oak_cad_m": [
+      0.006999950000000012,
+      -0.0069862199999999874,
+      0.009730899706482887
+    ],
+    "glass_front_z_in_oak_cad_m": 0.009930899999999979,
+    "glass_front_minus_nominal_optical_datum_m": 0.00020000029351709137
+  },
+  "factory_housing_api_audit": {
+    "productName": "OAK-D-PRO-AF",
+    "boardName": "DM9098",
+    "boardRev": "R8M2E8",
+    "depthai_version": "3.10.0",
+    "observation": "CAM_A, FRONT_CAM_A and VESA_A returned identical transforms; no model-specific mechanical coordinates exist in the corresponding housing table. Named housing translations were NOT used as verified physical origins.",
+    "used_data": "EEPROM housing orientation and calibrated CAM_C to CAM_A transform; physical housing origin supplied by CAD plus nominal official ROS mesh."
+  },
+  "limitations": [
+    "Full numerical SE(3) initialization; no live LiDAR-camera target calibration or reprojection validation has been performed.",
+    "Optical principal point depth relative to the case is nominal; no measured uncertainty bound is available.",
+    "Factory calibration was read today; no automatic pipeline calibration was run and no EEPROM write was performed. demov3 driver disabled automatic calibration.",
+    "SolidWorks matrices describe design installation; manufacturing and mounting tolerances are not measured.",
+    "demov3 recovered positions precede LiDAR corrections. Extrinsics do not recover the missing final localization trajectory.",
+    "demov3 detector back-projected raw image box centres with K without distortion compensation; semantic points may contain lens-distortion and background-depth errors."
+  ],
+  "sources": {
+    "luxonis_coordinates": "https://docs.luxonis.com/software-v3/depthai/depthai-components/coordinate-systems",
+    "oak_datasheet": "https://raw.githubusercontent.com/luxonis/oak-hardware/master/DM9098_OAK-D-Pro/Datasheet/OAK-D-Pro_Datasheet.pdf",
+    "lidar_manual": "https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/Livox/Livox_Mid-360_User_Manual_EN.pdf",
+    "ros_mesh": "https://github.com/luxonis/depthai-ros/blob/humble/depthai_descriptions/urdf/models/OAK-D-PRO.stl",
+    "ros_frame_definition": "https://github.com/luxonis/depthai-ros/blob/humble/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro",
+    "housing_implementation": "https://github.com/luxonis/depthai-core/blob/v3.10.0/src/device/CalibrationHandler.cpp"
+  }
+}

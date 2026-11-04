@@ -1,0 +1,907 @@
+[
+  {
+    "path": "ros2_ws/src/dog_description/CMakeLists.txt",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\CMakeLists.txt",
+    "sha256": "a63861ddac3f26ef95920668177192c3561ed688f577a89559f304319bc10695"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/config/dog_display.rviz",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\config\\dog_display.rviz",
+    "sha256": "b442d6ab4f735cd72a5fee439b33606b88f67b17352a8f2f27edde4cb92806af"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/config/joint_names_dog.yaml",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\config\\joint_names_dog.yaml",
+    "sha256": "285294df1572d10503c59f179bb1527f22e369b53b6a7d7647ce6cf3b6d7d1d1"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/dog_description_fix_AGENTS.md",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\dog_description_fix_AGENTS.md",
+    "sha256": "6dc11a758248c3c74c2b11fd29f3865ba698353e7f52d38d3b5320570d46aa43"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/export.log",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\export.log",
+    "sha256": "8f8c85d3dc5ffdff8cbea936c76435821d60707cfcd714c0eaf12238e0320748"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/launch/display.launch.py",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\launch\\display.launch.py",
+    "sha256": "d4bbe2697efa396dda21f74f8333676fa326b69b3d7c4109500feea5b530bc2c"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/base_link.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\base_link.STL",
+    "sha256": "7ef8ec83bde24f210007ec55ed07705f8780cbb962a735326960649b0b3ca1b2"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_bl_1.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_bl_1.STL",
+    "sha256": "73bb3014fe229526149ff2bbb599d00325482bba5f632704e6b0d45a3407f10a"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_bl_2.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_bl_2.STL",
+    "sha256": "397f45ead86e04ff0f0611c263c26f23dc15493147db6a426d9b4dc273069d29"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_bl_3.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_bl_3.STL",
+    "sha256": "b148232f76460b053a412496f48685e61f09edc159aebc02647f95a92dea62d1"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_br_1.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_br_1.STL",
+    "sha256": "599b226162bea6bdea1161ef2b1b41c24d4e69afaa5fb9c17a8b6ece79e8517c"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_br_2.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_br_2.STL",
+    "sha256": "812b72a1169ee5fc9d11dfa37931c75965ddb08969591afb6862bc6f8a1c211e"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_br_3.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_br_3.STL",
+    "sha256": "a1249260c25361132d596ff1af88f4a648a520c1ce748fa04992fee65db4dcf5"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_fl_1.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_fl_1.STL",
+    "sha256": "9e305ea4abd88d94adbaaa6f94e410b03655fa39803a8ffe5798ace9d8232ccb"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_fl_2.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_fl_2.STL",
+    "sha256": "b3e776b9086aff6c221b84cc46c84599885ed37109bc370ceeaf36823c957cb7"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_fl_3.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_fl_3.STL",
+    "sha256": "1085d2ee85d0f65527e3cb4190f90c121117f5efb7c0ef81a1bb375e7589e166"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_fr_1.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_fr_1.STL",
+    "sha256": "2bd77af7c934f9e84379eaae9a62997b1bfdfff9475b8406d4be520129fce289"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_fr_2.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_fr_2.STL",
+    "sha256": "f86767ef61bdc67bc2a612c447930acc80c9040c3b520f33dfe65c1d5909c864"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/meshes/Link_fr_3.STL",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\meshes\\Link_fr_3.STL",
+    "sha256": "b7b0c22950a3aba996ed0a348941fc5891070543064636b702a582d7862dc1a3"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/package.xml",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\package.xml",
+    "sha256": "e9d7bb8aa2072ba645d9e46856a64e0d6c5c6253be7f8630b2a508f844e63c7e"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/urdf/dog.csv",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\urdf\\dog.csv",
+    "sha256": "fa427376d8db8e4c6205d53d189c77bc19e189664872549f54d848a01800d560"
+  },
+  {
+    "path": "ros2_ws/src/dog_description/urdf/dog.urdf",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_nuc\\Dog_ROS2\\src\\dog_description\\urdf\\dog.urdf",
+    "sha256": "cbc1239b3d350e6937a366fb32054bfd9de572d5ae1b79dbe27290fd9e6626cf"
+  },
+  {
+    "path": "firmware/stm32h723/.mxproject",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\.mxproject",
+    "sha256": "fdd218445c9f3ec66ef75d1d34a3bf35d538ca4e58c0cdda2db21e3c061ddc39"
+  },
+  {
+    "path": "firmware/stm32h723/02_stm32h723_nuc_OK.ioc",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\02_stm32h723_nuc_OK.ioc",
+    "sha256": "9ad2907d1de61ece9ace1ce255519e762f1c0dc8327eee3098830d1f1b76ad28"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/bsp_fdcan.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\bsp_fdcan.h",
+    "sha256": "17f462e22904dd89694cc2854278651acd885489f91eed4606a8b5483a9f79be"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/dm_motor_ctrl.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\dm_motor_ctrl.h",
+    "sha256": "ff2d474ef6082242c7f9ecda10f62bd343fbb941efb7f5628b864964280020fb"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/dm_motor_drv.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\dm_motor_drv.h",
+    "sha256": "8a928ebf901cf565bc45d1fee8bae3819e0086d8419768b4a8dfe0b1b9acf060"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/fdcan.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\fdcan.h",
+    "sha256": "4fa14fd1803d84e376ba363e29cbeb3c8a31966e73bde171cef5b10e5b5b5a06"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/global_command.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\global_command.h",
+    "sha256": "b37b33c5409c0343b3aef96376570a8f8ff0b5dbc37a912c6dd51cac1bfc4264"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/gpio.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\gpio.h",
+    "sha256": "77aeba99eba28ebf38462874def565bad6b4e3c60db8536ed9c92c756b6ba875"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/main.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\main.h",
+    "sha256": "fd24ba0b0b5a6edcde1b4aa22cec4b1d481236ce617afdfed7e490a4ab1ecc07"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/motor_manager.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\motor_manager.h",
+    "sha256": "b27e931cfa387f88e207b5544f871dba413e3b50e0003cabf5c3c29ce7a1cc46"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/stm32h7xx_hal_conf.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\stm32h7xx_hal_conf.h",
+    "sha256": "33c94c084840ca59f196f4768a3d30d9a337eafe581bc6c5015fbf4f39cc2de4"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/stm32h7xx_it.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\stm32h7xx_it.h",
+    "sha256": "bb0dce58fb470f8b19e0674059cf4f9e8b4d3ff70de5e010f6af844d54643a7e"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/usb_feedback.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\usb_feedback.h",
+    "sha256": "5287ace5315827847b3b02a15af6c7c4869dc1698f72d78ff82a00874ba1e05f"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/usb_motor_bridge.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\usb_motor_bridge.h",
+    "sha256": "3fe8fb47cdc63f587ae4e78e2c353e21f0b40e49797fc54da06a75576d137216"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Inc/usb_protocol.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Inc\\usb_protocol.h",
+    "sha256": "4d1ef576221c3ed253bca8c1d268c96b57987a4cac6afd2a6a9ea7838702650b"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/bsp_fdcan.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\bsp_fdcan.c",
+    "sha256": "9e006a99293d73296cf6409ab001381f317627a652f922b94503ddb833cf2605"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/dm_motor_ctrl.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\dm_motor_ctrl.c",
+    "sha256": "571d8da23da26c96bc439183a76c78132b71ebace2e1551ed7eb8b5ed774367a"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/dm_motor_drv.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\dm_motor_drv.c",
+    "sha256": "f514fcbb487739454f949e422fa943140d2bf4bec4a704d341e869c69b4e6a62"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/fdcan.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\fdcan.c",
+    "sha256": "89168cbaf4db8cae5379dde1892f94e33657d384d2fbdd8cc01a5fe109c6f74d"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/global_command.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\global_command.c",
+    "sha256": "b44dd4d14c5d0e1e2f1048f6d557b2473f6bcecf54b9cfe906840078e02f769e"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/gpio.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\gpio.c",
+    "sha256": "b62929cf3923a81f9bea4b777ddaf987e5e0535e1c4e93e9a2fdf9e388dbf952"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/main.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\main.c",
+    "sha256": "f862141008feaba9142b5185c81a11a62545bcbf0891484285ed0d63105421dd"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/motor_manager.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\motor_manager.c",
+    "sha256": "9d82aebb135bc1d9929439c581496a38de59da9f2ea1a73aaa1904655a1fd228"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/stm32h7xx_hal_msp.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\stm32h7xx_hal_msp.c",
+    "sha256": "140c21487c7501fe4263ddcdd7a65cc60419ea807be0a307e885452d103a43fa"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/stm32h7xx_it.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\stm32h7xx_it.c",
+    "sha256": "e50bfe8f4164eeafdd4de65cf24b3f98288f939ff0e13ad1d774cf402db88a4e"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/system_stm32h7xx.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\system_stm32h7xx.c",
+    "sha256": "95a8fc5a6d765a78a8b6f0dd1fedc48994096df544e611e951c6c2e4426570e6"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/usb_feedback.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\usb_feedback.c",
+    "sha256": "e001d0001b883dd1cf6fc90b99c3213a94d37b99748fa385c92fbcd012a65563"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/usb_motor_bridge.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\usb_motor_bridge.c",
+    "sha256": "afc63f96e283dae454f59e2ec254d4f6672c695cc13d1c1d62a4bc9bb72e334e"
+  },
+  {
+    "path": "firmware/stm32h723/Core/Src/usb_protocol.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Core\\Src\\usb_protocol.c",
+    "sha256": "a1e5b991b6397ec3856061d864065c513f972800c098d41bdf3ddcc737faf162"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Device\\ST\\STM32H7xx\\Include\\stm32h723xx.h",
+    "sha256": "99ef6d9713838573a8677c69210854832beeba2cdcedffd6ee740f5457cabb66"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Device\\ST\\STM32H7xx\\Include\\stm32h7xx.h",
+    "sha256": "99ac7d4598e20d9bd74e0e001f0e63c2a8eb0a3584242d9e442be31ceb616cb9"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Device\\ST\\STM32H7xx\\Include\\system_stm32h7xx.h",
+    "sha256": "e0f13c2971d34bda571aed454880b3608093cd9a5f7420a763e8c2bda34e826a"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Device/ST/STM32H7xx/LICENSE.txt",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Device\\ST\\STM32H7xx\\LICENSE.txt",
+    "sha256": "135fb2d86e9ecdf6824cc3bba21c72b8e380c07b055fbebb6b995463eb609baf"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/cachel1_armv7.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\cachel1_armv7.h",
+    "sha256": "b211a8bbcfd62c9f0b3b3f1674927c9b58a0d95b02e449a0866ad2c99cb64232"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_armcc.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\cmsis_armcc.h",
+    "sha256": "5bc0d7ed8e36e9bcb868c4042fff350c702eca305df4162fb00384789e35ee1c"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_armclang.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\cmsis_armclang.h",
+    "sha256": "d5da2b48204f0d0cf1ff38ffccb527e5706cd0a091ff0a331eb41d6596c33fe5"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\cmsis_armclang_ltm.h",
+    "sha256": "3e8ffb284f4f155de3ea93841cca853b41d5e812b53e52c64c3d4a67b7f1ec7c"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_compiler.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\cmsis_compiler.h",
+    "sha256": "b51963d271c1571ca3463654c76aa7ea50c4eac5d0a2710df10414ac64d9e0f8"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_gcc.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\cmsis_gcc.h",
+    "sha256": "43bfd1fe69fbbc2ca70aaf7d43cc3e20f16e0c7f66e1bdef9b51af6dc14b2617"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_iccarm.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\cmsis_iccarm.h",
+    "sha256": "2d255c8429e507e52cb603f2970bed4cc4a6cdcc3eb7fc7997385abad7364837"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_version.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\cmsis_version.h",
+    "sha256": "184c19fd3ee73632edf35a0b4d49cd48be75fbf49e6ccb19d9db05fa83bea4b3"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_armv81mml.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_armv81mml.h",
+    "sha256": "a40954bccbf202bd65ee721ea688122561e005c9f9f9d18e082280c5b897d0e4"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_armv8mbl.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_armv8mbl.h",
+    "sha256": "458b1e6788079ded52adc7d06383701c865ca97b67c5e7a0a44884194f91a842"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_armv8mml.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_armv8mml.h",
+    "sha256": "5a68204fa31cda7d04d41c9ceaf3f4b1217908f59366f757ee778181c7cc8cb9"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm0.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm0.h",
+    "sha256": "ac13cb645f108666a0e57c93467872660d6bc860a839f840dc870b7a5863b4bf"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm0plus.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm0plus.h",
+    "sha256": "a09fa9c6b8b21d1920bce15b98aa56182b027e9278cca0b154812bac2aea3cfa"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm1.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm1.h",
+    "sha256": "944bf0c4f940eef30a632cd99d5dcfe8270e8a8431eb98c0f081bcf4f61f728e"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm23.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm23.h",
+    "sha256": "77822e9738885394ec52fca6f617452b823a0b55e2664ee225e65576cf0e8f2d"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm3.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm3.h",
+    "sha256": "c9937781259a8897adf514445441c68570087d6a72a558d8a4afe75cdb62dbd2"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm33.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm33.h",
+    "sha256": "225c47c36230edaa314f1e7a45b38279f6ab4d58faeb132226db35f7007d58aa"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm35p.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm35p.h",
+    "sha256": "206b427589981b78169c1d9b73e898e4e8de4efbd76fd0c2df7df81d645b9fa2"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm4.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm4.h",
+    "sha256": "f5b63d52dd1557b15ca414cb59c264f595a7b5669db2a5878dffe22f4caedc8c"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm55.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm55.h",
+    "sha256": "5707f716cf03f7e80151108ae94601fcfdf362dd2d830876040213318f6dee3a"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm7.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm7.h",
+    "sha256": "e974d0a91752487d0154457cd422c37667328e9ddb7ba4fa2fed479a63577f63"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm85.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_cm85.h",
+    "sha256": "75bc123889f0f5ca33c4d16b6cbdd580a3572663c899fadb2c8e28f6a5e6fead"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_sc000.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_sc000.h",
+    "sha256": "c81377a69a4ea8ecaead42194f2ce8ab59bd4ee7bd638e423f5b1f5ec283d154"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_sc300.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_sc300.h",
+    "sha256": "73dd461c12c7d3a693840df3084fd8f85122095c6f21fa3d779b0f3eceaebad5"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_starmc1.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\core_starmc1.h",
+    "sha256": "92d8661f2947d00da91653d04794cde0593fdaafb3438842a0477775716aafc5"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/mpu_armv7.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\mpu_armv7.h",
+    "sha256": "29206b52ee02290ed6f5a5415ebd4187de802cf176d9b3cb844390d8e5571372"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/mpu_armv8.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\mpu_armv8.h",
+    "sha256": "2c7d22a344cedcc1e35380d1f76f0e6c55da5e3101e6a41fd85497d1841fe8c9"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/pac_armv81.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\pac_armv81.h",
+    "sha256": "d76f5cc0c59a59e035115f700b8e8d95b7b98ecb99a2924e885f82a94903d984"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/pmu_armv8.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\pmu_armv8.h",
+    "sha256": "cea8c105c5f41ba831fe4d9e8e39758068cd4c414383348dc2835d6be447cca0"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/Include/tz_context.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\Include\\tz_context.h",
+    "sha256": "45565c8cb04c653aabaf3cceddfc848b6a0de28c20d4f7e3d475a992c7eee788"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/CMSIS/LICENSE.txt",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\CMSIS\\LICENSE.txt",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\Legacy\\stm32_hal_legacy.h",
+    "sha256": "37a057e32410712dbe30a3ec74a6cc838f767ae1c616f1b767687bede5dff68a"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal.h",
+    "sha256": "97aeb9e9e0c3acde0c91d025e89c7972b9ad13ab3cb735d40ad852dc395f6980"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_cortex.h",
+    "sha256": "8b61853cb8eb65dabf5181e9f4a2effb3be70974800f6ddc38ae62f0310e78ae"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_def.h",
+    "sha256": "f7e6ad2cff1b770393ad76961fbb220bef0a52593e9035746e7961137061ebfc"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_dma.h",
+    "sha256": "564d6d26015155743f4990a354d26124d5d434673813c75df5da9572e4ac2eae"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_dma_ex.h",
+    "sha256": "bc906d5cf9ed149185aa77a80a793e50aa4b2c7e0606f88df1a4b8900a8a26fa"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_exti.h",
+    "sha256": "0721d23bd4efbc2df912927a2643ab356e241eee5488bf1c4ac274124231b8f3"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_fdcan.h",
+    "sha256": "7c7d7a07808f8b20e0bf78ac8319898cf95694887813344e7816e91f513cfbb1"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_flash.h",
+    "sha256": "96340bb9572f6c53554323795b3aa8c86962d14b0596dab550322f34dfccba7c"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_flash_ex.h",
+    "sha256": "2f4fd8d9ce5dbf03691feb56a9c532282a79ac2e7731ab4a6781960e5116adfa"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_gpio.h",
+    "sha256": "75c7e634ec0b5fa2ad6ef90b9b010a4dbac1cdd9876daf80cab2253774c092bb"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_gpio_ex.h",
+    "sha256": "81b441ab0ef72718230fc3b259a120c57e253018863d9aa9e50f4f6456c866f3"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_hsem.h",
+    "sha256": "9375fc3023cde3f3ccf0a77a21d571d63acbe47f23149c2f226972cecdffdc6f"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_i2c.h",
+    "sha256": "6741b4870c9e870e3293996b968419b7edbd2c3477183e44663086ec6f069398"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_i2c_ex.h",
+    "sha256": "445dcca6512f91fa60903605c52f19c2792e3d00e6eba9db3a234901a9dd8c40"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_mdma.h",
+    "sha256": "580b7f7d97482fe435f5c3c4086f017a090ba186201db2af7c68567094e868e8"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_pcd.h",
+    "sha256": "bab25eb96636aebb7248b01fe9cd270efc15251477600f64ebe53932920d26ea"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_pcd_ex.h",
+    "sha256": "b063cfb05de32e8c0b573edd1231eae3f27e6e7cd5e57508346ee7b4c0763726"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_pwr.h",
+    "sha256": "65a883328691a724d5163403e5e7db38d5a1e8ec11f7bdcf5620329bf779cdfa"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_pwr_ex.h",
+    "sha256": "76ec9d62421667db5a499309f50c8145d086d76b5529a7ece37331fe5de05842"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_rcc.h",
+    "sha256": "b97d21c439fb53c8cc83a555074b9cbd1fba107d95ff239ba317ffc28799ff16"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_rcc_ex.h",
+    "sha256": "cbebc9c87db8acada7da2fd06994a998528d447960ec62737fd65cace4fd34bf"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_tim.h",
+    "sha256": "f0411155b057e23cf932497d8186f227b5e3085e92ae60403e0a7a45c0f62add"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_hal_tim_ex.h",
+    "sha256": "c6e76b135cc6bff07ad4b84a76d7eedb3a63ddba472131595c4655ac37ed7196"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_bus.h",
+    "sha256": "0eb42ffbba51192ec0efd6463759a5fda060637ff4d694274df16b4763c882a5"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_cortex.h",
+    "sha256": "e6781bfcc812a315006a5ea9ed0f0eb7db19beb095bce5136c345e0af4caed1c"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_crs.h",
+    "sha256": "cb7133e48358f5cd50119c8b88c4a59634dad521f489448e04602c9efd9d2972"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_dma.h",
+    "sha256": "3cf0adf0da04435eb89743523a7f9e6a23a18fd6133afed7c808acef9ee0aa76"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_dmamux.h",
+    "sha256": "74cdd7b811aa394274ba645d05ae410d417f0e3836d91194e58156960d68a2ea"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_exti.h",
+    "sha256": "6eee9e7ba6b688c5c848e8f318b7adc293347a4697a888cfaadc9a2cd654cc5b"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_gpio.h",
+    "sha256": "3a84cb663d59954ce2a057ee58793890579b4ef15af37c8f043190b0a82c9093"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_hsem.h",
+    "sha256": "7e2cc95c8dcd6b326801026d0398a46b903c94e4c3befd650a227e9a351606c2"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_pwr.h",
+    "sha256": "fd20ad8efbceb8ad7169e92a365385759fc1331157a94399d9e8328e32c8a564"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_rcc.h",
+    "sha256": "6982e6ac4541ad1badada536daee3c9c9703342d45a9e83c2656afa0a0871693"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_system.h",
+    "sha256": "e315a0d57f5bbf6ee025373e4a8dc7b0a70f28514eef2de0b15f0999cc79f486"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_usb.h",
+    "sha256": "df2a0f0ea5c22d6c7868996338cf8c820b6e629c7d1eb0058993dbb983ba31a6"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\stm32h7xx_ll_utils.h",
+    "sha256": "98abb1949a71207ee5a30f1c94870f42340d9da09a63a07cf1635cfc388d9b6d"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\LICENSE.txt",
+    "sha256": "d5a162f3eaf2b7b6762f00700017cae5695ebbdce7932fead8316448baafd9c1"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal.c",
+    "sha256": "716a36e0b7d7a09f3040ced03612abfb406dfdd6153505fd7482a24f12d0e734"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_cortex.c",
+    "sha256": "9df95c02feab163763ac752c17c07f0a10f6bd7d303f659e950dd8b6b4cce2c9"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_dma.c",
+    "sha256": "9b63080ac99eee2d2c0368894683f6a42b941adfbbced4acb112de1176a9fd3b"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_dma_ex.c",
+    "sha256": "a8bc1642a339acba8aaa7be9101854ab36319efcf2a3ba299760451af31585d1"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_exti.c",
+    "sha256": "56f508ceef8223b12f76f17ae6b8f1af1ddf03cad1caacbf33f5c488b47bb3c1"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_fdcan.c",
+    "sha256": "beb1ee442655f607984b1df1bed4caf99dc50a00ea0670c72c917b65aa1657ee"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_flash.c",
+    "sha256": "a1ef8504ed876dfee88c1338e6877f9d5a6ed3ce8eb510428d49f073411cde0b"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_flash_ex.c",
+    "sha256": "3a9618e04ed1586a29d3ed3fe83f5e27dbda2ed190c1511e0c21f697acb34af5"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_gpio.c",
+    "sha256": "8137010464bb904331c73d15292a97c8c40992c8d3e612dde08628a86ad5df79"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_hsem.c",
+    "sha256": "9878195481869a883edb4c2c4e5f62b7f5764ffbb517bd38a2fae4e2150f8eb0"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_i2c.c",
+    "sha256": "80e655a09d478bc60959a303ea3bcdd689a97b27947c502bffb5074a5990760e"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_i2c_ex.c",
+    "sha256": "a6c182468b914f37b8f74e2d3ba0f8d4d6cbf59efe3bf99d9739007a1d7f37d5"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_mdma.c",
+    "sha256": "674d7a273d208509e2941cb88d9419f549cbdfd35d4aa81b2da135bf1c1a30ad"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_pcd.c",
+    "sha256": "8b7f28590c57a566a84ce0abab4d2a5fdeb8da7d536106afb8b5a067c747b9d1"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_pcd_ex.c",
+    "sha256": "b824518dee8baf4c19feab85b2951e25031808760ddf8fab31c6797770fbeffd"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_pwr.c",
+    "sha256": "87dc25ff1b0a58773eeed5a87de133167cfe4306bf54aa884889a61d8a5bd7f4"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_pwr_ex.c",
+    "sha256": "15469705b458ee696d3ca241ea85ec371c2463a5ac629ab9078d2912dab19c8c"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_rcc.c",
+    "sha256": "d94087028f3cfde2ce9e5d5c38b4daa594823c452052d1455a56e07cd33bd7c8"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_rcc_ex.c",
+    "sha256": "ba3ffa42989a60a93e8de7f148cde4fa22c6853223d00d5d9954ad370c6012fe"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_tim.c",
+    "sha256": "af3978504b1a9664d1874f513d4a9c1db075420731e0902310b215b8d407f86d"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_hal_tim_ex.c",
+    "sha256": "61f54efc96bb1e25a98778a6e5767b7db7ef9351b9c1d54ab8d1ae7831da321e"
+  },
+  {
+    "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Drivers\\STM32H7xx_HAL_Driver\\Src\\stm32h7xx_ll_usb.c",
+    "sha256": "6e0996c053232127ea005689c82a514603d2dc2c07df0878bfcf9ada62b80839"
+  },
+  {
+    "path": "firmware/stm32h723/MDK-ARM/02_stm32h723_nuc_OK.uvprojx",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\MDK-ARM\\02_stm32h723_nuc_OK.uvprojx",
+    "sha256": "5ca3ff44e8d1faee039120c1ac9dacf96f10a64ca43e3d3b1b758eb50d33ede3"
+  },
+  {
+    "path": "firmware/stm32h723/MDK-ARM/mit_build.log",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\MDK-ARM\\mit_build.log",
+    "sha256": "77eed584631041beaf41d06ea77bd01edefa05068d7054343cf8013a2d05783f"
+  },
+  {
+    "path": "firmware/stm32h723/MDK-ARM/startup_stm32h723xx.s",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\MDK-ARM\\startup_stm32h723xx.s",
+    "sha256": "4c0c594200f95a47fc2491014c098419b08afffddc715f2d6cd011040ae0cf4b"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\Class\\CDC\\Inc\\usbd_cdc.h",
+    "sha256": "3ea35b19e264217c3bd1d433c75f4e093930ea83cdf63aa88aee77748a9fc7dc"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\Class\\CDC\\Src\\usbd_cdc.c",
+    "sha256": "5229bac9e3df38c7602b3d8790e73ebfff4395da011fb8fac57aaea48a48b407"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc\\usbd_core.h",
+    "sha256": "a6c2dfc99fabefe4db7c4c145b4ab87d6b992e3fbd15cc65ecc1c7f9d2086f78"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc\\usbd_ctlreq.h",
+    "sha256": "f8897c9b47f97b6ca78c72b857d20fb2a2b0d85091a2362799165cdfa863e3cc"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc\\usbd_def.h",
+    "sha256": "1588736a66291a09de7aa69a5945574566413fefb84c0a7896dc088d174086a9"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc\\usbd_ioreq.h",
+    "sha256": "8a2d44f0cc1c34c21eb75e01cec568b45b901678fba9ca2dc3b0c9a9f0364e7c"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Src\\usbd_core.c",
+    "sha256": "21647e3c0537a8d56cd67cc67951206f7a84501acd74d0c8a827c13e192183c5"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Src\\usbd_ctlreq.c",
+    "sha256": "5f1c211ed991e074589c82bc52571357a268f36776111d99a85539df53fd80f0"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Src\\usbd_ioreq.c",
+    "sha256": "7df0e6888230c6e0e4af31278853ae1accdf5728288ab2d1a1190a5692157038"
+  },
+  {
+    "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\Middlewares\\ST\\STM32_USB_Device_Library\\LICENSE.txt",
+    "sha256": "4f498603e2c2c8c0edc23a1bb903aeae1618520157293e70461d7600f7d76f31"
+  },
+  {
+    "path": "firmware/stm32h723/USB_DEVICE/App/usb_device.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\USB_DEVICE\\App\\usb_device.c",
+    "sha256": "5085cf5d914b7ec7163e9874d8ec726fda80f7b11a94c6aa7b40dfc57c65139b"
+  },
+  {
+    "path": "firmware/stm32h723/USB_DEVICE/App/usb_device.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\USB_DEVICE\\App\\usb_device.h",
+    "sha256": "b9897fea9591495a3a32b0782143c472a9ef9e715edd7a7c05e60dfa4e4b9ee5"
+  },
+  {
+    "path": "firmware/stm32h723/USB_DEVICE/App/usbd_cdc_if.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\USB_DEVICE\\App\\usbd_cdc_if.c",
+    "sha256": "a6d9ab91ec064e1d254ccf5e262bd381b8df9d9bd5df5124a1a1ed7a53cdcd23"
+  },
+  {
+    "path": "firmware/stm32h723/USB_DEVICE/App/usbd_cdc_if.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\USB_DEVICE\\App\\usbd_cdc_if.h",
+    "sha256": "9f7dc1e3d6dfd39e6dea38e3d1a8da9f532e50c53ee34cf3c7a80896d1572ff2"
+  },
+  {
+    "path": "firmware/stm32h723/USB_DEVICE/App/usbd_desc.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\USB_DEVICE\\App\\usbd_desc.c",
+    "sha256": "47020c5dcbc36a9a5539bd01877e5cb9c715a1bfe852aac34457fbcea739355e"
+  },
+  {
+    "path": "firmware/stm32h723/USB_DEVICE/App/usbd_desc.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\USB_DEVICE\\App\\usbd_desc.h",
+    "sha256": "1de67cfebff9e929955426d11fe87649342518f2f4f46580ed4e33c4180c134c"
+  },
+  {
+    "path": "firmware/stm32h723/USB_DEVICE/Target/usbd_conf.c",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\USB_DEVICE\\Target\\usbd_conf.c",
+    "sha256": "ba408c86df12ea7529989988c40c6353d99b1eebdeadb717ecadefa9a0a248dd"
+  },
+  {
+    "path": "firmware/stm32h723/USB_DEVICE/Target/usbd_conf.h",
+    "source": "D:\\Project\\dog\\dog_rl\\dog_stm32\\Keil_stm32h723\\USB_DEVICE\\Target\\usbd_conf.h",
+    "sha256": "cb110b52f308bed352c9b774172f7a25b962a332848b222fe2213b8e418a3b91"
+  },
+  {
+    "path": "reference/training/build_dataset.py",
+    "source": "D:\\Project\\dog\\dog_vision_training\\v1_20261026\\build_dataset.py",
+    "sha256": "3ff31a38aeab3eb0fed4737277ea18874ee08441697379fd301d8f7886cdc987"
+  },
+  {
+    "path": "reference/training/prepare_annotations.py",
+    "source": "D:\\Project\\dog\\dog_vision_training\\v1_20261026\\prepare_annotations.py",
+    "sha256": "e3c4ea2740337b22a66348c92eeecac0da36bb1b0db7818ed0438e15ec74ec00"
+  },
+  {
+    "path": "reference/training/train.py",
+    "source": "D:\\Project\\dog\\dog_vision_training\\v1_20261026\\train.py",
+    "sha256": "20ce8a1f02c2abbe99af1b1e027529e36f59d8c2a1d140451f0676ab834b6282"
+  },
+  {
+    "path": "reference/training/launch.py",
+    "source": "D:\\Project\\dog\\dog_vision_training\\v1_20261026\\launch.py",
+    "sha256": "3f5a4075eb377667a2dddb8e1e1efdc18fcdc3b14721c2ad2e2a9f0d51ddfc11"
+  },
+  {
+    "path": "reference/training/training_config.json",
+    "source": "D:\\Project\\dog\\dog_vision_training\\v1_20261026\\training_config.json",
+    "sha256": "bc61bc3eb9ff9f97d634fdd0d60dbe3d5578129d4daa8d588f12a430219d5daf"
+  },
+  {
+    "path": "reference/training/environment.freeze.txt",
+    "source": "D:\\Project\\dog\\dog_vision_training\\v1_20261026\\environment.freeze.txt",
+    "sha256": "3279909b94bfc4193d803c3aea38d5ed3c3f21fc4c582ff54583ca6d3c7fac8d"
+  },
+  {
+    "path": "reference/training/manual_overrides.json",
+    "source": "D:\\Project\\dog\\dog_vision_training\\v1_20261026\\manual_overrides.json",
+    "sha256": "1feccb6aeb99d17a0f2fb8d61be4156f52184488cd28a34a01a8ee3ad6c46929"
+  },
+  {
+    "path": "reference/offline_processing/build_map.py",
+    "source": "D:\\Project\\dog\\demov3\\semantic_map_v1_20261028\\processing\\build_map.py",
+    "sha256": "61276a424470d75ab461e865b76504d4ff6573bf5c7a2a0d5c1b34d4c2b1ec53"
+  },
+  {
+    "path": "reference/offline_processing/audit_trajectory.py",
+    "source": "D:\\Project\\dog\\demov3\\semantic_map_v1_20261028\\processing\\audit_trajectory.py",
+    "sha256": "26fdf49b20e54389b4b439e37480bad41434e43a9bd7fe9ee6e22a20c9ff8af9"
+  },
+  {
+    "path": "reference/offline_processing/extract_keyframes.py",
+    "source": "D:\\Project\\dog\\demov3\\semantic_map_v1_20261028\\processing\\extract_keyframes.py",
+    "sha256": "5a4f80f90a95e85422c803376f9206b999ccb2e91b7c422e3a44bc86c5b9c539"
+  },
+  {
+    "path": "reference/offline_processing/finalize_bundle.py",
+    "source": "D:\\Project\\dog\\demov3\\semantic_map_v1_20261028\\processing\\finalize_bundle.py",
+    "sha256": "2545a27df1971e4dbf8f24653314d7dfdf32e65e28e424a3952b1688998fb6f6"
+  },
+  {
+    "path": "reference/offline_processing/build_extrinsics.py",
+    "source": "D:\\Project\\dog\\demov3\\cad_extrinsics_20261028\\build_extrinsics.py",
+    "sha256": "dbeae0ee6d6bdca7c0f6540edc7f3f9cc1066b5cdc81c946604f8b53b0440454"
+  },
+  {
+    "path": "reference/offline_processing/camera_lidar_initial_extrinsics.json",
+    "source": "D:\\Project\\dog\\demov3\\cad_extrinsics_20261028\\camera_lidar_initial_extrinsics.json",
+    "sha256": "e67f7e8cd3cfc31013fa337bf809d8bc1dcf9be3a9865f6e2358fe7450874edb"
+  },
+  {
+    "path": "reference/offline_processing/solidworks_sensor_transforms.json",
+    "source": "D:\\Project\\dog\\demov3\\cad_extrinsics_20261028\\solidworks_sensor_transforms.json",
+    "sha256": "c0b350f0001ef21f1d785d5e61ad0219a45f25dfde2f2c5e374a6c5ba6876adb"
+  }
+]

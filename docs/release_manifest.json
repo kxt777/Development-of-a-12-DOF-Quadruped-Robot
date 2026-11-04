@@ -1,0 +1,2796 @@
+{
+  "release": "dog_final_20261030",
+  "timezone": "Asia/Shanghai",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 162,
+      "sha256": "43c1bfdac9c6e9318c502601b0bf42daed786b1c701293057320e5cb4a34a0e6"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1070,
+      "sha256": "e4a32c6f6765fd8ced485b5188a3bd6db92face4c15064948d4f8cd1389cc888"
+    },
+    {
+      "path": "config/dog_oak.yaml",
+      "bytes": 643,
+      "sha256": "558f5af64b1c381c4a41ea336cd4e2d19fa0bd4a02d9ead2b22311f25fb04868"
+    },
+    {
+      "path": "config/mid360.json",
+      "bytes": 876,
+      "sha256": "4273d94b859048349bbfd60cf4cf60025fcac798a526be8f76c3630d24bf7534"
+    },
+    {
+      "path": "config/site.json",
+      "bytes": 880,
+      "sha256": "9e6ba8c545df715b5e5b5cf87da8b27ee22de5a9a20e7cab95cffa9c8ef2b002"
+    },
+    {
+      "path": "config/source/deployment.json",
+      "bytes": 2292,
+      "sha256": "43507dd74fefab6398b3e4c4c40face1dc85d3a9f22578971bf596330f677fb3"
+    },
+    {
+      "path": "config/source/heading_trajectory.npz",
+      "bytes": 316363,
+      "sha256": "ae880bd97a1c97c2b4b7903c44e134848dea842faf9792ae11b74597457aa818"
+    },
+    {
+      "path": "config/source/imu_mount.json",
+      "bytes": 1067,
+      "sha256": "8aee6647b5aeddd09b7d38fd4a0e94a6ed628e461c6841aa98ab1cc7e72f6f33"
+    },
+    {
+      "path": "config/source/standpose.json",
+      "bytes": 10659,
+      "sha256": "d5b2528b4f689a1ed5f7851d85e1e58925ba3c9e50c51e80a127234acc9e6501"
+    },
+    {
+      "path": "config/source/teleop_table.npz",
+      "bytes": 96379,
+      "sha256": "ff828ee2e7574ae101b4dd59da95072f6ab1d9068febb86dc07c557faf8b48bc"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2729,
+      "sha256": "7da554f6ddf74dd3332e683afeb2aae2bd3f9993bb560c02b7ce5b78d0074f98"
+    },
+    {
+      "path": "docs/DEPENDENCIES.md",
+      "bytes": 1668,
+      "sha256": "95e589c55f5b54094df95e5600a12d2763f1484b71dc19cb8090756eaab1309e"
+    },
+    {
+      "path": "docs/local_source_manifest.json",
+      "bytes": 50821,
+      "sha256": "62cb297f395ceac73cbd8ed1a6059bf5944368e2a648924aa335370fb833000e"
+    },
+    {
+      "path": "docs/nuc_active_source_manifest.json",
+      "bytes": 59929,
+      "sha256": "c61652652835bf4a8b66e966671d75a246282407a504e79041305991055b6a8e"
+    },
+    {
+      "path": "docs/nuc_source_manifest.json",
+      "bytes": 35836,
+      "sha256": "171e70d3015c7aaf22236fb0e84ce0313761e95409f13ecfad00d7c45c6b8212"
+    },
+    {
+      "path": "docs/protected_originals_sha256.json",
+      "bytes": 860,
+      "sha256": "c05032f9ebfab3dce50eec8de5e06e44af31f67eea69423eb3565a22acefd7d1"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 2102,
+      "sha256": "f0b1741ea25658fe275231388849621ec535f434a2364e37fdc8789a957ea96b"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 2137,
+      "sha256": "365145b04c07edbf3688d4a4cd150baaa8d5416becf6428184056afd310258d5"
+    },
+    {
+      "path": "docs/verification_20261030/build.log",
+      "bytes": 457,
+      "sha256": "97bfb2fa8d650b9aecb89d2b454c0e8e274f1f4c8222792ca34fd661b60357b4"
+    },
+    {
+      "path": "docs/verification_20261030/duplicate_monitor.log",
+      "bytes": 852,
+      "sha256": "360f0e4ca0acac56510fbdacc15d1b64045e638edf8410dba9b55bccbaf96418"
+    },
+    {
+      "path": "docs/verification_20261030/fixture_training_fire.jpg",
+      "bytes": 451184,
+      "sha256": "c7686054f51f51ea51ba23e6670c219269d79837aadc420b9485fb96be54d872"
+    },
+    {
+      "path": "docs/verification_20261030/ik_unit_tests.log",
+      "bytes": 3803,
+      "sha256": "f596e577583eb61baf0b078533d36f2b46e2abcdb22b666096ffdf11b7953cd4"
+    },
+    {
+      "path": "docs/verification_20261030/navigation_unit_tests.log",
+      "bytes": 2408,
+      "sha256": "751b0d786b5601fbb4bc7f5b4e5fa9dfcbf81cf45b4e7a09905e22f6763e0924"
+    },
+    {
+      "path": "docs/verification_20261030/plan_launch.log",
+      "bytes": 10850,
+      "sha256": "1353e077339fe270203b85d17a55e6afd2382f509bf5846895662a4785cbf254"
+    },
+    {
+      "path": "docs/verification_20261030/plan_probe.log",
+      "bytes": 572,
+      "sha256": "aaf61fdde4a62f1cc15880c40513557e9bfba2ef2b7c37060974207fe1a135be"
+    },
+    {
+      "path": "docs/verification_20261030/plan_result.json",
+      "bytes": 3389,
+      "sha256": "c21c6a74bb05c2b60685cf9bf81374bc19641c2101d73b9bf1d55090cd47c2ef"
+    },
+    {
+      "path": "docs/verification_20261030/smoke_summary.json",
+      "bytes": 3914,
+      "sha256": "20500b0ddda2ca913f51672d34415e19b476f5928144ae2f9568bb1b688caf61"
+    },
+    {
+      "path": "docs/verification_20261030/vision_transport.log",
+      "bytes": 45,
+      "sha256": "a1726d01f715e30131648169208ecec84505f4e2978f6a9102964846df13d8b4"
+    },
+    {
+      "path": "docs/verification_20261030/vision_transport_fixture/fire_live.jpg",
+      "bytes": 477159,
+      "sha256": "52928bb9eca2b907c4b1782dc724f6aae47ca96e7fc611802b824ddb88b6af75"
+    },
+    {
+      "path": "docs/verification_20261030/vision_transport_fixture/rgb_latest.jpg",
+      "bytes": 324457,
+      "sha256": "bdcbaffe0651e910d7a5a366150881ea9e7b6b2ddf0c2403c4018c434654fb1e"
+    },
+    {
+      "path": "docs/verification_20261030/vision_transport_fixture/status.json",
+      "bytes": 832,
+      "sha256": "b4c6563b6fe7c6a984ddf2363037fa11f97ab5166eab6277355610eacee10bb4"
+    },
+    {
+      "path": "docs/verification_20261030/vision_transport_fixture/yolo_latest.jpg",
+      "bytes": 328782,
+      "sha256": "f040264577252f3b4e3225815726de5b1b3c86048df7b997ce89388a12f12b40"
+    },
+    {
+      "path": "docs/verification_20261030/vision_transport_summary.json",
+      "bytes": 250,
+      "sha256": "f396902c9835f9e2b3b0eed45bf321c62a3a6eb0bc08bdb5a2d464306f2c3d0f"
+    },
+    {
+      "path": "dog",
+      "bytes": 2293,
+      "sha256": "38d4082d9835faf52a27030772b0cf1aa8e714d343a64d0f63e2883e7b8b9eb6"
+    },
+    {
+      "path": "firmware/stm32h723/.mxproject",
+      "bytes": 12194,
+      "sha256": "fdd218445c9f3ec66ef75d1d34a3bf35d538ca4e58c0cdda2db21e3c061ddc39"
+    },
+    {
+      "path": "firmware/stm32h723/02_stm32h723_nuc_OK.ioc",
+      "bytes": 6994,
+      "sha256": "9ad2907d1de61ece9ace1ce255519e762f1c0dc8327eee3098830d1f1b76ad28"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/bsp_fdcan.h",
+      "bytes": 1215,
+      "sha256": "17f462e22904dd89694cc2854278651acd885489f91eed4606a8b5483a9f79be"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/dm_motor_ctrl.h",
+      "bytes": 371,
+      "sha256": "ff2d474ef6082242c7f9ecda10f62bd343fbb941efb7f5628b864964280020fb"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/dm_motor_drv.h",
+      "bytes": 5564,
+      "sha256": "8a928ebf901cf565bc45d1fee8bae3819e0086d8419768b4a8dfe0b1b9acf060"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/fdcan.h",
+      "bytes": 1309,
+      "sha256": "4fa14fd1803d84e376ba363e29cbeb3c8a31966e73bde171cef5b10e5b5b5a06"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/global_command.h",
+      "bytes": 117,
+      "sha256": "b37b33c5409c0343b3aef96376570a8f8ff0b5dbc37a912c6dd51cac1bfc4264"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/gpio.h",
+      "bytes": 1614,
+      "sha256": "77aeba99eba28ebf38462874def565bad6b4e3c60db8536ed9c92c756b6ba875"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/main.h",
+      "bytes": 1999,
+      "sha256": "fd24ba0b0b5a6edcde1b4aa22cec4b1d481236ce617afdfed7e490a4ab1ecc07"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/motor_manager.h",
+      "bytes": 620,
+      "sha256": "b27e931cfa387f88e207b5544f871dba413e3b50e0003cabf5c3c29ce7a1cc46"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/stm32h7xx_hal_conf.h",
+      "bytes": 19603,
+      "sha256": "33c94c084840ca59f196f4768a3d30d9a337eafe581bc6c5015fbf4f39cc2de4"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/stm32h7xx_it.h",
+      "bytes": 1957,
+      "sha256": "bb0dce58fb470f8b19e0674059cf4f9e8b4d3ff70de5e010f6af844d54643a7e"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/usb_feedback.h",
+      "bytes": 109,
+      "sha256": "5287ace5315827847b3b02a15af6c7c4869dc1698f72d78ff82a00874ba1e05f"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/usb_motor_bridge.h",
+      "bytes": 125,
+      "sha256": "3fe8fb47cdc63f587ae4e78e2c353e21f0b40e49797fc54da06a75576d137216"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Inc/usb_protocol.h",
+      "bytes": 326,
+      "sha256": "4d1ef576221c3ed253bca8c1d268c96b57987a4cac6afd2a6a9ea7838702650b"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/bsp_fdcan.c",
+      "bytes": 5401,
+      "sha256": "9e006a99293d73296cf6409ab001381f317627a652f922b94503ddb833cf2605"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/dm_motor_ctrl.c",
+      "bytes": 7558,
+      "sha256": "571d8da23da26c96bc439183a76c78132b71ebace2e1551ed7eb8b5ed774367a"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/dm_motor_drv.c",
+      "bytes": 6169,
+      "sha256": "f514fcbb487739454f949e422fa943140d2bf4bec4a704d341e869c69b4e6a62"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/fdcan.c",
+      "bytes": 5889,
+      "sha256": "89168cbaf4db8cae5379dde1892f94e33657d384d2fbdd8cc01a5fe109c6f74d"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/global_command.c",
+      "bytes": 4576,
+      "sha256": "b44dd4d14c5d0e1e2f1048f6d557b2473f6bcecf54b9cfe906840078e02f769e"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/gpio.c",
+      "bytes": 1938,
+      "sha256": "b62929cf3923a81f9bea4b777ddaf987e5e0535e1c4e93e9a2fdf9e388dbf952"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/main.c",
+      "bytes": 7192,
+      "sha256": "f862141008feaba9142b5185c81a11a62545bcbf0891484285ed0d63105421dd"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/motor_manager.c",
+      "bytes": 2609,
+      "sha256": "9d82aebb135bc1d9929439c581496a38de59da9f2ea1a73aaa1904655a1fd228"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/stm32h7xx_hal_msp.c",
+      "bytes": 2198,
+      "sha256": "140c21487c7501fe4263ddcdd7a65cc60419ea807be0a307e885452d103a43fa"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/stm32h7xx_it.c",
+      "bytes": 6210,
+      "sha256": "e50bfe8f4164eeafdd4de65cf24b3f98288f939ff0e13ad1d774cf402db88a4e"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/system_stm32h7xx.c",
+      "bytes": 19751,
+      "sha256": "95a8fc5a6d765a78a8b6f0dd1fedc48994096df544e611e951c6c2e4426570e6"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/usb_feedback.c",
+      "bytes": 1891,
+      "sha256": "e001d0001b883dd1cf6fc90b99c3213a94d37b99748fa385c92fbcd012a65563"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/usb_motor_bridge.c",
+      "bytes": 325,
+      "sha256": "afc63f96e283dae454f59e2ec254d4f6672c695cc13d1c1d62a4bc9bb72e334e"
+    },
+    {
+      "path": "firmware/stm32h723/Core/Src/usb_protocol.c",
+      "bytes": 8668,
+      "sha256": "a1e5b991b6397ec3856061d864065c513f972800c098d41bdf3ddcc737faf162"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h",
+      "bytes": 1907101,
+      "sha256": "99ef6d9713838573a8677c69210854832beeba2cdcedffd6ee740f5457cabb66"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h",
+      "bytes": 11834,
+      "sha256": "99ac7d4598e20d9bd74e0e001f0e63c2a8eb0a3584242d9e442be31ceb616cb9"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h",
+      "bytes": 2422,
+      "sha256": "e0f13c2971d34bda571aed454880b3608093cd9a5f7420a763e8c2bda34e826a"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Device/ST/STM32H7xx/LICENSE.txt",
+      "bytes": 371,
+      "sha256": "135fb2d86e9ecdf6824cc3bba21c72b8e380c07b055fbebb6b995463eb609baf"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/cachel1_armv7.h",
+      "bytes": 13255,
+      "sha256": "b211a8bbcfd62c9f0b3b3f1674927c9b58a0d95b02e449a0866ad2c99cb64232"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "bytes": 27999,
+      "sha256": "5bc0d7ed8e36e9bcb868c4042fff350c702eca305df4162fb00384789e35ee1c"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "bytes": 48417,
+      "sha256": "d5da2b48204f0d0cf1ff38ffccb527e5706cd0a091ff0a331eb41d6596c33fe5"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "bytes": 56021,
+      "sha256": "3e8ffb284f4f155de3ea93841cca853b41d5e812b53e52c64c3d4a67b7f1ec7c"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "bytes": 9481,
+      "sha256": "b51963d271c1571ca3463654c76aa7ea50c4eac5d0a2710df10414ac64d9e0f8"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "bytes": 63374,
+      "sha256": "43bfd1fe69fbbc2ca70aaf7d43cc3e20f16e0c7f66e1bdef9b51af6dc14b2617"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "bytes": 29069,
+      "sha256": "2d255c8429e507e52cb603f2970bed4cc4a6cdcc3eb7fc7997385abad7364837"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/cmsis_version.h",
+      "bytes": 1680,
+      "sha256": "184c19fd3ee73632edf35a0b4d49cd48be75fbf49e6ccb19d9db05fa83bea4b3"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_armv81mml.h",
+      "bytes": 276640,
+      "sha256": "a40954bccbf202bd65ee721ea688122561e005c9f9f9d18e082280c5b897d0e4"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "bytes": 115004,
+      "sha256": "458b1e6788079ded52adc7d06383701c865ca97b67c5e7a0a44884194f91a842"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_armv8mml.h",
+      "bytes": 183191,
+      "sha256": "5a68204fa31cda7d04d41c9ceaf3f4b1217908f59366f757ee778181c7cc8cb9"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm0.h",
+      "bytes": 41643,
+      "sha256": "ac13cb645f108666a0e57c93467872660d6bc860a839f840dc870b7a5863b4bf"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm0plus.h",
+      "bytes": 49877,
+      "sha256": "a09fa9c6b8b21d1920bce15b98aa56182b027e9278cca0b154812bac2aea3cfa"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm1.h",
+      "bytes": 42626,
+      "sha256": "944bf0c4f940eef30a632cd99d5dcfe8270e8a8431eb98c0f081bcf4f61f728e"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm23.h",
+      "bytes": 121556,
+      "sha256": "77822e9738885394ec52fca6f617452b823a0b55e2664ee225e65576cf0e8f2d"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm3.h",
+      "bytes": 109529,
+      "sha256": "c9937781259a8897adf514445441c68570087d6a72a558d8a4afe75cdb62dbd2"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm33.h",
+      "bytes": 189524,
+      "sha256": "225c47c36230edaa314f1e7a45b38279f6ab4d58faeb132226db35f7007d58aa"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm35p.h",
+      "bytes": 189539,
+      "sha256": "206b427589981b78169c1d9b73e898e4e8de4efbd76fd0c2df7df81d645b9fa2"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm4.h",
+      "bytes": 120975,
+      "sha256": "f5b63d52dd1557b15ca414cb59c264f595a7b5669db2a5878dffe22f4caedc8c"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm55.h",
+      "bytes": 317450,
+      "sha256": "5707f716cf03f7e80151108ae94601fcfdf362dd2d830876040213318f6dee3a"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm7.h",
+      "bytes": 138948,
+      "sha256": "e974d0a91752487d0154457cd422c37667328e9ddb7ba4fa2fed479a63577f63"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_cm85.h",
+      "bytes": 308328,
+      "sha256": "75bc123889f0f5ca33c4d16b6cbdd580a3572663c899fadb2c8e28f6a5e6fead"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_sc000.h",
+      "bytes": 46562,
+      "sha256": "c81377a69a4ea8ecaead42194f2ce8ab59bd4ee7bd638e423f5b1f5ec283d154"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_sc300.h",
+      "bytes": 108524,
+      "sha256": "73dd461c12c7d3a693840df3084fd8f85122095c6f21fa3d779b0f3eceaebad5"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/core_starmc1.h",
+      "bytes": 193055,
+      "sha256": "92d8661f2947d00da91653d04794cde0593fdaafb3438842a0477775716aafc5"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/mpu_armv7.h",
+      "bytes": 11731,
+      "sha256": "29206b52ee02290ed6f5a5415ebd4187de802cf176d9b3cb844390d8e5571372"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/mpu_armv8.h",
+      "bytes": 11370,
+      "sha256": "2c7d22a344cedcc1e35380d1f76f0e6c55da5e3101e6a41fd85497d1841fe8c9"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/pac_armv81.h",
+      "bytes": 6062,
+      "sha256": "d76f5cc0c59a59e035115f700b8e8d95b7b98ecb99a2924e885f82a94903d984"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/pmu_armv8.h",
+      "bytes": 22786,
+      "sha256": "cea8c105c5f41ba831fe4d9e8e39758068cd4c414383348dc2835d6be447cca0"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/Include/tz_context.h",
+      "bytes": 2687,
+      "sha256": "45565c8cb04c653aabaf3cceddfc848b6a0de28c20d4f7e3d475a992c7eee788"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/CMSIS/LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "bytes": 241600,
+      "sha256": "37a057e32410712dbe30a3ec74a6cc838f767ae1c616f1b767687bede5dff68a"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h",
+      "bytes": 67326,
+      "sha256": "97aeb9e9e0c3acde0c91d025e89c7972b9ad13ab3cb735d40ad852dc395f6980"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h",
+      "bytes": 19018,
+      "sha256": "8b61853cb8eb65dabf5181e9f4a2effb3be70974800f6ddc38ae62f0310e78ae"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h",
+      "bytes": 7972,
+      "sha256": "f7e6ad2cff1b770393ad76961fbb220bef0a52593e9035746e7961137061ebfc"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h",
+      "bytes": 72371,
+      "sha256": "564d6d26015155743f4990a354d26124d5d434673813c75df5da9572e4ac2eae"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h",
+      "bytes": 16002,
+      "sha256": "bc906d5cf9ed149185aa77a80a793e50aa4b2c7e0606f88df1a4b8900a8a26fa"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h",
+      "bytes": 28613,
+      "sha256": "0721d23bd4efbc2df912927a2643ab356e241eee5488bf1c4ac274124231b8f3"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h",
+      "bytes": 145610,
+      "sha256": "7c7d7a07808f8b20e0bf78ac8319898cf95694887813344e7816e91f513cfbb1"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h",
+      "bytes": 50128,
+      "sha256": "96340bb9572f6c53554323795b3aa8c86962d14b0596dab550322f34dfccba7c"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h",
+      "bytes": 48309,
+      "sha256": "2f4fd8d9ce5dbf03691feb56a9c532282a79ac2e7731ab4a6781960e5116adfa"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h",
+      "bytes": 15082,
+      "sha256": "75c7e634ec0b5fa2ad6ef90b9b010a4dbac1cdd9876daf80cab2253774c092bb"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h",
+      "bytes": 23448,
+      "sha256": "81b441ab0ef72718230fc3b259a120c57e253018863d9aa9e50f4f6456c866f3"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h",
+      "bytes": 6827,
+      "sha256": "9375fc3023cde3f3ccf0a77a21d571d63acbe47f23149c2f226972cecdffdc6f"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h",
+      "bytes": 38822,
+      "sha256": "6741b4870c9e870e3293996b968419b7edbd2c3477183e44663086ec6f069398"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h",
+      "bytes": 6137,
+      "sha256": "445dcca6512f91fa60903605c52f19c2792e3d00e6eba9db3a234901a9dd8c40"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h",
+      "bytes": 47211,
+      "sha256": "580b7f7d97482fe435f5c3c4086f017a090ba186201db2af7c68567094e868e8"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h",
+      "bytes": 18498,
+      "sha256": "bab25eb96636aebb7248b01fe9cd270efc15251477600f64ebe53932920d26ea"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h",
+      "bytes": 2591,
+      "sha256": "b063cfb05de32e8c0b573edd1231eae3f27e6e7cd5e57508346ee7b4c0763726"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h",
+      "bytes": 38412,
+      "sha256": "65a883328691a724d5163403e5e7db38d5a1e8ec11f7bdcf5620329bf779cdfa"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h",
+      "bytes": 31837,
+      "sha256": "76ec9d62421667db5a499309f50c8145d086d76b5529a7ece37331fe5de05842"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h",
+      "bytes": 504477,
+      "sha256": "b97d21c439fb53c8cc83a555074b9cbd1fba107d95ff239ba317ffc28799ff16"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h",
+      "bytes": 211252,
+      "sha256": "cbebc9c87db8acada7da2fd06994a998528d447960ec62737fd65cace4fd34bf"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h",
+      "bytes": 144890,
+      "sha256": "f0411155b057e23cf932497d8186f227b5e3085e92ae60403e0a7a45c0f62add"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h",
+      "bytes": 31362,
+      "sha256": "c6e76b135cc6bff07ad4b84a76d7eedb3a63ddba472131595c4655ac37ed7196"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h",
+      "bytes": 325702,
+      "sha256": "0eb42ffbba51192ec0efd6463759a5fda060637ff4d694274df16b4763c882a5"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h",
+      "bytes": 26217,
+      "sha256": "e6781bfcc812a315006a5ea9ed0f0eb7db19beb095bce5136c345e0af4caed1c"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h",
+      "bytes": 24181,
+      "sha256": "cb7133e48358f5cd50119c8b88c4a59634dad521f489448e04602c9efd9d2972"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h",
+      "bytes": 125083,
+      "sha256": "3cf0adf0da04435eb89743523a7f9e6a23a18fd6133afed7c808acef9ee0aa76"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h",
+      "bytes": 116263,
+      "sha256": "74cdd7b811aa394274ba645d05ae410d417f0e3836d91194e58156960d68a2ea"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h",
+      "bytes": 127298,
+      "sha256": "6eee9e7ba6b688c5c848e8f318b7adc293347a4697a888cfaadc9a2cd654cc5b"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h",
+      "bytes": 37745,
+      "sha256": "3a84cb663d59954ce2a057ee58793890579b4ef15af37c8f043190b0a82c9093"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h",
+      "bytes": 34217,
+      "sha256": "7e2cc95c8dcd6b326801026d0398a46b903c94e4c3befd650a227e9a351606c2"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h",
+      "bytes": 79527,
+      "sha256": "fd20ad8efbceb8ad7169e92a365385759fc1331157a94399d9e8328e32c8a564"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h",
+      "bytes": 240896,
+      "sha256": "6982e6ac4541ad1badada536daee3c9c9703342d45a9e83c2656afa0a0871693"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h",
+      "bytes": 97039,
+      "sha256": "e315a0d57f5bbf6ee025373e4a8dc7b0a70f28514eef2de0b15f0999cc79f486"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h",
+      "bytes": 24513,
+      "sha256": "df2a0f0ea5c22d6c7868996338cf8c820b6e629c7d1eb0058993dbb983ba31a6"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h",
+      "bytes": 17956,
+      "sha256": "98abb1949a71207ee5a30f1c94870f42340d9da09a63a07cf1635cfc388d9b6d"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt",
+      "bytes": 377,
+      "sha256": "d5a162f3eaf2b7b6762f00700017cae5695ebbdce7932fead8316448baafd9c1"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c",
+      "bytes": 43338,
+      "sha256": "716a36e0b7d7a09f3040ced03612abfb406dfdd6153505fd7482a24f12d0e734"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c",
+      "bytes": 19514,
+      "sha256": "9df95c02feab163763ac752c17c07f0a10f6bd7d303f659e950dd8b6b4cce2c9"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c",
+      "bytes": 68091,
+      "sha256": "9b63080ac99eee2d2c0368894683f6a42b941adfbbced4acb112de1176a9fd3b"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c",
+      "bytes": 25013,
+      "sha256": "a8bc1642a339acba8aaa7be9101854ab36319efcf2a3ba299760451af31585d1"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c",
+      "bytes": 25905,
+      "sha256": "56f508ceef8223b12f76f17ae6b8f1af1ddf03cad1caacbf33f5c488b47bb3c1"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c",
+      "bytes": 211476,
+      "sha256": "beb1ee442655f607984b1df1bed4caf99dc50a00ea0670c72c917b65aa1657ee"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c",
+      "bytes": 38887,
+      "sha256": "a1ef8504ed876dfee88c1338e6877f9d5a6ed3ce8eb510428d49f073411cde0b"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c",
+      "bytes": 71398,
+      "sha256": "3a9618e04ed1586a29d3ed3fe83f5e27dbda2ed190c1511e0c21f697acb34af5"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c",
+      "bytes": 19108,
+      "sha256": "8137010464bb904331c73d15292a97c8c40992c8d3e612dde08628a86ad5df79"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c",
+      "bytes": 14796,
+      "sha256": "9878195481869a883edb4c2c4e5f62b7f5764ffbb517bd38a2fae4e2150f8eb0"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c",
+      "bytes": 245096,
+      "sha256": "80e655a09d478bc60959a303ea3bcdd689a97b27947c502bffb5074a5990760e"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c",
+      "bytes": 11671,
+      "sha256": "a6c182468b914f37b8f74e2d3ba0f8d4d6cbf59efe3bf99d9739007a1d7f37d5"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c",
+      "bytes": 62926,
+      "sha256": "674d7a273d208509e2941cb88d9419f549cbdfd35d4aa81b2da135bf1c1a30ad"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c",
+      "bytes": 62157,
+      "sha256": "8b7f28590c57a566a84ce0abab4d2a5fdeb8da7d536106afb8b5a067c747b9d1"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c",
+      "bytes": 9634,
+      "sha256": "b824518dee8baf4c19feab85b2951e25031808760ddf8fab31c6797770fbeffd"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c",
+      "bytes": 32514,
+      "sha256": "87dc25ff1b0a58773eeed5a87de133167cfe4306bf54aa884889a61d8a5bd7f4"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c",
+      "bytes": 77070,
+      "sha256": "15469705b458ee696d3ca241ea85ec371c2463a5ac629ab9078d2912dab19c8c"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c",
+      "bytes": 65685,
+      "sha256": "d94087028f3cfde2ce9e5d5c38b4daa594823c452052d1455a56e07cd33bd7c8"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c",
+      "bytes": 128552,
+      "sha256": "ba3ffa42989a60a93e8de7f148cde4fa22c6853223d00d5d9954ad370c6012fe"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c",
+      "bytes": 254633,
+      "sha256": "af3978504b1a9664d1874f513d4a9c1db075420731e0902310b215b8d407f86d"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c",
+      "bytes": 102258,
+      "sha256": "61f54efc96bb1e25a98778a6e5767b7db7ef9351b9c1d54ab8d1ae7831da321e"
+    },
+    {
+      "path": "firmware/stm32h723/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c",
+      "bytes": 64388,
+      "sha256": "6e0996c053232127ea005689c82a514603d2dc2c07df0878bfcf9ada62b80839"
+    },
+    {
+      "path": "firmware/stm32h723/MDK-ARM/02_stm32h723_nuc_OK.uvprojx",
+      "bytes": 24765,
+      "sha256": "5ca3ff44e8d1faee039120c1ac9dacf96f10a64ca43e3d3b1b758eb50d33ede3"
+    },
+    {
+      "path": "firmware/stm32h723/MDK-ARM/mit_build.log",
+      "bytes": 1760,
+      "sha256": "77eed584631041beaf41d06ea77bd01edefa05068d7054343cf8013a2d05783f"
+    },
+    {
+      "path": "firmware/stm32h723/MDK-ARM/startup_stm32h723xx.s",
+      "bytes": 44539,
+      "sha256": "4c0c594200f95a47fc2491014c098419b08afffddc715f2d6cd011040ae0cf4b"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h",
+      "bytes": 5284,
+      "sha256": "3ea35b19e264217c3bd1d433c75f4e093930ea83cdf63aa88aee77748a9fc7dc"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+      "bytes": 28211,
+      "sha256": "5229bac9e3df38c7602b3d8790e73ebfff4395da011fb8fac57aaea48a48b407"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h",
+      "bytes": 5641,
+      "sha256": "a6c2dfc99fabefe4db7c4c145b4ab87d6b992e3fbd15cc65ecc1c7f9d2086f78"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h",
+      "bytes": 2005,
+      "sha256": "f8897c9b47f97b6ca78c72b857d20fb2a2b0d85091a2362799165cdfa863e3cc"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h",
+      "bytes": 16327,
+      "sha256": "1588736a66291a09de7aa69a5945574566413fefb84c0a7896dc088d174086a9"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h",
+      "bytes": 2309,
+      "sha256": "8a2d44f0cc1c34c21eb75e01cec568b45b901678fba9ca2dc3b0c9a9f0364e7c"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+      "bytes": 29686,
+      "sha256": "21647e3c0537a8d56cd67cc67951206f7a84501acd74d0c8a827c13e192183c5"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+      "bytes": 24995,
+      "sha256": "5f1c211ed991e074589c82bc52571357a268f36776111d99a85539df53fd80f0"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+      "bytes": 4860,
+      "sha256": "7df0e6888230c6e0e4af31278853ae1accdf5728288ab2d1a1190a5692157038"
+    },
+    {
+      "path": "firmware/stm32h723/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt",
+      "bytes": 4965,
+      "sha256": "4f498603e2c2c8c0edc23a1bb903aeae1618520157293e70461d7600f7d76f31"
+    },
+    {
+      "path": "firmware/stm32h723/USB_DEVICE/App/usb_device.c",
+      "bytes": 2515,
+      "sha256": "5085cf5d914b7ec7163e9874d8ec726fda80f7b11a94c6aa7b40dfc57c65139b"
+    },
+    {
+      "path": "firmware/stm32h723/USB_DEVICE/App/usb_device.h",
+      "bytes": 2336,
+      "sha256": "b9897fea9591495a3a32b0782143c472a9ef9e715edd7a7c05e60dfa4e4b9ee5"
+    },
+    {
+      "path": "firmware/stm32h723/USB_DEVICE/App/usbd_cdc_if.c",
+      "bytes": 11255,
+      "sha256": "a6d9ab91ec064e1d254ccf5e262bd381b8df9d9bd5df5124a1a1ed7a53cdcd23"
+    },
+    {
+      "path": "firmware/stm32h723/USB_DEVICE/App/usbd_cdc_if.h",
+      "bytes": 3057,
+      "sha256": "9f7dc1e3d6dfd39e6dea38e3d1a8da9f532e50c53ee34cf3c7a80896d1572ff2"
+    },
+    {
+      "path": "firmware/stm32h723/USB_DEVICE/App/usbd_desc.c",
+      "bytes": 11597,
+      "sha256": "47020c5dcbc36a9a5539bd01877e5cb9c715a1bfe852aac34457fbcea739355e"
+    },
+    {
+      "path": "firmware/stm32h723/USB_DEVICE/App/usbd_desc.h",
+      "bytes": 3012,
+      "sha256": "1de67cfebff9e929955426d11fe87649342518f2f4f46580ed4e33c4180c134c"
+    },
+    {
+      "path": "firmware/stm32h723/USB_DEVICE/Target/usbd_conf.c",
+      "bytes": 20225,
+      "sha256": "ba408c86df12ea7529989988c40c6353d99b1eebdeadb717ecadefa9a0a248dd"
+    },
+    {
+      "path": "firmware/stm32h723/USB_DEVICE/Target/usbd_conf.h",
+      "bytes": 4098,
+      "sha256": "cb110b52f308bed352c9b774172f7a25b962a332848b222fe2213b8e418a3b91"
+    },
+    {
+      "path": "maps/fire_scene/edit_comparison.png",
+      "bytes": 105198,
+      "sha256": "7c0602edcd80a59898c6bf000c03317296561915e4c6bacdb7ab6061d9842f1a"
+    },
+    {
+      "path": "maps/fire_scene/edit_manifest.json",
+      "bytes": 9665,
+      "sha256": "d1810fb698fb668f5c6e5db2f053db266d01731f385476e92dbe26833fd130e3"
+    },
+    {
+      "path": "maps/fire_scene/map.pgm",
+      "bytes": 372315,
+      "sha256": "f11d209097e61e5d280a8291daefdc316fbf58fe118ecabe63bb311566030208"
+    },
+    {
+      "path": "maps/fire_scene/map.yaml",
+      "bytes": 132,
+      "sha256": "4913eb48edeb6009467882aac774ee2c3f070e61e3ff129d7f374f881c7ef00b"
+    },
+    {
+      "path": "maps/fire_scene/reference_route.json",
+      "bytes": 3508,
+      "sha256": "aaff238f573e241c2b4ec6819c90eec3e16681cfb5d46efcbbf39ae40007b510"
+    },
+    {
+      "path": "maps/fire_scene/user_annotation.png",
+      "bytes": 144818,
+      "sha256": "f886ce15310ce5a8f775c5b61fee10aa01985fe2987b4c4585c8f4f46fa1913f"
+    },
+    {
+      "path": "models/dog_fire_chemical_human_yolov8n.onnx",
+      "bytes": 12748156,
+      "sha256": "dcd1544872485062ee3bd7619914442992dc4c9ee89db4f55c325791b5f28cb9"
+    },
+    {
+      "path": "models/dog_fire_chemical_human_yolov8n.pt",
+      "bytes": 6477737,
+      "sha256": "80dfe2bd0f976881e4c60a2879aefa098347c7ebafcd532c29279110eba1cf6d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4996,
+      "sha256": "8a5297044f86c4cd3c943cb94c12df77471e2c61aded7011ab66507540f5f89a"
+    },
+    {
+      "path": "reference/nuc_services/default.target.wants/dog_ik_controller.service",
+      "bytes": 270,
+      "sha256": "2eb1f23d0e1e9dd7d3bba0005515218ee87096dcba63833cd3579e5fe96ad5eb"
+    },
+    {
+      "path": "reference/nuc_services/default.target.wants/dog_imu.service",
+      "bytes": 258,
+      "sha256": "06cc9d2749adc977a8d1acffcaefa3acb657b7ccceb094cf7687889db1c5dcfb"
+    },
+    {
+      "path": "reference/nuc_services/default.target.wants/dog_web.service",
+      "bytes": 354,
+      "sha256": "d4be10b6e721fb0a59e77df9669fab843e98b333438fc185ef3f2cd8d4576927"
+    },
+    {
+      "path": "reference/nuc_services/dog_ik_controller.service",
+      "bytes": 270,
+      "sha256": "2eb1f23d0e1e9dd7d3bba0005515218ee87096dcba63833cd3579e5fe96ad5eb"
+    },
+    {
+      "path": "reference/nuc_services/dog_ik_controller.service.d/dog_navigation.conf",
+      "bytes": 134,
+      "sha256": "5b717f00f5402d50dea6b4e485b1f696d57ba9c9747e9699967906f309fee124"
+    },
+    {
+      "path": "reference/nuc_services/dog_imu.service",
+      "bytes": 258,
+      "sha256": "06cc9d2749adc977a8d1acffcaefa3acb657b7ccceb094cf7687889db1c5dcfb"
+    },
+    {
+      "path": "reference/nuc_services/dog_web.service",
+      "bytes": 354,
+      "sha256": "d4be10b6e721fb0a59e77df9669fab843e98b333438fc185ef3f2cd8d4576927"
+    },
+    {
+      "path": "reference/offline_processing/audit_trajectory.py",
+      "bytes": 1285,
+      "sha256": "26fdf49b20e54389b4b439e37480bad41434e43a9bd7fe9ee6e22a20c9ff8af9"
+    },
+    {
+      "path": "reference/offline_processing/build_extrinsics.py",
+      "bytes": 17189,
+      "sha256": "dbeae0ee6d6bdca7c0f6540edc7f3f9cc1066b5cdc81c946604f8b53b0440454"
+    },
+    {
+      "path": "reference/offline_processing/build_map.py",
+      "bytes": 9427,
+      "sha256": "61276a424470d75ab461e865b76504d4ff6573bf5c7a2a0d5c1b34d4c2b1ec53"
+    },
+    {
+      "path": "reference/offline_processing/camera_lidar_initial_extrinsics.json",
+      "bytes": 15809,
+      "sha256": "e67f7e8cd3cfc31013fa337bf809d8bc1dcf9be3a9865f6e2358fe7450874edb"
+    },
+    {
+      "path": "reference/offline_processing/extract_keyframes.py",
+      "bytes": 3711,
+      "sha256": "5a4f80f90a95e85422c803376f9206b999ccb2e91b7c422e3a44bc86c5b9c539"
+    },
+    {
+      "path": "reference/offline_processing/finalize_bundle.py",
+      "bytes": 13588,
+      "sha256": "2545a27df1971e4dbf8f24653314d7dfdf32e65e28e424a3952b1688998fb6f6"
+    },
+    {
+      "path": "reference/offline_processing/solidworks_sensor_transforms.json",
+      "bytes": 92012,
+      "sha256": "c0b350f0001ef21f1d785d5e61ad0219a45f25dfde2f2c5e374a6c5ba6876adb"
+    },
+    {
+      "path": "reference/README.md",
+      "bytes": 498,
+      "sha256": "0cd4886cfaf04355828503b7ba556bfdc92675378fc3e1b9f94a871555d22147"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/.github/stale.yml",
+      "bytes": 682,
+      "sha256": "43f4c7c1cd847756a97d5415b630aa143768865b8252273cb1b3ab10326b1ab8"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/.gitignore",
+      "bytes": 108,
+      "sha256": "795630267d82a868299154c5d0e6bc4e0fe875e799534da04be6a320f55114e2"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/.gitmodules",
+      "bytes": 123,
+      "sha256": "dce23769c95c9f6038a738f13da0d73f6bbf098926f628cd0faa31e9fcc2a0c8"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/CMakeLists.txt",
+      "bytes": 3506,
+      "sha256": "4483d4f3072cb2fb448d69b4105b410839fd9bbfcb5c9794737dd68eb2f74f45"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/config/avia.yaml",
+      "bytes": 2066,
+      "sha256": "47de1f48a605b04a8fcec4a98a41a13a502dcd5ad39d06ad1c75c9d737e74e00"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/config/horizon.yaml",
+      "bytes": 2079,
+      "sha256": "816688b9c73a6d93e7f1331ac5d15d4f5720c55bf2bac9c4076b9e2c91e1d730"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/config/mid360.yaml",
+      "bytes": 2328,
+      "sha256": "0fba8e5d317235b964b84813c9f6019dabd4267f29bedfa03595f29c0cf80aa1"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/config/ouster64.yaml",
+      "bytes": 2185,
+      "sha256": "fbf800038ce8ed2a7be23d1a55f6263f86fa6288b881ba871a59ec7f3ace9cb1"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/config/velodyne.yaml",
+      "bytes": 2297,
+      "sha256": "c3a5c83dd3073a62416a2e0f5a0b436288e1fa41fad46e30d6dd8cacbc635e6f"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/common_lib.h",
+      "bytes": 8059,
+      "sha256": "bd9d6cf500f6f77e880c0cbf451ce6fc8b0e6d638773a4580a1ee779744e9e54"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/Exp_mat.h",
+      "bytes": 2743,
+      "sha256": "abce87e1fb0e60febf42f38b75f4c018bac24c1bf652e26b7a510a9296d3031d"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/ikd-Tree/ikd_Tree.cpp",
+      "bytes": 68733,
+      "sha256": "ec3cbbbb6386eb6c68f9aa081c48b5d62209ada44fe167a002d4e3b112a1ea9f"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/ikd-Tree/ikd_Tree.h",
+      "bytes": 10279,
+      "sha256": "bb87cab944c6c59e0be61cb0b3a2cd0e334d93dc1bf768875058857278135a4b"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/ikd-Tree/README.md",
+      "bytes": 73,
+      "sha256": "a7f6feab008dc54a053963fb518e360389ee807af63ebddcc15e90b1ede78073"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/esekfom/esekfom.hpp",
+      "bytes": 68556,
+      "sha256": "b990411209fe06ae64112c8bc807b0c2a13922fc1460ec2745c6701cc9344e85"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/esekfom/util.hpp",
+      "bytes": 2363,
+      "sha256": "3c4265d25ea3f8c7f586d1e34bc352e981e09e30555e42011cd23a0a147d6918"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/build_manifold.hpp",
+      "bytes": 9436,
+      "sha256": "0e88522551d02e78dc995e6c9d7883d9ecca7190379ec047ab839fff7186ea0f"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/src/mtkmath.hpp",
+      "bytes": 10176,
+      "sha256": "f9627989cf578f35ec5594a6956b4e9283d4dd109b26e7d2621682c508546295"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/src/SubManifold.hpp",
+      "bytes": 4886,
+      "sha256": "96709f0f453a0c8776b1969064275ebf14dc5234b7024e68eb1cfc51a513864f"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/src/vectview.hpp",
+      "bytes": 6540,
+      "sha256": "7855408124ea65df4423bae5f97d5104af5552318796bc6324bdbf98a45101f3"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/startIdx.hpp",
+      "bytes": 12515,
+      "sha256": "79cdc368bb4e083f5fda7549094c0aba8b599aee1f88e9f2a8b7fa785bf1f757"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/S2.hpp",
+      "bytes": 9971,
+      "sha256": "f861be0bbb1a80d968189c90f9ef6b8e56b5f4bb19a9043a2e41c9397c215d56"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/SOn.hpp",
+      "bytes": 10624,
+      "sha256": "90a8384a05d656698e6826b892561dc6cd619b62a7e32f9e6e3a9253e5e0c8aa"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/vect.hpp",
+      "bytes": 14226,
+      "sha256": "771ecededd51dc694bdadb57f8a49fad7bc6091c6f6112142096954649ac405f"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/IKFoM_toolkit/mtk/types/wrapped_cv_mat.hpp",
+      "bytes": 3236,
+      "sha256": "3040f43fcb4195a2572a8819be012ebd2c4b59a38cfae86fcac3e01d7039a589"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/matplotlibcpp.h",
+      "bytes": 81837,
+      "sha256": "360d70cb9a7dd6cb981622871204c394b56f856ef42abd0e07a011a5e146f4d6"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/so3_math.h",
+      "bytes": 2936,
+      "sha256": "e02f73dc804c3f539a80fe49d4221a85dbfeaee4cf0b643d7af062b49148e9f7"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/include/use-ikfom.hpp",
+      "bytes": 4337,
+      "sha256": "1ee2c078ee757ff2dffedf48da764daec152baa79876a70785d010cc2e6165ab"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/launch/gdb_debug_example.launch",
+      "bytes": 962,
+      "sha256": "f635965b011c5f4872be2a1cc0fe711d0a999bc7d489bab4c401cbb41318103e"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/launch/mapping.launch.py",
+      "bytes": 2334,
+      "sha256": "60f12a49d9706074bd4a691e8d68d67ddf4cedcd720978a166940118e59518f4"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/LICENSE",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/msg/Pose6D.msg",
+      "bytes": 597,
+      "sha256": "91b5397207076295c2b20273552b80267e258a749ae1a932dc00f48cfc31334f"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/package.xml",
+      "bytes": 1144,
+      "sha256": "a5c9a445f5dd7e69e0ad3c181627ff881e10bfc0ec897830fc69848e4e5cb554"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/README.md",
+      "bytes": 10863,
+      "sha256": "81d183c08616cbf83d7bf935e73009de7383299c3087e8f0bebb7ff00a82d08d"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/src/IMU_Processing.hpp",
+      "bytes": 12672,
+      "sha256": "2b786c50c255a118fe95c9b017ef13af9e27a79b0624a718d4e192c3e5ca138d"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/src/laserMapping.cpp",
+      "bytes": 51910,
+      "sha256": "68e050d69b87cbc21d58359dc8a72bf0f870c0b6e4f1c72b757b2c7f7572f491"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/src/preprocess.cpp",
+      "bytes": 27476,
+      "sha256": "b95e50ff9b7ea976ada49b1f90a33c9c738c0d74481da6c4639e8d99f512260b"
+    },
+    {
+      "path": "reference/third_party/FAST_LIO_ROS2/src/preprocess.h",
+      "bytes": 5143,
+      "sha256": "a03d369d1104a7bf1a3c4fe7e73cfac30de568c0cb0ed5791aa09be21ee52dee"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/.gitignore",
+      "bytes": 37,
+      "sha256": "2da9e4085d66ed68d16a4d7d4c97ced71bf404f0cb1a4c7c028f44079b86351b"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/allocators.h",
+      "bytes": 10437,
+      "sha256": "49b554ebfc2369438fd9365b28f0453485d936437847de31a7bb770001abca55"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/cursorstreamwrapper.h",
+      "bytes": 2230,
+      "sha256": "de1a52b674c998a7581f9cb69c9310757f825595c3fef985d5d153f7ac1b6aaf"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/document.h",
+      "bytes": 117966,
+      "sha256": "6afae6a8825b03b4c6baa42a513e5a5242ac96b4c95968c07ee8bda8163eb3ff"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/encodedstream.h",
+      "bytes": 10634,
+      "sha256": "4bb5e4853943d5ead467e46b5313d95aa23645018cda93e7907a934a06cfbb26"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/encodings.h",
+      "bytes": 29827,
+      "sha256": "0201c664e471c615b5cd27d2e981cf8b21ac9c210bdf108062fb2fd9d493a501"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/error/en.h",
+      "bytes": 3739,
+      "sha256": "484dcd32c0b35b7a81561740fad970402c0ffcec44311381a2fb265cfe5e273c"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/error/error.h",
+      "bytes": 6472,
+      "sha256": "aa9b40b61754b227248b4b092331dbd5721ef6565d962e4c225c6c1e7974817e"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/filereadstream.h",
+      "bytes": 2961,
+      "sha256": "8c7d282eb32897969430f5a94178cab238433e25fa139ee74eda87eb1d42690a"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/filewritestream.h",
+      "bytes": 3073,
+      "sha256": "1db49a4cd9038f2670667e5900f346d231a0eece06ac1817f33feb63f33545b9"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/fwd.h",
+      "bytes": 4120,
+      "sha256": "2a0e024b8b6b87d1d3f50d1d0dd4656124c161fea88406265d097d613498854e"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/biginteger.h",
+      "bytes": 8296,
+      "sha256": "0be8375c2d39bc1f8f57b755a26569db9ed35c86d066b294911690513786afb3"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/clzll.h",
+      "bytes": 2035,
+      "sha256": "93d71c879a805a8c17cfd8913cf1add4d2f25407bbf668abe1dcca6e40ebc746"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/diyfp.h",
+      "bytes": 11387,
+      "sha256": "f2c45af9e73a451e5472e5dd10a7672085e9a3504d1f3ab864a5b9cc7445c1eb"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/dtoa.h",
+      "bytes": 7724,
+      "sha256": "965deca8d1382c30db9e0a1d51200a4934bfe032eda3dcde10d4bdb39817c05a"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/ieee754.h",
+      "bytes": 2990,
+      "sha256": "a1b4a88d5e0f633e99c7d68a34fdebc6289e6be0f0cfba452a7793166d7ea970"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/itoa.h",
+      "bytes": 9272,
+      "sha256": "45c96bab2327aee5ff999167fac8f768a3a9e1003142fa68e3aee50b54d93e12"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/meta.h",
+      "bytes": 6731,
+      "sha256": "a20dad578c7d714ff04029f04719df19be5835c30bf9c7028d226e67d065bf0b"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/pow10.h",
+      "bytes": 3957,
+      "sha256": "7a7693969c936ddb6d036467a0f6b53def076922bb838d250eb40f12b2e2ce0e"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/regex.h",
+      "bytes": 23238,
+      "sha256": "624cf078b8179a198374eebe94331aa2d8b70b08997f4e270ccfaccc90fd09b2"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/stack.h",
+      "bytes": 6805,
+      "sha256": "46c4f98ff2acce64d1280458dd1224aaee9a9035eebd3462cdf31ee25a13702e"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/strfunc.h",
+      "bytes": 2184,
+      "sha256": "e083b68f7bf3570653fce1e3ea0a573a75745a096dd80194e1a2fde4d7695bb8"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/strtod.h",
+      "bytes": 8656,
+      "sha256": "2134c15ad40b9584ecb8e1a7f6163277a6d783574b3fb08574f88ab769b91751"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/internal/swap.h",
+      "bytes": 1421,
+      "sha256": "48ecb57c3b2ca955ad3cccdfff03835be495a56c9c5da07ab9c02f488b7d7fe1"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/istreamwrapper.h",
+      "bytes": 4112,
+      "sha256": "b3c03a5826b8d8c9dfcef64eb09d8ec4a955e0c6edd38d9c3a127dbca53ec2dc"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/license.txt",
+      "bytes": 5152,
+      "sha256": "a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/memorybuffer.h",
+      "bytes": 2573,
+      "sha256": "cf661606aa41bee3466cee20174bc7454210e8aabac929b1d8e9e189fef601ab"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/memorystream.h",
+      "bytes": 2673,
+      "sha256": "8dd07eb66381de95a69c9cadce537d76c0349f913cfe183ab6243c54863c4dcf"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/msinttypes/inttypes.h",
+      "bytes": 7824,
+      "sha256": "92f53d3ba0cdebaeb20a52893f89d0c29aae5111a3a8bb555eabdd8c96e3244f"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/msinttypes/stdint.h",
+      "bytes": 9151,
+      "sha256": "515ff5e244372892293c20bbfe6a5b3dcca7265442941df31dcebdfbe2a828fe"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/ostreamwrapper.h",
+      "bytes": 2342,
+      "sha256": "366d953184777b0de0a102ef38cf56f9fc766422246f16be9af2dad8ad787054"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/pointer.h",
+      "bytes": 60230,
+      "sha256": "d74ab63c76a99a5a92418d2420cc733c22767b6d9e9a6f989689940de4f7c478"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/prettywriter.h",
+      "bytes": 10253,
+      "sha256": "e8495e521c5d726c7e2ff59b1f7eb6f08a1e0298055d1fbbc4f29f08d736360d"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/rapidjson.h",
+      "bytes": 24293,
+      "sha256": "22ffbcb054cecc5180bdb72478ab32598c9aa40421322f17923809acdcf99629"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/reader.h",
+      "bytes": 89290,
+      "sha256": "291f6d315a3617c9bd83d8b2836f9dc1e45a2a9770dcb0745f9eaaa603b715a6"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/schema.h",
+      "bytes": 101259,
+      "sha256": "473b44fcb9f88d2fa7439e1c9f86899deae44205323a7ba7709e6b4b513f01fa"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/stream.h",
+      "bytes": 6694,
+      "sha256": "58e37336dafded31177eb2381f0d553de8a5fd33c8580873de32b0e467d85677"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/stringbuffer.h",
+      "bytes": 3984,
+      "sha256": "8434f52ca786bf876b3d3d693ce8e2d399325ddf891e0437becd41ed590806e9"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/3rdparty/rapidjson/writer.h",
+      "bytes": 26178,
+      "sha256": "b42eca28a42d7b3806aaf691ee921accabcf911be6728c35fa04e14162a72bdf"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/build.sh",
+      "bytes": 1638,
+      "sha256": "bb19f5ee4f25f2d63ce278cd785be451a7bef456a1b1721004acf590f95ca801"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/CHANGELOG.md",
+      "bytes": 1623,
+      "sha256": "2f0073345de013886e27cbbd6aaace3eaca2badba8d1dbc5da364b67a9bd7f3b"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/cmake/version.cmake",
+      "bytes": 990,
+      "sha256": "698b065d680a20695f2163ca5bbe601792b24069357919bee3136768d75f8f7f"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/CMakeLists.txt",
+      "bytes": 10968,
+      "sha256": "9c9f681c973ccf1f50a0d1b1e9e1dbf2b076ac88d17e636c1c0a6882ab02440a"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/config/display_point_cloud_ROS1.rviz",
+      "bytes": 5650,
+      "sha256": "89d934b783d9f0386dbaef7cbbf0ea3f4ee0c87c57b313178d822cec93320caf"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/config/display_point_cloud_ROS2.rviz",
+      "bytes": 4834,
+      "sha256": "ae7cea85c28bcb532f3504994aa287ad14100048cd53b30821b73df0a1f94e61"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/config/HAP_config.json",
+      "bytes": 863,
+      "sha256": "956414d48bf17af2427e2b8f3dbbeff92345f93fe81e97422f22117ea0ef3f35"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/config/MID360_config.json",
+      "bytes": 885,
+      "sha256": "79de5b85fd0237a6fb1e7ad9b2549a8597ef3c1bc4c75c2b9b2146ed02c80ef1"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/config/MID360s_config.json",
+      "bytes": 794,
+      "sha256": "874b4c619dfe7ed7172631df462c0ac433eb9b5e667ef9595567f9261e77bcae"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/config/mixed_HAP_MID360_config.json",
+      "bytes": 1665,
+      "sha256": "99895013db7bfc1d58fef1abb2d25461624ab468bce5f5c4381172f3b7d235cf"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch/msg_HAP_launch.py",
+      "bytes": 1968,
+      "sha256": "bb58699d0b6d344f579f5b2991db54561621ddb395e6ade8c94425c563cd9ef6"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch/msg_MID360_launch.py",
+      "bytes": 1902,
+      "sha256": "11b0618d2a9a0def7f6e1a6831646d261674014344496fa1497fea67d6c0e826"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch/msg_MID360s_launch.py",
+      "bytes": 1903,
+      "sha256": "29d48e9e2dd2b21352e4ecff9c0a7db2a18994fe688dc68f361b3b70b33ee05a"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch/rviz_HAP_launch.py",
+      "bytes": 2186,
+      "sha256": "da07dc3d0402cccffe3e068108066fede37ed71ef47c191541158665d67b478f"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch/rviz_MID360_launch.py",
+      "bytes": 2189,
+      "sha256": "8331565b4c8fe1a80ec77d518b4bb2fcbe40ea8bf60a20de691d9c61417b678e"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch/rviz_MID360s_launch.py",
+      "bytes": 2190,
+      "sha256": "5660e8982e12c003bac4880b6804b27a611e2c6fda999ebc454e173282e9614b"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch/rviz_mixed.py",
+      "bytes": 2199,
+      "sha256": "decc75ab24173f20455c849c0cbe6cb3931d33d4901f39b52c105d381405b8d0"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS1/msg_HAP.launch",
+      "bytes": 1743,
+      "sha256": "2bb9adeab763da7a414fe756fa0569e41ab4795722817ad950a39450f97813ef"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS1/msg_MID360.launch",
+      "bytes": 1744,
+      "sha256": "b4a86ae5e58d354e454140fe6e3b0032193826f764ed8da9f6d1519ba99f60dd"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS1/msg_MID360s.launch",
+      "bytes": 1745,
+      "sha256": "623d0aac93ff6bb54688fb132f441248b33d7331376df30ebb77e736023da850"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS1/msg_mixed.launch",
+      "bytes": 1754,
+      "sha256": "77c8f7eed8d2702211f52db053f792f2b5906123e8ab647a913313bb015c6ab8"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS1/rviz_HAP.launch",
+      "bytes": 1930,
+      "sha256": "be4b09a282eb005128933ec802d0658d273ebe5b91dc65d0413a78c603ee3f78"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS1/rviz_MID360.launch",
+      "bytes": 1933,
+      "sha256": "03a622737d58ac346261ad5bf87df109d3c339184c1baeee11ba8371396f6578"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS1/rviz_MID360s.launch",
+      "bytes": 1934,
+      "sha256": "0786538975f8cb314680f747d3ddacd4d093093e944d94b1d9f10a67bccb2b95"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS1/rviz_mixed.launch",
+      "bytes": 1943,
+      "sha256": "bb9830540646897bb52e4abd76947232a751b27f0f9ec7c4fedc953bb4fbcb79"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py",
+      "bytes": 1968,
+      "sha256": "bb58699d0b6d344f579f5b2991db54561621ddb395e6ade8c94425c563cd9ef6"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py",
+      "bytes": 1902,
+      "sha256": "11b0618d2a9a0def7f6e1a6831646d261674014344496fa1497fea67d6c0e826"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py",
+      "bytes": 1903,
+      "sha256": "29d48e9e2dd2b21352e4ecff9c0a7db2a18994fe688dc68f361b3b70b33ee05a"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py",
+      "bytes": 2186,
+      "sha256": "da07dc3d0402cccffe3e068108066fede37ed71ef47c191541158665d67b478f"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py",
+      "bytes": 2189,
+      "sha256": "8331565b4c8fe1a80ec77d518b4bb2fcbe40ea8bf60a20de691d9c61417b678e"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py",
+      "bytes": 2190,
+      "sha256": "5660e8982e12c003bac4880b6804b27a611e2c6fda999ebc454e173282e9614b"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/launch_ROS2/rviz_mixed.py",
+      "bytes": 2199,
+      "sha256": "decc75ab24173f20455c849c0cbe6cb3931d33d4901f39b52c105d381405b8d0"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/LICENSE.txt",
+      "bytes": 19928,
+      "sha256": "5d965fd1439196751d5ccad8064a51dafdb2d88548174bb5516d393c7a4c0717"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/msg/CustomMsg.msg",
+      "bytes": 341,
+      "sha256": "f42d6709db951b1fa307e929e742c0593cbf0d1b0ff977d2ed63ad8d7cee0a96"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/msg/CustomPoint.msg",
+      "bytes": 353,
+      "sha256": "b64b31a8edc8c8b3765d82b5d3ccd2d2e1f217b9525ef7007ab918674c619c59"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/package.xml",
+      "bytes": 1123,
+      "sha256": "084b1db3a68ef3cf979da0c8ce6a8bf9566dc586ebfdd51d0dbe012f43c3d2dd"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/package_ROS1.xml",
+      "bytes": 3395,
+      "sha256": "2e3eb6932e9fe365d31aa69926aa6cae76464f4176008cf33de26f0fbee29c27"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/package_ROS2.xml",
+      "bytes": 1123,
+      "sha256": "084b1db3a68ef3cf979da0c8ce6a8bf9566dc586ebfdd51d0dbe012f43c3d2dd"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/README.md",
+      "bytes": 19951,
+      "sha256": "281d4149b6bdfb8dfb93a99c11607a5fb24986d774d06881fd80734b4b2c476c"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/call_back/lidar_common_callback.cpp",
+      "bytes": 2276,
+      "sha256": "8f37b7dda4236edbcb4a87cfa6a016e4105ca1e0b8e0e99f2446953636412196"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/call_back/lidar_common_callback.h",
+      "bytes": 1575,
+      "sha256": "e0fd66f13ad20b0426b9b5384abee61c8b2b85ace2e9904c470da9fd7c0cc366"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp",
+      "bytes": 15386,
+      "sha256": "4ea8189ca228f5f5730b07006f7472b46b28bfd942795b865455117c89b980c0"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/call_back/livox_lidar_callback.h",
+      "bytes": 3238,
+      "sha256": "8b491e57ee77c0b020458338f5bf9a5b8776c0d875c96654531e622e92159c45"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/cache_index.cpp",
+      "bytes": 3858,
+      "sha256": "dca25f47674f530249e94c0ac8ac368d122910ca66336bd1bee65a06d2f01667"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/cache_index.h",
+      "bytes": 2055,
+      "sha256": "65c635bd6903564bc1e0547113a6aff52e592c16295ed23264b5726317327c01"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/comm.cpp",
+      "bytes": 2209,
+      "sha256": "73e6b7469337528ffb60b0f670bedc3c01dfcd7d8a048e72e8f04bd5d839f126"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/comm.h",
+      "bytes": 8580,
+      "sha256": "72c639ba1d6eaf7c355050672c865c7615cea3619abee628683d98920fb31fa4"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/ldq.cpp",
+      "bytes": 4682,
+      "sha256": "b5a11f2b4b658e4fc2c53dc261a7401e09516a6276e9b1a9c7568a4ee6d86a3f"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/ldq.h",
+      "bytes": 2330,
+      "sha256": "01ccf8d13f84475cb126dea1f15546a59ce9398968360e6484da5832729aa077"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp",
+      "bytes": 2248,
+      "sha256": "7f9ecbdad433653233b2701dbd06dd4f7f523d0e972cc5cb4bf0aca2ed7494b5"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/lidar_imu_data_queue.h",
+      "bytes": 2632,
+      "sha256": "cc8ae6d425cf6fb173b59072e5310f7b984e776a9d8277c8e9e0ef9d9dc58998"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/pub_handler.cpp",
+      "bytes": 16204,
+      "sha256": "b98444be352bf6ed7b59ff7393bd488ddfc9825fb0357f67f0e6b49a48cbe9ae"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/pub_handler.h",
+      "bytes": 4436,
+      "sha256": "dbf0633c2117026936b72bdb825a62cb8dfb831b845a05e985cf12c51cd30e07"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/semaphore.cpp",
+      "bytes": 1470,
+      "sha256": "7ea77d2b2b9f5aca1aa1c4f239d427398699b504a25b5bcd1667545650a0c587"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/comm/semaphore.h",
+      "bytes": 1623,
+      "sha256": "a07dedf139d6a1f85d572b23f4a69b1f0574577366b2ecd759f06da4995eadcb"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/driver_node.cpp",
+      "bytes": 1485,
+      "sha256": "2367146dbf888b8eb6ac661792c3858ae7c2f8bb3136888fbbaee7593f1c1a1c"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/driver_node.h",
+      "bytes": 2482,
+      "sha256": "503851a1fe806c633377f891479b8b434e89a0ac4070db80d9e3b8fc36070a6a"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/include/livox_ros_driver2.h",
+      "bytes": 1734,
+      "sha256": "4b1c99eb8ccc2c24dfc30e7c842a74cb8797e0caf2ef4065a103ca98856ed98d"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/include/ros1_headers.h",
+      "bytes": 2216,
+      "sha256": "25d868b0c4e1972ad61619b26e47c5538d282b520143f6c03300b0adeab8fb0b"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/include/ros2_headers.h",
+      "bytes": 2478,
+      "sha256": "16aa2833be3b35acb0bbb9c71e78e261f65d7251740565571ae24d2c43b579d1"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/include/ros_headers.h",
+      "bytes": 1341,
+      "sha256": "67c52fefe87f71fb83d99774ba8569fff0de7c698a6917c31de2f4ccff3c78eb"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/lddc.cpp",
+      "bytes": 22762,
+      "sha256": "37dcc252a743fafe14c7ee5341d8827f1a5298ec910502b201bd0feb3476c71e"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/lddc.h",
+      "bytes": 5868,
+      "sha256": "31a78f172caf82f3b2938c9e2c296cd582da228d0043c17849f7a9b20788d4ea"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/lds.cpp",
+      "bytes": 5950,
+      "sha256": "a53c0f737a61282c523a00bbdc5a76bfbb7ed5616fc5bbb4265bc64ca0853efe"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/lds.h",
+      "bytes": 2689,
+      "sha256": "090334fb09e5b9a946042af06abe46d0f5a098b9978527b42ac1d0b7ce022b63"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/lds_lidar.cpp",
+      "bytes": 6520,
+      "sha256": "637cac3ab27239717bb434ac35210551a98d17b08153e7205eb733da84a1153d"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/lds_lidar.h",
+      "bytes": 2705,
+      "sha256": "2a36a2f0c890ce7a4692a8e546a8dca5b1c8815766788f1ad95dc89a3d943822"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/lds_lvx.cpp",
+      "bytes": 2615,
+      "sha256": "adb055a237752a41fa7cc628aa36eb676f448a9c7a329138da9d8429f9a3aafd"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/lds_lvx.h",
+      "bytes": 2079,
+      "sha256": "2e7d3db2075463afab02c623ef5ca457cafe83ea9acb5e9bfe1f29f5f854fc0c"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/livox_ros_driver2.cpp",
+      "bytes": 7899,
+      "sha256": "5be8fe1854e345660e78cf4f1c600eb87bb34ead54ef50b16033fba0cecdd621"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp",
+      "bytes": 2381,
+      "sha256": "f893a7397f05e81826d6097233ae6a90d3428f921ceb04d9f957427f4bcf7e5e"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.h",
+      "bytes": 1721,
+      "sha256": "c0512f0ddb732861ec152e93d7d6477dd620865b4a92c385379d013286506998"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp",
+      "bytes": 5293,
+      "sha256": "ce7cc5df5f7e09768a2d256f0d1cae30ae9c6214d821be95036311cef08912ed"
+    },
+    {
+      "path": "reference/third_party/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.h",
+      "bytes": 2018,
+      "sha256": "1d5b9f606deedb7c78e1a6d0c3c10d62a886fcc2aac1ac42e1a4a1ae6a9b6d49"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/CMakeLists.txt",
+      "bytes": 3189,
+      "sha256": "cc309424fc72f65d1ef79badf8a65288c20993b05f6d14298b062899ae46070d"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/include/nav2_controller/controller_server.hpp",
+      "bytes": 9867,
+      "sha256": "b607b9d512a830046b26130e240655098bac6c17ec6a5596d4f604a172237e09"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/pose_progress_checker.hpp",
+      "bytes": 2274,
+      "sha256": "ec24870cf603e02e4cd2fbc7e4422fecb3d0def1335610cef21083abcc5c43e7"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/position_goal_checker.hpp",
+      "bytes": 2448,
+      "sha256": "252d7d9c02fbab781ba7c726d9649e49906e6ed87b93afd10f10a806646867e4"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/simple_goal_checker.hpp",
+      "bytes": 3659,
+      "sha256": "b38bcdb1bfe560ffe6ec057c2f2fbd37edfd07c071a2bcf9b04295d60f409512"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/simple_progress_checker.hpp",
+      "bytes": 2723,
+      "sha256": "7a3e73329949c4e2a94cf7c3faf62f3abfcddf2d3bd85fd3b1730d344bf117e0"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/include/nav2_controller/plugins/stopped_goal_checker.hpp",
+      "bytes": 3302,
+      "sha256": "bace7c79cca6e86f3ce429932e50793d7d4c972703f4b6234efbd8395664f529"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/package.xml",
+      "bytes": 1082,
+      "sha256": "79a576e2b2faf6a368ed7b4e8c5e209f72bd2233f53afc5c2feb27c1e3634e8e"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/plugins/pose_progress_checker.cpp",
+      "bytes": 3347,
+      "sha256": "558c2efe99ed189d7a626724e504a82f55c42137e9d3663b3673b0247967be07"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/plugins/position_goal_checker.cpp",
+      "bytes": 4603,
+      "sha256": "d5dd75061706cbbdc4a92779af536a44af19656fc0e72bdfe385cea099ea7a43"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/plugins/simple_goal_checker.cpp",
+      "bytes": 5930,
+      "sha256": "a65943f72061fc3c27067a7e6a6cf514fe5065d526a55ccac890a9c3a2e61613"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/plugins/simple_progress_checker.cpp",
+      "bytes": 4065,
+      "sha256": "098fff9e37a524d0f01a991ec14715aaab67358e9f30505da24b25093ed6a9eb"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/plugins/stopped_goal_checker.cpp",
+      "bytes": 4979,
+      "sha256": "5434867d22595162fc5e2831b1758867976f1b85a058fb2d6b5ccf76fdd5772f"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/plugins/test/CMakeLists.txt",
+      "bytes": 233,
+      "sha256": "5d20c477faa3b199bbbb4fa4af97b79e01286492a338b921d7ec9e8d1e0ca86a"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/plugins/test/goal_checker.cpp",
+      "bytes": 8153,
+      "sha256": "948d3087d25978b4cdf8020b9846b9a34aabfc78dfe36fa68b9f7149b4d27171"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/plugins/test/progress_checker.cpp",
+      "bytes": 9105,
+      "sha256": "54064391435cffd48e933c7d6b26ce3d195f97b5f20b35bdbcdebb5e3044f74d"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/plugins.xml",
+      "bytes": 1367,
+      "sha256": "b4bc70cb8cf704c49d883423e6039625e9c46d45c99dfbf7a14e2b606048a058"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/README.md",
+      "bytes": 1150,
+      "sha256": "344c0f84196c0cd03b5ec01f189765a1154d28dc2b79cb879340d06e989c14b2"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/src/controller_server.cpp",
+      "bytes": 23491,
+      "sha256": "128c3a90ea115980c8b819be0346508b4855de9e92116a393b5fe644803d812d"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/src/main.cpp",
+      "bytes": 915,
+      "sha256": "cdec7e6f5e7bdbe95eadac16371c9aaa74d78855b67812ebae9b4525e32ed3ea"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/test/CMakeLists.txt",
+      "bytes": 234,
+      "sha256": "4e286f0ab7b8121a398f8fd8bf916b1c1faffc95ee9521be7483e8d590188ed0"
+    },
+    {
+      "path": "reference/third_party/nav2_controller/test/test_dynamic_parameters.cpp",
+      "bytes": 3005,
+      "sha256": "8454207f7cf73210d0ae348b774738dc47583aab3a089a416ea75b4c40ee40d5"
+    },
+    {
+      "path": "reference/third_party/nav2_planner/CHANGELOG.rst",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/third_party/nav2_planner/CMakeLists.txt",
+      "bytes": 1984,
+      "sha256": "c35de36a975fd1ebf6c01cf1b7fed1a4fa9e5cb03b95b7c61f17db314f725605"
+    },
+    {
+      "path": "reference/third_party/nav2_planner/include/nav2_planner/planner_server.hpp",
+      "bytes": 9210,
+      "sha256": "19df53e907e6ddfe4da47bc3de5b9ead105fb488c68e5cb6153d9809ef7f73f5"
+    },
+    {
+      "path": "reference/third_party/nav2_planner/package.xml",
+      "bytes": 1023,
+      "sha256": "de252b52b2197ee0cc9c57745cf852660303ec8739d725f1d056a9fbec982076"
+    },
+    {
+      "path": "reference/third_party/nav2_planner/README.md",
+      "bytes": 840,
+      "sha256": "fd2e5cae817b7e6e288fab3a61d4d86006d4a14d488143525580a64617e579a8"
+    },
+    {
+      "path": "reference/third_party/nav2_planner/src/main.cpp",
+      "bytes": 950,
+      "sha256": "da075fd196cd1c73504f016225a608500d5f8c66f41984d891cb9c8c48ac87d6"
+    },
+    {
+      "path": "reference/third_party/nav2_planner/src/planner_server.cpp",
+      "bytes": 20720,
+      "sha256": "84b6616bf155088f613093192132dff7e489e46be30fa30cf412fbb0f9abd5b0"
+    },
+    {
+      "path": "reference/third_party/nav2_planner/test/CMakeLists.txt",
+      "bytes": 234,
+      "sha256": "4e286f0ab7b8121a398f8fd8bf916b1c1faffc95ee9521be7483e8d590188ed0"
+    },
+    {
+      "path": "reference/third_party/nav2_planner/test/test_dynamic_parameters.cpp",
+      "bytes": 2705,
+      "sha256": "f4b31c5fb9ba9f38b9291b03253780dd8000a923f9f05388535b9e4b4ed27bd1"
+    },
+    {
+      "path": "reference/training/build_dataset.py",
+      "bytes": 2730,
+      "sha256": "3ff31a38aeab3eb0fed4737277ea18874ee08441697379fd301d8f7886cdc987"
+    },
+    {
+      "path": "reference/training/environment.freeze.txt",
+      "bytes": 1822,
+      "sha256": "3279909b94bfc4193d803c3aea38d5ed3c3f21fc4c582ff54583ca6d3c7fac8d"
+    },
+    {
+      "path": "reference/training/launch.py",
+      "bytes": 764,
+      "sha256": "3f5a4075eb377667a2dddb8e1e1efdc18fcdc3b14721c2ad2e2a9f0d51ddfc11"
+    },
+    {
+      "path": "reference/training/manual_overrides.json",
+      "bytes": 1877,
+      "sha256": "1feccb6aeb99d17a0f2fb8d61be4156f52184488cd28a34a01a8ee3ad6c46929"
+    },
+    {
+      "path": "reference/training/prepare_annotations.py",
+      "bytes": 3574,
+      "sha256": "e3c4ea2740337b22a66348c92eeecac0da36bb1b0db7818ed0438e15ec74ec00"
+    },
+    {
+      "path": "reference/training/train.py",
+      "bytes": 4536,
+      "sha256": "20ce8a1f02c2abbe99af1b1e027529e36f59d8c2a1d140451f0676ab834b6282"
+    },
+    {
+      "path": "reference/training/training_config.json",
+      "bytes": 1328,
+      "sha256": "bc61bc3eb9ff9f97d634fdd0d60dbe3d5578129d4daa8d588f12a430219d5daf"
+    },
+    {
+      "path": "reference/vision_scripts/check_export.py",
+      "bytes": 1987,
+      "sha256": "71c57e3dd7b1b6112ca341882c60248dd38bc3aa5fa07b9b21b425bfa98566f6"
+    },
+    {
+      "path": "reference/vision_scripts/dog_custom_yolo.py",
+      "bytes": 13337,
+      "sha256": "5226118b02c54c9f52059531d7798f87c8954441b7f981f6e71daaf7d77b5bcc"
+    },
+    {
+      "path": "reference/vision_scripts/dog_vision_control.py",
+      "bytes": 2458,
+      "sha256": "e3c7788c154509d9076d8b6ddefd76a70816d93957bfee3c367dcd062eb57819"
+    },
+    {
+      "path": "reference/vision_scripts/dog_yolo_core.py",
+      "bytes": 2772,
+      "sha256": "7709ae40a661d520079841d0d5f17607a6a69949078b53bfccdf5e513b0846db"
+    },
+    {
+      "path": "reference/vision_scripts/start_camera.sh",
+      "bytes": 345,
+      "sha256": "b9619eed1df81cd65d6bdd4894e1c85207a5de729304bfcd25cfaa0799dd47a2"
+    },
+    {
+      "path": "reference/vision_scripts/start_viewer.sh",
+      "bytes": 270,
+      "sha256": "435a33c6f14cc6dec6637cab1eb318de5c9865b300955b5dd8062870f5ea6882"
+    },
+    {
+      "path": "reference/vision_scripts/verify_ros.py",
+      "bytes": 2525,
+      "sha256": "8a8a65422151b8a3b3357b5240b405d1584fcd9cb944bcb7a000c840c0115ccf"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/dm_imu/__init__.py",
+      "bytes": 78,
+      "sha256": "85adab604e606c2991bc89c753e3edbf770b2483f4843d85a8df4e73b9c24264"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/dm_imu/node.py",
+      "bytes": 6963,
+      "sha256": "7c386b5f6a74f1940609cace20b187dfdcaad020d10dc5568193006fe3ff1fcb"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/dm_imu/probe.py",
+      "bytes": 3784,
+      "sha256": "f60338acacc4728edcb6859927785de4435d788188600d9a15542a35fc082308"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/dm_imu/protocol.py",
+      "bytes": 7182,
+      "sha256": "cf30f8633806a0894160011965b3fcf5a0ccf5499ace0b4baff99b6f1a3296b4"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/LICENSE",
+      "bytes": 1175,
+      "sha256": "f450a1e7008e728cf0d673b4c5267ffd1f152b5ec6f70d09cad0841a85582799"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/package.xml",
+      "bytes": 577,
+      "sha256": "f60e4de327cdb19ecdea3d869c157d1939462622ade742045565567a5d666dd0"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/README.md",
+      "bytes": 6607,
+      "sha256": "65e37c8f52cf2a0578097f44969d33f5b9d6f2d51e45e6b81153483629e3139c"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/resource/dm_imu",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/setup.cfg",
+      "bytes": 82,
+      "sha256": "ad9221e487120da77bdf7c7fa6e94bb3f5e0cc9d333e738ac8c313bdea02eb11"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/setup.py",
+      "bytes": 640,
+      "sha256": "db792407ce534fc5a942732680a5e23fc5edaa57267ce07f3c4b664cbdbdb432"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/test/test_imu_protocol.py",
+      "bytes": 5446,
+      "sha256": "037829413dd551e9e344a99a27567d34589b2f200366165127fddd391e30b40a"
+    },
+    {
+      "path": "ros2_ws/src/dm_imu/test/test_legacy_crc.py",
+      "bytes": 1196,
+      "sha256": "f8e148801d4871c9adf6c05e008eed544d175950830731a791582a1150a78fda"
+    },
+    {
+      "path": "ros2_ws/src/dog_bringup/dog_bringup/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ros2_ws/src/dog_bringup/dog_bringup/configuration.py",
+      "bytes": 3465,
+      "sha256": "0aaaaa2f3df0647bf6a49ec9b25ead0615da4795b1a510fc18274df1e967974d"
+    },
+    {
+      "path": "ros2_ws/src/dog_bringup/dog_bringup/preflight.py",
+      "bytes": 3175,
+      "sha256": "b5c094256c1094e67e63c2ee12a8c001e905c71244ad9cdde26988c11482c90b"
+    },
+    {
+      "path": "ros2_ws/src/dog_bringup/dog_bringup/status.py",
+      "bytes": 2022,
+      "sha256": "6a6ac11cd34532a0bef4eea34304b678b38a34b1dfe9658784c19cfb5ae0117f"
+    },
+    {
+      "path": "ros2_ws/src/dog_bringup/launch/dog_system.launch.py",
+      "bytes": 5673,
+      "sha256": "a03b9dc7bcdf9a04a1a3f557c2392a2a289344821528e2d84a0d10c8ae4d5e25"
+    },
+    {
+      "path": "ros2_ws/src/dog_bringup/package.xml",
+      "bytes": 757,
+      "sha256": "b5a5c28f26d5e25882f02a8477a4e45e97393a827c6490ef61b7c6b0ae47e090"
+    },
+    {
+      "path": "ros2_ws/src/dog_bringup/resource/dog_bringup",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ros2_ws/src/dog_bringup/setup.cfg",
+      "bytes": 91,
+      "sha256": "92f3932c1c0d37c0e455f264e32e860967ef7437325a8b5589b430d57445cc66"
+    },
+    {
+      "path": "ros2_ws/src/dog_bringup/setup.py",
+      "bytes": 483,
+      "sha256": "fb321f690ecc60f21eafcd17ea72c91a22928760d7dfc337bde5f107c8f969d5"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/CMakeLists.txt",
+      "bytes": 203,
+      "sha256": "a63861ddac3f26ef95920668177192c3561ed688f577a89559f304319bc10695"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/config/dog_display.rviz",
+      "bytes": 435,
+      "sha256": "b442d6ab4f735cd72a5fee439b33606b88f67b17352a8f2f27edde4cb92806af"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/config/joint_names_dog.yaml",
+      "bytes": 128,
+      "sha256": "285294df1572d10503c59f179bb1527f22e369b53b6a7d7647ce6cf3b6d7d1d1"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/dog_description_fix_AGENTS.md",
+      "bytes": 4400,
+      "sha256": "6dc11a758248c3c74c2b11fd29f3865ba698353e7f52d38d3b5320570d46aa43"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/export.log",
+      "bytes": 331781,
+      "sha256": "8f8c85d3dc5ffdff8cbea936c76435821d60707cfcd714c0eaf12238e0320748"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/launch/display.launch.py",
+      "bytes": 1038,
+      "sha256": "d4bbe2697efa396dda21f74f8333676fa326b69b3d7c4109500feea5b530bc2c"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/base_link.STL",
+      "bytes": 38288384,
+      "sha256": "7ef8ec83bde24f210007ec55ed07705f8780cbb962a735326960649b0b3ca1b2"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_bl_1.STL",
+      "bytes": 7884184,
+      "sha256": "73bb3014fe229526149ff2bbb599d00325482bba5f632704e6b0d45a3407f10a"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_bl_2.STL",
+      "bytes": 8025084,
+      "sha256": "397f45ead86e04ff0f0611c263c26f23dc15493147db6a426d9b4dc273069d29"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_bl_3.STL",
+      "bytes": 457584,
+      "sha256": "b148232f76460b053a412496f48685e61f09edc159aebc02647f95a92dea62d1"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_br_1.STL",
+      "bytes": 7884184,
+      "sha256": "599b226162bea6bdea1161ef2b1b41c24d4e69afaa5fb9c17a8b6ece79e8517c"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_br_2.STL",
+      "bytes": 8025084,
+      "sha256": "812b72a1169ee5fc9d11dfa37931c75965ddb08969591afb6862bc6f8a1c211e"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_br_3.STL",
+      "bytes": 457584,
+      "sha256": "a1249260c25361132d596ff1af88f4a648a520c1ce748fa04992fee65db4dcf5"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_fl_1.STL",
+      "bytes": 7884184,
+      "sha256": "9e305ea4abd88d94adbaaa6f94e410b03655fa39803a8ffe5798ace9d8232ccb"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_fl_2.STL",
+      "bytes": 8068684,
+      "sha256": "b3e776b9086aff6c221b84cc46c84599885ed37109bc370ceeaf36823c957cb7"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_fl_3.STL",
+      "bytes": 485184,
+      "sha256": "1085d2ee85d0f65527e3cb4190f90c121117f5efb7c0ef81a1bb375e7589e166"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_fr_1.STL",
+      "bytes": 7884184,
+      "sha256": "2bd77af7c934f9e84379eaae9a62997b1bfdfff9475b8406d4be520129fce289"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_fr_2.STL",
+      "bytes": 8025084,
+      "sha256": "f86767ef61bdc67bc2a612c447930acc80c9040c3b520f33dfe65c1d5909c864"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/meshes/Link_fr_3.STL",
+      "bytes": 457584,
+      "sha256": "b7b0c22950a3aba996ed0a348941fc5891070543064636b702a582d7862dc1a3"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/package.xml",
+      "bytes": 519,
+      "sha256": "e9d7bb8aa2072ba645d9e46856a64e0d6c5c6253be7f8630b2a508f844e63c7e"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/urdf/dog.csv",
+      "bytes": 7962,
+      "sha256": "fa427376d8db8e4c6205d53d189c77bc19e189664872549f54d848a01800d560"
+    },
+    {
+      "path": "ros2_ws/src/dog_description/urdf/dog.urdf",
+      "bytes": 17043,
+      "sha256": "cbc1239b3d350e6937a366fb32054bfd9de572d5ae1b79dbe27290fd9e6626cf"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/__init__.py",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/controller.py",
+      "bytes": 13202,
+      "sha256": "d8b4aba219a1730a14573a8389303e1e60003c590396625e0a2c805a07e00176"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/heading.py",
+      "bytes": 9535,
+      "sha256": "b521eaeef360303867dc3197e7beb62775cf02246a752684b09b4a5c7a2e5715"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/imu_controller.py",
+      "bytes": 8280,
+      "sha256": "c6f07d2d18c4dcbedf049cbb4858dcc77314008ca3a9111981506c7a2261bf75"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/node.py",
+      "bytes": 14636,
+      "sha256": "50ba27aca7366d34b847a9b7f840de8de0b17009f408b2d7e62a996c6615d4ac"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/replay_heading.py",
+      "bytes": 4958,
+      "sha256": "7596e3b63143d5a065574eac651611e1e75e379f0bbc36dbbd532ac8c88aecf1"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/sequence.py",
+      "bytes": 2201,
+      "sha256": "6054edeb867f559d142071f12302a1962b5ac1ecb6b1b9c1385ce6f4d6e8782f"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/teleop.py",
+      "bytes": 10517,
+      "sha256": "2925277af87cbfb507ff33fbea002ea31b6dc1572d9529cbece118f62ff7408e"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/web/app.js",
+      "bytes": 5881,
+      "sha256": "fa1e07e4a3314c7c868ce7a51dbcd5ec776a98e1c463e57fe970788a4d59d77a"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/web/index.html",
+      "bytes": 3736,
+      "sha256": "21ff11c125b953b0737e1c61d1e0557a7b63d54e0eaa5643637abc2d0e2eed3b"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/web/style.css",
+      "bytes": 6523,
+      "sha256": "e78a1464e24e24e4144f8e8f2e338f0cad085ed60d8b4a77f8a1a303d2052e16"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/web_server.py",
+      "bytes": 10604,
+      "sha256": "f53217d3ecd7e0e7cfc6037ca9a6fc9d67a201257ac2ccdfc70e34a62cf6faff"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/launch/ik_walk.launch.py",
+      "bytes": 748,
+      "sha256": "dda40c64b8eb613319201e35a8124771c079958dca06cf5c83fa21d319042cd7"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/launch/ik_walk_imu.launch.py",
+      "bytes": 1125,
+      "sha256": "8270137e7843c19600efc733e5a0d7df2e9c336be55e1f10bfea016d74ecb52b"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/package.xml",
+      "bytes": 629,
+      "sha256": "786e18e5ed60c5fcaa4edd144bc525724e25494e8ba06aed5d3ae82633c21055"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/README.md",
+      "bytes": 6273,
+      "sha256": "a59b99154989de376699b84dfea1c47d0ab8aa7925911586581daa4d13c9be7b"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/resource/dog_ik_walk",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/setup.cfg",
+      "bytes": 95,
+      "sha256": "a517a88e4a860e081b805392d9930978e9c71e208b0b22afc8b12cd3281b15b1"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/setup.py",
+      "bytes": 577,
+      "sha256": "4a5fc1f219a9e9a8dc1e30c2bbbbf738a2013f0f57107fca264ba2a06a1df7e5"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/test/test_command_receipt.py",
+      "bytes": 4836,
+      "sha256": "fb49a0e4150735928c9c246b80bc77138def55f2bd40330735df893d92e9e14a"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/test/test_controller.py",
+      "bytes": 7100,
+      "sha256": "d9e4e9301e2544748665f00909568f9ca37f779049803c4d1c09f88f17d57296"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/test/test_heading.py",
+      "bytes": 7975,
+      "sha256": "6d3259c16971601842bcf5e3c1fcec0ad4672b27ee419f51a36f52fdddf6c0cc"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/test/test_heading_response.py",
+      "bytes": 3918,
+      "sha256": "c8044624a8eac8f8719db14af90045dcf744c238bc05d355f5357fb335ee4b63"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/test/test_teleop.py",
+      "bytes": 3927,
+      "sha256": "a7cb04fafc60352517c11b23ba25bcdb702fc9a5d692fafbeed2250dec7aa552"
+    },
+    {
+      "path": "ros2_ws/src/dog_ik_walk/test/test_web.py",
+      "bytes": 2732,
+      "sha256": "6999ea656ba1b05f326538b211523e060153b4b6e7a965aea423f0dc2a30d703"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/dog_fire_route.json",
+      "bytes": 3712,
+      "sha256": "26098bb53850fe92906fdf852969b91afc445e870c6281c6abf09d257df12611"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/dog_mapping.rviz",
+      "bytes": 2033,
+      "sha256": "8ca132a81d9abcd5361331f228d2375a8c71bdeba4a0c36bfd5ebeb5ffb8d471"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/dog_mounting.pending.json",
+      "bytes": 774,
+      "sha256": "1ab6ea809d1191be8858e44d3a28ea140364caa934c98c843b849bcfde71f545"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/dog_mounting_approx_20261021.json",
+      "bytes": 1266,
+      "sha256": "fefb73c4ef4121cf2f3ebda336fef3505a0e31b0267df3a4bc6ea716150a0c8b"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/dog_navigation.yaml",
+      "bytes": 4840,
+      "sha256": "81a954b9e84eff197230a5472a4c9f241e7a51b23080d5baf6f44c4da8045c9c"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/dog_planner.yaml",
+      "bytes": 845,
+      "sha256": "b3100a89b24a8fd41c929aeef7cb62f3c1310d8374bf509bc2fba229a87b1d25"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/dog_route_three_20261024.json",
+      "bytes": 877,
+      "sha256": "65df90558613b349e2bc5368b1ecbde55fa1d3f4acf58ec47e094417867e8f15"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/dog_through_poses.xml",
+      "bytes": 783,
+      "sha256": "c24e9e4bb9e9689c9cfd9f570ff2d068f0dc72d1c8a864831fc7db76a6e75fae"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/dog_to_pose.xml",
+      "bytes": 551,
+      "sha256": "de66b2d7f56d14fd23a3b03522c0c3cb3187c793d3beb3aab99f094adb98b2e7"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/config/integration_status.json",
+      "bytes": 1240,
+      "sha256": "8fa7462c7b942a75338be2160117eed47d9892f826e8e58543038d90daa15be3"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/alignment.py",
+      "bytes": 4688,
+      "sha256": "466f2ae83233c7d0211952e264929d9325ce221d56ba00d86b811b9b0d666ef9"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/capture_mapping.py",
+      "bytes": 8401,
+      "sha256": "3718edd62b6c1149de44819393b09e350bdc8c4fad834682f9c3bc4627c17234"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/discrete_actions.py",
+      "bytes": 6076,
+      "sha256": "d6cb8652c92465f1b93f3396bcec1349d9a95cef29a6252805dfb4a4ecd62f6b"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/fixture.py",
+      "bytes": 5110,
+      "sha256": "2ec49c4308d8144a5ad793c04cf848a521d37824c641e2ba759a5b5c6db7b30d"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/lidar_audit.py",
+      "bytes": 8358,
+      "sha256": "ab011f2c64a8d9060644f060dd292e636368dbef2b730a59ad76bce98e29e2d6"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/lidar_config.py",
+      "bytes": 2346,
+      "sha256": "140321009981dc8649b8859c0119d35ec9db52643156c44bc65d6c334151e7f9"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/map_preview.py",
+      "bytes": 3517,
+      "sha256": "797fd3370e7b7ef3743d3f9a7e56620419e09cbc5bf411cdf12efb9d761cd6d3"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/map_preview_3d.py",
+      "bytes": 5125,
+      "sha256": "94a915537a1d810dfd3553de38068f790ac407b91be8d003cb550b4f7e1b474d"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/odometry.py",
+      "bytes": 5275,
+      "sha256": "d3dd6ab0087f8545f89e2e63acce5c67b6e3e02d267ab460a7841aad18d33b75"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/plan_probe.py",
+      "bytes": 4852,
+      "sha256": "ef0308723f0d0197fab2eb346cf365cbf3948eee97520d0c01ba8084c7ec7344"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/route.py",
+      "bytes": 6705,
+      "sha256": "432f54e82da045f16c6c2067e65d6f7afb9af8a4a612f702af32ebde5f1c373c"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/saved_map.py",
+      "bytes": 1807,
+      "sha256": "de2d1695cc7aca8c4ae62e9a08b92f7e1324a525e8c49aae9061d9b4a4ccfd19"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/dog_navigation/velocity_bridge.py",
+      "bytes": 15727,
+      "sha256": "d9cfd7c04a50e1075d52cd33e08c11a8f6830035ba32deb0cd1b6bf2e624a8cb"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/launch/dog_grid_projection.launch.py",
+      "bytes": 2046,
+      "sha256": "0c0e67a529f75735d95eceb56529e98ae234bec2c33e985f03771e86a231f832"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/launch/dog_grid_saved.launch.py",
+      "bytes": 1015,
+      "sha256": "9f47337ff261ef88616bc82fa2f2ffefe471acfeb88580f62c1485d20f45ee60"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/launch/dog_lidar.launch.py",
+      "bytes": 1914,
+      "sha256": "c748aba46bd3b1d58bf4884b29fbdfac4853cff08b43c1bf603a22aa6f640e23"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/launch/dog_mapping.launch.py",
+      "bytes": 3733,
+      "sha256": "e4f247a78a618308d203a3420a465f4ef4e836afb4c76635d40bfc737d4f0c0c"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/launch/dog_mapping_view.launch.py",
+      "bytes": 1104,
+      "sha256": "b33d6c11c93ff8b9ec4c5dd732df8e56bc2f1a8a1e8508a9186782f424a774fe"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/launch/dog_navigation.launch.py",
+      "bytes": 5665,
+      "sha256": "2c9724446296a0e4a932471113bd90e04dac5b761eed7f9cb6c0d97e73ec9919"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/launch/dog_navigation_live.launch.py",
+      "bytes": 1813,
+      "sha256": "1096d9ef6ba14a2d37f005d70b46a2bf552f7f810c56a8c8bde8f97b8f066023"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/launch/dog_planning_offline.launch.py",
+      "bytes": 1895,
+      "sha256": "3edf801ff3330d344dbc76db06988ad1f3f14dfffca1b5ec7a4c3d52fb11c80b"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/OPERATIONS.txt",
+      "bytes": 29814,
+      "sha256": "994b07c58b0657be14206d68d2c01c2ef67880e9d866e041b687da1aa9053a9f"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/package.xml",
+      "bytes": 1664,
+      "sha256": "ab2bdc5937b79e5784bf5ebcd6e5b75249c005521c610b4b2ca516192d4bdf70"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/references/Livox_Mid-360s_User_Manual_en.pdf",
+      "bytes": 890161,
+      "sha256": "bf064396c2a5254bc3fc98044d65b2dcf3ad3354e942eee1ee46b37e6e0c80d4"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/references/mid360s_page22.png",
+      "bytes": 132051,
+      "sha256": "273c6bb92ad82d2cd20cec99e430ea6038761ec7917826fb89b891ed8d28f76a"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/resource/dog_navigation",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/scripts/dog_apply_fire_annotations_20261021.py",
+      "bytes": 7294,
+      "sha256": "56530a0af91c1b79a0af677741365db8c10e3f6f98258ffa9e4138532f34dfc7"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/scripts/dog_audit_gait_execution.py",
+      "bytes": 4310,
+      "sha256": "1a527992b9eda162baa5497124427517d384f52d3112334dd33cb57839d3a8d0"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_grid.py",
+      "bytes": 2039,
+      "sha256": "1fbacd05bcaa1431e2ea7776554a79627920e5127ed679c5e1217445fb2e1212"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_lio_trial.py",
+      "bytes": 3865,
+      "sha256": "99d798b9d1a6af26ca85b47d033b7cbdbdc9bd421cb72219f8f2cd455dfe1f69"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_navigation_scene.py",
+      "bytes": 2911,
+      "sha256": "f340ab37cf9c8ac806a20dfa78eae642f50884b5670901acab24a417df6d67fc"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_navigation_validation.py",
+      "bytes": 3334,
+      "sha256": "d6a9dd9c884b912b40dbf99fda6716c59c62ea6f666afd2a7918582588fb890c"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_plan.py",
+      "bytes": 2310,
+      "sha256": "d910ea562ec2dad77d98687acf0029c0bf89b7ed67936a3d995683ed58fca23f"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/scripts/dog_project_offline.sh",
+      "bytes": 2711,
+      "sha256": "87a1e140e0103ed39dc6b93768ead2c49d17b9f5f0ca2d2380ea9f6398430d25"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/scripts/dog_trim_bag.py",
+      "bytes": 1927,
+      "sha256": "b9104bb91ecc932399919b2536aa27e6603680f9d1bb660b02e7f48c4952ffff"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/setup.cfg",
+      "bytes": 97,
+      "sha256": "77b07167280c376937fa9695ecaec263d35fd1f946dc159847ac3cc6624a5cf2"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/setup.py",
+      "bytes": 1155,
+      "sha256": "a87c09c0c46e2990d91776abe670f41982b470e3831e30d26c820757893658f4"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/test/test_discrete_actions.py",
+      "bytes": 3824,
+      "sha256": "004aa2c36d20bbaa543a21224967bb95c541743073c8e95d055566e64310bf59"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/test/test_lidar_audit.py",
+      "bytes": 2120,
+      "sha256": "d8db00fefe9d52c1d9b25cac332fc4a3ee48e482297c6e596e3196d9b4b7a2af"
+    },
+    {
+      "path": "ros2_ws/src/dog_navigation/test/test_navigation.py",
+      "bytes": 10151,
+      "sha256": "34da03fd073938a71284bb900e00621f7e9c8e1b054e9a4b1946a8949d6e537a"
+    },
+    {
+      "path": "ros2_ws/src/dog_perception/dog_perception/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ros2_ws/src/dog_perception/dog_perception/viewer.py",
+      "bytes": 13365,
+      "sha256": "ba32ff2c530e37763af4d4b24b0eb24c8ea2494f14283a4aeb3aabe22fee0aa9"
+    },
+    {
+      "path": "ros2_ws/src/dog_perception/dog_perception/yolo_core.py",
+      "bytes": 2772,
+      "sha256": "7709ae40a661d520079841d0d5f17607a6a69949078b53bfccdf5e513b0846db"
+    },
+    {
+      "path": "ros2_ws/src/dog_perception/package.xml",
+      "bytes": 667,
+      "sha256": "d54f82d7c3d61a5f8d1624e01faa13dec5293b85eaf894d34fdfa33af606ee4a"
+    },
+    {
+      "path": "ros2_ws/src/dog_perception/resource/dog_perception",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ros2_ws/src/dog_perception/setup.cfg",
+      "bytes": 97,
+      "sha256": "a95368d44873326c9d051fa6d049fe1adf139dd23272c26559450088ffcc8c3f"
+    },
+    {
+      "path": "ros2_ws/src/dog_perception/setup.py",
+      "bytes": 398,
+      "sha256": "da4897c01442389fd97b533ad31cca45aa80166fc900c0886b579ab11730f858"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_clock.py",
+      "bytes": 349,
+      "sha256": "3fe52bdefc035c05ed28feff0a00a63fc212c848762958a566bf5fdded9de53d"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_config.json",
+      "bytes": 4072,
+      "sha256": "9ca99d2dce28a82fa7f2a21b32b5753c81aa4e82f7513a6e08f4aaed5111179a"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_config_before_session_branch.json",
+      "bytes": 4072,
+      "sha256": "d05c437e561cb9cb611d5d4042a1f7c538756fe0f5707971dc9a629d0ac5da2d"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_demo.py",
+      "bytes": 7465,
+      "sha256": "7020126a2e7ba4b285c544c4838b88030fdcd31c249cf6b975bfbfc707c36132"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_gait.py",
+      "bytes": 1471,
+      "sha256": "eb067468b3dbb964dc4202cf40ffb859c60e66b01cc3574eec92862454dc7be0"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_imu.py",
+      "bytes": 6482,
+      "sha256": "88a8ce26fdfb70776f11761eb912d8fbc6ea766c28bf051d99eaa5ddccf70ec6"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_kinematics.json",
+      "bytes": 7633,
+      "sha256": "b40487a288eb5b15b603856d3477408e0ae6e24ab7a368342045bf63a3ce5cd9"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_kinematics.py",
+      "bytes": 3530,
+      "sha256": "fe70269da92e3f7fb77a0edd289f0faab803af8c9e8faed201f4604f82e447b8"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_link.py",
+      "bytes": 4891,
+      "sha256": "e80014b895b938b7e92bffe56450594f8408614e68505fd1c59b3a63edfd89fd"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_motor_calibration.json",
+      "bytes": 15868,
+      "sha256": "cb320e85bada70f720954e30cdccf0b4c44a3a934b9c9fda98af3f3653546bb1"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_motor_calibration_imu_20261006.json",
+      "bytes": 16197,
+      "sha256": "1b5f856fa34358e37e16cd4c640fe7b3f2b46e058e4c2deaeae2c10caaf17ec4"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_motor_calibration_reboot_trial.json",
+      "bytes": 15845,
+      "sha256": "9804e3ddf02fb2d9ca57b2d0b312bde427d383c6fca7ad02eb413284140c8628"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_motor_calibration_session_20261005.json",
+      "bytes": 15911,
+      "sha256": "51a4511e14d6c46c748c842de286801ceee098c6fae4ea0be4667757c5d64716"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_protocol.py",
+      "bytes": 3907,
+      "sha256": "0f7fb4eb1429af5a25e76b9e29158a1653df20dc0d34c274d6f56087302942bd"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_replay.py",
+      "bytes": 10235,
+      "sha256": "e09a3ba2540632b54e282a0ab4a1ec5b7b55d73c1293ef73ff68cfa359aceac1"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_replay_tests.py",
+      "bytes": 5740,
+      "sha256": "0cc403dd1d2a4a414bfed78a4eafe4e3b815162e29931852939772555e2c232c"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_runtime.py",
+      "bytes": 24814,
+      "sha256": "6f60627cdcb69d823fb7fb8f9028cfd482e9b0fafcca957ce84067be430ecc8d"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_runtime_tests.py",
+      "bytes": 16304,
+      "sha256": "d8a0d092102f9c2d7dbac84ffd07b8b0a2ea1461286b889243239d4840d72c17"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_sim_bridge.py",
+      "bytes": 9621,
+      "sha256": "066842498a87ecde1215a0eaca3b2b7a1843a1d4787767a49630c7cbec781f8a"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_sim_bridge_tests.py",
+      "bytes": 5691,
+      "sha256": "73bea44f923f08ed6bd4a9238ab0c31b251260ef188fb84d1f969ec872b328b0"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_tests.py",
+      "bytes": 5141,
+      "sha256": "bb033e126c453472d2f8ded311c661f18f87258fae298aebfb388f2e260829e2"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dog_zero_measurements.json",
+      "bytes": 38291,
+      "sha256": "167b488ee10d6995c088e77db104308a49d276bd10996bc1f3ea502dc52dabc7"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dogstand.py",
+      "bytes": 168,
+      "sha256": "76d7cdb10b5000bf63f01f2f6be27668a4e705317ec6a89b8ee7115066c67a83"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dogtrot.py",
+      "bytes": 167,
+      "sha256": "2807efecf43e57f08aceb51a402b82b0ade428f709d257791db23419ab0c2630"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dogui.py",
+      "bytes": 9424,
+      "sha256": "316117ce76115d7b724a57d38c9a8d8056aa59aa7a996de3d5e2f369d9e24dc3"
+    },
+    {
+      "path": "runtime/dog_tradition_real/dogwalk.py",
+      "bytes": 167,
+      "sha256": "6932b8072a601537a9a6cf2f7b2e3a7db581464063541026d9790293f13f290d"
+    },
+    {
+      "path": "runtime/dog_tradition_real/tools/dog_slow_stand_test.py",
+      "bytes": 18318,
+      "sha256": "381c26838af1fe8d7c0ef6d5ec0a1a8420d482e5b0c51ef9e0400d88daf8462e"
+    },
+    {
+      "path": "scripts/dog_build.sh",
+      "bytes": 343,
+      "sha256": "71e06aa893cf1117942933a977c81bbb31b0eab4db27d41088b8e1212c004da0"
+    },
+    {
+      "path": "scripts/dog_build_drivers.sh",
+      "bytes": 552,
+      "sha256": "a50c77f336fadf5527c4920f027283f454ec135a15216d807cd8dd64c849339a"
+    },
+    {
+      "path": "scripts/dog_doctor.py",
+      "bytes": 2550,
+      "sha256": "23f4108d8e0c920667658ed1f45b78d2a163b7a77fda859097263c6b3fd56203"
+    },
+    {
+      "path": "scripts/dog_env.sh",
+      "bytes": 720,
+      "sha256": "b84a60fdfe05495b9741f6a35e0d4a2b32a8470c9c8c1196dbcb3149152c242e"
+    },
+    {
+      "path": "scripts/dog_save_map.sh",
+      "bytes": 1073,
+      "sha256": "9a27d0a39159dc7d04642c79504a0a5e527fe5fd1c6ecb91682d52eb2a5a2e78"
+    },
+    {
+      "path": "scripts/dog_validate.py",
+      "bytes": 4348,
+      "sha256": "5ff4d2922214e19d0373c23f7bfdf58b32a2b9b2869751b57ed114558d72e386"
+    }
+  ]
+}

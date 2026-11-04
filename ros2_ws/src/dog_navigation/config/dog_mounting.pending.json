@@ -1,0 +1,14 @@
+{
+  "calibrated": false,
+  "source": "User confirmed on 2026-10-21: lidar X points dog forward, Z up; right-handed Y points dog left",
+  "orientation_confirmed": true,
+  "position_measured": false,
+  "base_from_lidar_translation_m": null,
+  "base_from_lidar_quaternion_xyzw": [0.0, 0.0, 0.0, 1.0],
+  "base_from_lidar_imu_translation_m": null,
+  "base_from_lidar_imu_quaternion_xyzw": [0.0, 0.0, 0.0, 1.0],
+  "footprint_xy_m": null,
+  "scan_min_height_m": null,
+  "scan_max_height_m": null,
+  "note": "User measures the pictured lidar origin O, not internal IMU origin. Convert using the verified lidar-to-internal-IMU extrinsic before filling T_base_lidar_imu. Direction is confirmed; position/footprint/height slice remain pending. No motion is authorized by this file."
+}

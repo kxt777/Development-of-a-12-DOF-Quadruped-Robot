@@ -1,0 +1,16 @@
+Starting >>> dm_imu
+Starting >>> dog_navigation
+Finished <<< dm_imu [1.04s]
+Starting >>> dog_perception
+Finished <<< dog_navigation [1.19s]
+Starting >>> dog_ik_walk
+Finished <<< dog_perception [0.84s]
+Starting >>> dog_description
+Finished <<< dog_ik_walk [0.84s]
+Starting >>> dog_bringup
+Finished <<< dog_description [0.87s]
+Finished <<< dog_bringup [0.85s]
+
+Summary: 6 packages finished [3.18s]
+
+Build finished. Run: cd /home/robot/dog_final && ./dog help

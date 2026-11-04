@@ -1,0 +1,13 @@
+[Unit]
+Description=Dog LAN dog_imu
+
+[Service]
+Type=simple
+ExecStart=/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_web_v040_20261007/dog_imu.sh
+KillSignal=SIGINT
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

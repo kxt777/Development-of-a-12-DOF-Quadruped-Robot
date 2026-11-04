@@ -1,0 +1,412 @@
+{
+  "schema": "dog_motor_calibration_v1",
+  "status": "ids_directions_zero_confirmed_mapping_ranges_pending",
+  "can_id_source": "dog_rl/dog_nuc/Dog_ROS2/src/h723_bridge/config/motor.yaml (CAN IDs only; legacy direction/offset not imported)",
+  "zero_source": "dog_zero_measurements.json: fresh feedback captured after motor replacement; current model/SW-export zero pose confirmed by user.",
+  "source_xml": "rl_training/dog/dog.xml",
+  "source_xml_sha256": "e4abff4500c0cc394188526b3f11c01753eab17df779dbd3a57e4a96ed86131b",
+  "model_body_coordinates": {
+    "x": "forward",
+    "y": "left",
+    "z": "up"
+  },
+  "reference_pose": "Current model/SW-export zero pose, q_model=0 for all 12 joints; user-confirmed at measurement.",
+  "mapping": "q_motor = direction * q_model + zero_rad; dq_motor = direction * dq_model; tau_motor = direction * tau_model (output radians, unit ratio must be confirmed)",
+  "motors": [
+    {
+      "joint": "fl_11",
+      "candidate_can_id": 1,
+      "can_id": 1,
+      "model_stand_q_rad": -0.010196658839047123,
+      "model_joint_axis_local": [
+        0.00032225,
+        0,
+        1
+      ],
+      "model_positive_axis_body_at_stand": [
+        -0.9999999998254689,
+        1.8249991186796337e-05,
+        -3.999999895760321e-06
+      ],
+      "observation_view": "From robot FRONT (+X), looking toward tail (-X)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": 1.47650146484375,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": 1.47650146484375,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 1"
+    },
+    {
+      "joint": "fl_22",
+      "candidate_can_id": 2,
+      "can_id": 2,
+      "model_stand_q_rad": 0.7439672624129666,
+      "model_joint_axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "model_positive_axis_body_at_stand": [
+        -1.8381694777947237e-05,
+        -0.9998952730412553,
+        -0.014472132250184136
+      ],
+      "observation_view": "From robot LEFT (+Y), looking inward (-Y)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": 1.1953535079956055,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": 1.1953535079956055,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 2"
+    },
+    {
+      "joint": "fl_33",
+      "candidate_can_id": 3,
+      "can_id": 3,
+      "model_stand_q_rad": -1.6413622799373702,
+      "model_joint_axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "model_positive_axis_body_at_stand": [
+        -1.8381694777947237e-05,
+        -0.9998952730412553,
+        -0.014472132250184136
+      ],
+      "observation_view": "From robot LEFT (+Y), looking inward (-Y)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": -2.667849540710449,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": -2.667849540710449,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 3"
+    },
+    {
+      "joint": "fr_11",
+      "candidate_can_id": 4,
+      "can_id": 4,
+      "model_stand_q_rad": 0.012361754225199587,
+      "model_joint_axis_local": [
+        0.000322254,
+        0,
+        1
+      ],
+      "model_positive_axis_body_at_stand": [
+        -0.9999999999984759,
+        -1.7460083206563931e-06,
+        0
+      ],
+      "observation_view": "From robot FRONT (+X), looking toward tail (-X)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": 2.48931884765625,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": 2.48931884765625,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 4"
+    },
+    {
+      "joint": "fr_22",
+      "candidate_can_id": 5,
+      "can_id": 5,
+      "model_stand_q_rad": -0.8481208089460289,
+      "model_joint_axis_local": [
+        0,
+        0,
+        1
+      ],
+      "model_positive_axis_body_at_stand": [
+        -1.5512359964642048e-06,
+        0.9999984805110148,
+        0.0017432651132173488
+      ],
+      "observation_view": "From robot RIGHT (-Y), looking inward (+Y)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": 3.6943019072162073,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": -2.588883399963379,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 5"
+    },
+    {
+      "joint": "fr_33",
+      "candidate_can_id": 6,
+      "can_id": 6,
+      "model_stand_q_rad": 1.6317962641651833,
+      "model_joint_axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "model_positive_axis_body_at_stand": [
+        -1.5512359964642043e-06,
+        0.9999984805110146,
+        0.0017432651132173484
+      ],
+      "observation_view": "From robot RIGHT (-Y), looking inward (+Y)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": -2.9715042114257812,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": -2.9715042114257812,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 6"
+    },
+    {
+      "joint": "bl_11",
+      "candidate_can_id": 7,
+      "can_id": 7,
+      "model_stand_q_rad": -0.00010131764783414704,
+      "model_joint_axis_local": [
+        -0.000322254,
+        0,
+        -1
+      ],
+      "model_positive_axis_body_at_stand": [
+        0.9999999999984759,
+        1.7460083206563931e-06,
+        0
+      ],
+      "observation_view": "From robot REAR (-X), looking toward head (+X)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": -2.779621124267578,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": -2.779621124267578,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 7"
+    },
+    {
+      "joint": "bl_22",
+      "candidate_can_id": 8,
+      "can_id": 8,
+      "model_stand_q_rad": -0.7209644910298709,
+      "model_joint_axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "model_positive_axis_body_at_stand": [
+        2.9733899933494907e-06,
+        -0.9999984799249593,
+        0.0017435994178195671
+      ],
+      "observation_view": "From robot LEFT (+Y), looking inward (-Y)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": -2.8406572341918945,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": -2.8406572341918945,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 8"
+    },
+    {
+      "joint": "bl_33",
+      "candidate_can_id": 9,
+      "can_id": 9,
+      "model_stand_q_rad": 1.5628263997919756,
+      "model_joint_axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "model_positive_axis_body_at_stand": [
+        2.9733899933494907e-06,
+        -0.9999984799249593,
+        0.0017435994178195671
+      ],
+      "observation_view": "From robot LEFT (+Y), looking inward (-Y)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": -1.8892574310302734,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": -1.8892574310302734,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 9"
+    },
+    {
+      "joint": "br_11",
+      "candidate_can_id": 10,
+      "can_id": 10,
+      "model_stand_q_rad": -0.07482615056228147,
+      "model_joint_axis_local": [
+        -0.000322254,
+        0,
+        -1
+      ],
+      "model_positive_axis_body_at_stand": [
+        0.9999999999984759,
+        1.7460083206563931e-06,
+        0
+      ],
+      "observation_view": "From robot REAR (-X), looking toward head (+X)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": -1.3456554412841797,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": -1.3456554412841797,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 10"
+    },
+    {
+      "joint": "br_22",
+      "candidate_can_id": 11,
+      "can_id": 11,
+      "model_stand_q_rad": 0.8368867916604399,
+      "model_joint_axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "model_positive_axis_body_at_stand": [
+        -1.3245319506667054e-06,
+        0.9999987896411069,
+        0.0015558645722662885
+      ],
+      "observation_view": "From robot RIGHT (-Y), looking inward (+Y)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": 0.06923770904541016,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": 0.06923770904541016,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 11"
+    },
+    {
+      "joint": "br_33",
+      "candidate_can_id": 12,
+      "can_id": 12,
+      "model_stand_q_rad": -1.522866516245992,
+      "model_joint_axis_local": [
+        0,
+        0,
+        1
+      ],
+      "model_positive_axis_body_at_stand": [
+        -8.566174161374174e-06,
+        0.9999987876811182,
+        0.0015571008047742406
+      ],
+      "observation_view": "From robot RIGHT (-Y), looking inward (+Y)",
+      "model_positive_rotation_in_this_view": "clockwise (projection; use exact 3D axis for authority)",
+      "measured_motor_positive_rotation_in_same_view": null,
+      "direction": -1,
+      "zero_rad": 2.0914392471313477,
+      "soft_min_rad": null,
+      "soft_max_rad": null,
+      "mit_mode_confirmed": true,
+      "output_radians_unit_ratio_confirmed": true,
+      "measurement_reference_model_q_rad": 0.0,
+      "measurement_reference_motor_q_rad": 2.0914392471313477,
+      "verified": true,
+      "approved_kp": null,
+      "approved_kd": null,
+      "direction_source": "User confirmed all 12 motor positive directions opposite to simulation on 2026-10-03.",
+      "zero_source": "dog_zero_measurements.json selected_motors, ID 12"
+    }
+  ],
+  "note": "CAN IDs: FL 1..3, FR 4..6, BL 7..9, BR 10..12. All directions=-1 are user-confirmed. New zero positions captured after motor replacement at the user-confirmed current model zero pose; q_motor=zero_rad-q_model. Legacy ROS zero/stand readings deleted. Motor mapping ranges still require matching actual parameters and STM32.",
+  "zero_measured_at_utc": "2026-10-03T09:17:33.513248+00:00",
+  "zero_measurements_sha256": "167b488ee10d6995c088e77db104308a49d276bd10996bc1f3ea502dc52dabc7",
+  "session_branch_alignment": {
+    "can_id": 5,
+    "original_zero_rad": -2.588883399963379,
+    "session_zero_rad": 3.6943019072162073,
+    "turns": 1,
+    "basis": "Current feedback 3.4449148178rad; user reports little physical movement. Same physical calibration orientation with +2pi command/feedback branch. Original calibration file unchanged.",
+    "original_sha256": "cb320e85bada70f720954e30cdccf0b4c44a3a934b9c9fda98af3f3653546bb1"
+  }
+}

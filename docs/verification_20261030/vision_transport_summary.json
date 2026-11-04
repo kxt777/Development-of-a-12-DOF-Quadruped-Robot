@@ -1,0 +1,9 @@
+{
+  "scope": "Isolated ROS domain 49; repeated training-image fixture; no physical camera, depth or motion.",
+  "domain": 49,
+  "port": 35571,
+  "detection_messages": 1,
+  "nonempty_messages": 1,
+  "http_status_received": true,
+  "model_errors": []
+}

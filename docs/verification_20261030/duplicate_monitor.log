@@ -1,0 +1,6 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2026-10-29-22-58-04-716661-robot-Default-string-7819
+[INFO] [launch]: Default logging verbosity is set to INFO
+[ERROR] [launch]: Caught exception in launch (see debug for traceback): Existing processes own required devices/nodes. Nothing was stopped.
+controller: PID 1004: /usr/bin/python3 -c from dog_ik_walk.node import main; main() --ros-args -r __node:=dog_ik_walk_imu -p deployment_config:=/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/dog_deployment.j
+imu: PID 1005: /usr/bin/python3 /home/robot/dog_ik_walk_imu_ws_20261007_v031/install/dm_imu/lib/dm_imu/dm_imu_node --ros-args -r __node:=dog_imu -p port:=/dev/serial/by-id/usb-DM-Tech_DM-IMU-L1_DMIMU20250212-if00 -p baudrate:=921600 -p
+Use ./dog status; coordinate migration separately.

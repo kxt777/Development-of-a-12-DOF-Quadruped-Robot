@@ -1,0 +1,27 @@
+{
+  "action": "/dog_nav/compute_path_to_pose",
+  "status": 4,
+  "planner": "nav2_navfn_planner/NavfnPlanner",
+  "frame": "dog_lio_map",
+  "start": [
+    0.6,
+    0.0
+  ],
+  "goal": [
+    1.45,
+    0.71
+  ],
+  "path_length_m": 1.1134733925897133,
+  "planning_time_s": 0.002733892,
+  "sampled_path_cells": 285,
+  "nonfree_samples": 0,
+  "direct_line_occupied_samples": 0,
+  "endpoint_error_m": 0.0,
+  "map": {
+    "width": 850,
+    "height": 438,
+    "resolution": 0.05000000074505806
+  },
+  "mode": "offline explicit start; point robot; no inflation; no motor commands"
+}
+

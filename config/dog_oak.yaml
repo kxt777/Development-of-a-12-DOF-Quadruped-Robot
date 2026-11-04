@@ -1,0 +1,30 @@
+/**:
+  ros__parameters:
+    driver:
+      i_pipeline_auto_calibration_mode: "OFF"
+      i_enable_ir: true
+      r_laser_dot_intensity: 0.3
+      r_floodlight_intensity: 0.0
+    pipeline_gen:
+      i_pipeline_type: RGBD
+      i_nn_type: none
+      i_enable_imu: true
+      i_enable_rgbd: false
+    rgb:
+      i_width: 640
+      i_height: 400
+      i_fps: 10.0
+      i_publish_topic: true
+    left:
+      i_fps: 10.0
+    right:
+      i_fps: 10.0
+    stereo:
+      i_width: 640
+      i_height: 400
+      i_fps: 10.0
+      i_publish_topic: true
+      i_align_depth: true
+      i_depth_preset: DEFAULT
+      i_lr_check: true
+      i_subpixel: true

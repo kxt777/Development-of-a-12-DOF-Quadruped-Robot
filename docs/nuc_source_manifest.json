@@ -1,0 +1,806 @@
+[
+  {
+    "path": "ros2_ws/src/dog_navigation/OPERATIONS.txt",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/OPERATIONS.txt",
+    "size": 29814,
+    "sha256": "994b07c58b0657be14206d68d2c01c2ef67880e9d866e041b687da1aa9053a9f"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/dog_fire_route.json",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/dog_fire_route.json",
+    "size": 3712,
+    "sha256": "26098bb53850fe92906fdf852969b91afc445e870c6281c6abf09d257df12611"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/dog_mapping.rviz",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/dog_mapping.rviz",
+    "size": 2033,
+    "sha256": "8ca132a81d9abcd5361331f228d2375a8c71bdeba4a0c36bfd5ebeb5ffb8d471"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/dog_mounting.pending.json",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/dog_mounting.pending.json",
+    "size": 774,
+    "sha256": "1ab6ea809d1191be8858e44d3a28ea140364caa934c98c843b849bcfde71f545"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/dog_mounting_approx_20261021.json",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/dog_mounting_approx_20261021.json",
+    "size": 1266,
+    "sha256": "fefb73c4ef4121cf2f3ebda336fef3505a0e31b0267df3a4bc6ea716150a0c8b"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/dog_navigation.yaml",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/dog_navigation.yaml",
+    "size": 4840,
+    "sha256": "81a954b9e84eff197230a5472a4c9f241e7a51b23080d5baf6f44c4da8045c9c"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/dog_planner.yaml",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/dog_planner.yaml",
+    "size": 845,
+    "sha256": "b3100a89b24a8fd41c929aeef7cb62f3c1310d8374bf509bc2fba229a87b1d25"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/dog_route_three_20261024.json",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/dog_route_three_20261024.json",
+    "size": 877,
+    "sha256": "65df90558613b349e2bc5368b1ecbde55fa1d3f4acf58ec47e094417867e8f15"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/dog_through_poses.xml",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/dog_through_poses.xml",
+    "size": 783,
+    "sha256": "c24e9e4bb9e9689c9cfd9f570ff2d068f0dc72d1c8a864831fc7db76a6e75fae"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/dog_to_pose.xml",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/dog_to_pose.xml",
+    "size": 551,
+    "sha256": "de66b2d7f56d14fd23a3b03522c0c3cb3187c793d3beb3aab99f094adb98b2e7"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/config/integration_status.json",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/config/integration_status.json",
+    "size": 1240,
+    "sha256": "8fa7462c7b942a75338be2160117eed47d9892f826e8e58543038d90daa15be3"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/__init__.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/__init__.py",
+    "size": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/alignment.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/alignment.py",
+    "size": 4688,
+    "sha256": "466f2ae83233c7d0211952e264929d9325ce221d56ba00d86b811b9b0d666ef9"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/capture_mapping.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/capture_mapping.py",
+    "size": 8401,
+    "sha256": "3718edd62b6c1149de44819393b09e350bdc8c4fad834682f9c3bc4627c17234"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/discrete_actions.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/discrete_actions.py",
+    "size": 6076,
+    "sha256": "d6cb8652c92465f1b93f3396bcec1349d9a95cef29a6252805dfb4a4ecd62f6b"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/fixture.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/fixture.py",
+    "size": 5110,
+    "sha256": "2ec49c4308d8144a5ad793c04cf848a521d37824c641e2ba759a5b5c6db7b30d"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/lidar_audit.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/lidar_audit.py",
+    "size": 8358,
+    "sha256": "ab011f2c64a8d9060644f060dd292e636368dbef2b730a59ad76bce98e29e2d6"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/lidar_config.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/lidar_config.py",
+    "size": 2346,
+    "sha256": "140321009981dc8649b8859c0119d35ec9db52643156c44bc65d6c334151e7f9"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/map_preview.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/map_preview.py",
+    "size": 3517,
+    "sha256": "797fd3370e7b7ef3743d3f9a7e56620419e09cbc5bf411cdf12efb9d761cd6d3"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/map_preview_3d.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/map_preview_3d.py",
+    "size": 5125,
+    "sha256": "94a915537a1d810dfd3553de38068f790ac407b91be8d003cb550b4f7e1b474d"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/odometry.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/odometry.py",
+    "size": 5275,
+    "sha256": "d3dd6ab0087f8545f89e2e63acce5c67b6e3e02d267ab460a7841aad18d33b75"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/plan_probe.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/plan_probe.py",
+    "size": 4852,
+    "sha256": "ef0308723f0d0197fab2eb346cf365cbf3948eee97520d0c01ba8084c7ec7344"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/route.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/route.py",
+    "size": 6705,
+    "sha256": "432f54e82da045f16c6c2067e65d6f7afb9af8a4a612f702af32ebde5f1c373c"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/saved_map.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/saved_map.py",
+    "size": 1807,
+    "sha256": "de2d1695cc7aca8c4ae62e9a08b92f7e1324a525e8c49aae9061d9b4a4ccfd19"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/dog_navigation/velocity_bridge.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/velocity_bridge.py",
+    "size": 15727,
+    "sha256": "d9cfd7c04a50e1075d52cd33e08c11a8f6830035ba32deb0cd1b6bf2e624a8cb"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/launch/dog_grid_projection.launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/launch/dog_grid_projection.launch.py",
+    "size": 2046,
+    "sha256": "0c0e67a529f75735d95eceb56529e98ae234bec2c33e985f03771e86a231f832"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/launch/dog_grid_saved.launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/launch/dog_grid_saved.launch.py",
+    "size": 1015,
+    "sha256": "9f47337ff261ef88616bc82fa2f2ffefe471acfeb88580f62c1485d20f45ee60"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/launch/dog_lidar.launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/launch/dog_lidar.launch.py",
+    "size": 1914,
+    "sha256": "c748aba46bd3b1d58bf4884b29fbdfac4853cff08b43c1bf603a22aa6f640e23"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/launch/dog_mapping.launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/launch/dog_mapping.launch.py",
+    "size": 3733,
+    "sha256": "e4f247a78a618308d203a3420a465f4ef4e836afb4c76635d40bfc737d4f0c0c"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/launch/dog_mapping_view.launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/launch/dog_mapping_view.launch.py",
+    "size": 1104,
+    "sha256": "b33d6c11c93ff8b9ec4c5dd732df8e56bc2f1a8a1e8508a9186782f424a774fe"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/launch/dog_navigation.launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/launch/dog_navigation.launch.py",
+    "size": 5665,
+    "sha256": "2c9724446296a0e4a932471113bd90e04dac5b761eed7f9cb6c0d97e73ec9919"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/launch/dog_navigation_live.launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/launch/dog_navigation_live.launch.py",
+    "size": 1813,
+    "sha256": "1096d9ef6ba14a2d37f005d70b46a2bf552f7f810c56a8c8bde8f97b8f066023"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/launch/dog_planning_offline.launch.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/launch/dog_planning_offline.launch.py",
+    "size": 1895,
+    "sha256": "3edf801ff3330d344dbc76db06988ad1f3f14dfffca1b5ec7a4c3d52fb11c80b"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/package.xml",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/package.xml",
+    "size": 1664,
+    "sha256": "ab2bdc5937b79e5784bf5ebcd6e5b75249c005521c610b4b2ca516192d4bdf70"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/references/Livox_Mid-360s_User_Manual_en.pdf",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/references/Livox_Mid-360s_User_Manual_en.pdf",
+    "size": 890161,
+    "sha256": "bf064396c2a5254bc3fc98044d65b2dcf3ad3354e942eee1ee46b37e6e0c80d4"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/references/mid360s_page22.png",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/references/mid360s_page22.png",
+    "size": 132051,
+    "sha256": "273c6bb92ad82d2cd20cec99e430ea6038761ec7917826fb89b891ed8d28f76a"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/resource/dog_navigation",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/resource/dog_navigation",
+    "size": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/scripts/dog_apply_fire_annotations_20261021.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/scripts/dog_apply_fire_annotations_20261021.py",
+    "size": 7294,
+    "sha256": "56530a0af91c1b79a0af677741365db8c10e3f6f98258ffa9e4138532f34dfc7"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/scripts/dog_audit_gait_execution.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/scripts/dog_audit_gait_execution.py",
+    "size": 4310,
+    "sha256": "1a527992b9eda162baa5497124427517d384f52d3112334dd33cb57839d3a8d0"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_grid.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/scripts/dog_plot_grid.py",
+    "size": 2039,
+    "sha256": "1fbacd05bcaa1431e2ea7776554a79627920e5127ed679c5e1217445fb2e1212"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_lio_trial.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/scripts/dog_plot_lio_trial.py",
+    "size": 3865,
+    "sha256": "99d798b9d1a6af26ca85b47d033b7cbdbdc9bd421cb72219f8f2cd455dfe1f69"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_navigation_scene.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/scripts/dog_plot_navigation_scene.py",
+    "size": 2911,
+    "sha256": "f340ab37cf9c8ac806a20dfa78eae642f50884b5670901acab24a417df6d67fc"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_navigation_validation.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/scripts/dog_plot_navigation_validation.py",
+    "size": 3334,
+    "sha256": "d6a9dd9c884b912b40dbf99fda6716c59c62ea6f666afd2a7918582588fb890c"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/scripts/dog_plot_plan.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/scripts/dog_plot_plan.py",
+    "size": 2310,
+    "sha256": "d910ea562ec2dad77d98687acf0029c0bf89b7ed67936a3d995683ed58fca23f"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/scripts/dog_project_offline.sh",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/scripts/dog_project_offline.sh",
+    "size": 2711,
+    "sha256": "87a1e140e0103ed39dc6b93768ead2c49d17b9f5f0ca2d2380ea9f6398430d25"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/scripts/dog_trim_bag.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/scripts/dog_trim_bag.py",
+    "size": 1927,
+    "sha256": "b9104bb91ecc932399919b2536aa27e6603680f9d1bb660b02e7f48c4952ffff"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/setup.cfg",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/setup.cfg",
+    "size": 97,
+    "sha256": "77b07167280c376937fa9695ecaec263d35fd1f946dc159847ac3cc6624a5cf2"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/setup.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/setup.py",
+    "size": 1155,
+    "sha256": "a87c09c0c46e2990d91776abe670f41982b470e3831e30d26c820757893658f4"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/test/test_discrete_actions.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/test/test_discrete_actions.py",
+    "size": 3824,
+    "sha256": "004aa2c36d20bbaa543a21224967bb95c541743073c8e95d055566e64310bf59"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/test/test_lidar_audit.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/test/test_lidar_audit.py",
+    "size": 2120,
+    "sha256": "d8db00fefe9d52c1d9b25cac332fc4a3ee48e482297c6e596e3196d9b4b7a2af"
+  },
+  {
+    "path": "ros2_ws/src/dog_navigation/test/test_navigation.py",
+    "source": "/home/robot/dog_navigation/ws/src/dog_navigation/test/test_navigation.py",
+    "size": 10151,
+    "sha256": "34da03fd073938a71284bb900e00621f7e9c8e1b054e9a4b1946a8949d6e537a"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/README.md",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/README.md",
+    "size": 3775,
+    "sha256": "96e0482918e08f4dbd9239cfa03b33654e54a97c7e11db50ff9e5180313e84db"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/__init__.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/dog_ik_walk/__init__.py",
+    "size": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/controller.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/dog_ik_walk/controller.py",
+    "size": 13202,
+    "sha256": "d8b4aba219a1730a14573a8389303e1e60003c590396625e0a2c805a07e00176"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/heading.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/dog_ik_walk/heading.py",
+    "size": 7677,
+    "sha256": "641f514f0291d68ae6536f0eb63975a32fb2c70417937678cd473a4ab939828e"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/imu_controller.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/dog_ik_walk/imu_controller.py",
+    "size": 8064,
+    "sha256": "0637a8e76de78c58bdbe2d3b382f83d5e53c3056e9cc467438f3151add33d712"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/node.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/dog_ik_walk/node.py",
+    "size": 12112,
+    "sha256": "ab27ad113172ef3418d2f46a525bcc1ca4270f987c112e3e44d03db30ccd7c3b"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/dog_ik_walk/sequence.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/dog_ik_walk/sequence.py",
+    "size": 2201,
+    "sha256": "6054edeb867f559d142071f12302a1962b5ac1ecb6b1b9c1385ce6f4d6e8782f"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/launch/ik_walk.launch.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/launch/ik_walk.launch.py",
+    "size": 748,
+    "sha256": "dda40c64b8eb613319201e35a8124771c079958dca06cf5c83fa21d319042cd7"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/launch/ik_walk_imu.launch.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/launch/ik_walk_imu.launch.py",
+    "size": 1125,
+    "sha256": "8270137e7843c19600efc733e5a0d7df2e9c336be55e1f10bfea016d74ecb52b"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/package.xml",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/package.xml",
+    "size": 629,
+    "sha256": "786e18e5ed60c5fcaa4edd144bc525724e25494e8ba06aed5d3ae82633c21055"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/resource/dog_ik_walk",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/resource/dog_ik_walk",
+    "size": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/setup.cfg",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/setup.cfg",
+    "size": 95,
+    "sha256": "a517a88e4a860e081b805392d9930978e9c71e208b0b22afc8b12cd3281b15b1"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/setup.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/setup.py",
+    "size": 485,
+    "sha256": "2c5ce11870745a0bea93ef3604006e051a51a5a1124c416232cf68f9ea3f3c06"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/test/test_command_receipt.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/test/test_command_receipt.py",
+    "size": 4836,
+    "sha256": "fb49a0e4150735928c9c246b80bc77138def55f2bd40330735df893d92e9e14a"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/test/test_controller.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/test/test_controller.py",
+    "size": 7100,
+    "sha256": "d9e4e9301e2544748665f00909568f9ca37f779049803c4d1c09f88f17d57296"
+  },
+  {
+    "path": "ros2_ws/src/dog_ik_walk/test/test_heading.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dog_ik_walk/test/test_heading.py",
+    "size": 7975,
+    "sha256": "6d3259c16971601842bcf5e3c1fcec0ad4672b27ee419f51a36f52fdddf6c0cc"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/LICENSE",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/LICENSE",
+    "size": 1175,
+    "sha256": "f450a1e7008e728cf0d673b4c5267ffd1f152b5ec6f70d09cad0841a85582799"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/README.md",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/README.md",
+    "size": 6607,
+    "sha256": "65e37c8f52cf2a0578097f44969d33f5b9d6f2d51e45e6b81153483629e3139c"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/dm_imu/__init__.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/dm_imu/__init__.py",
+    "size": 78,
+    "sha256": "85adab604e606c2991bc89c753e3edbf770b2483f4843d85a8df4e73b9c24264"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/dm_imu/node.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/dm_imu/node.py",
+    "size": 6963,
+    "sha256": "7c386b5f6a74f1940609cace20b187dfdcaad020d10dc5568193006fe3ff1fcb"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/dm_imu/probe.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/dm_imu/probe.py",
+    "size": 3784,
+    "sha256": "f60338acacc4728edcb6859927785de4435d788188600d9a15542a35fc082308"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/dm_imu/protocol.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/dm_imu/protocol.py",
+    "size": 7182,
+    "sha256": "cf30f8633806a0894160011965b3fcf5a0ccf5499ace0b4baff99b6f1a3296b4"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/package.xml",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/package.xml",
+    "size": 577,
+    "sha256": "f60e4de327cdb19ecdea3d869c157d1939462622ade742045565567a5d666dd0"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/resource/dm_imu",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/resource/dm_imu",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/setup.cfg",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/setup.cfg",
+    "size": 82,
+    "sha256": "ad9221e487120da77bdf7c7fa6e94bb3f5e0cc9d333e738ac8c313bdea02eb11"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/setup.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/setup.py",
+    "size": 640,
+    "sha256": "db792407ce534fc5a942732680a5e23fc5edaa57267ce07f3c4b664cbdbdb432"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/test/test_imu_protocol.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/test/test_imu_protocol.py",
+    "size": 5446,
+    "sha256": "037829413dd551e9e344a99a27567d34589b2f200366165127fddd391e30b40a"
+  },
+  {
+    "path": "ros2_ws/src/dm_imu/test/test_legacy_crc.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/src/dm_imu/test/test_legacy_crc.py",
+    "size": 1196,
+    "sha256": "f8e148801d4871c9adf6c05e008eed544d175950830731a791582a1150a78fda"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_clock.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_clock.py",
+    "size": 349,
+    "sha256": "3fe52bdefc035c05ed28feff0a00a63fc212c848762958a566bf5fdded9de53d"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_config.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_config.json",
+    "size": 4072,
+    "sha256": "9ca99d2dce28a82fa7f2a21b32b5753c81aa4e82f7513a6e08f4aaed5111179a"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_config_before_session_branch.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_config_before_session_branch.json",
+    "size": 4072,
+    "sha256": "d05c437e561cb9cb611d5d4042a1f7c538756fe0f5707971dc9a629d0ac5da2d"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_demo.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_demo.py",
+    "size": 7465,
+    "sha256": "7020126a2e7ba4b285c544c4838b88030fdcd31c249cf6b975bfbfc707c36132"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_gait.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_gait.py",
+    "size": 1471,
+    "sha256": "eb067468b3dbb964dc4202cf40ffb859c60e66b01cc3574eec92862454dc7be0"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_imu.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_imu.py",
+    "size": 6482,
+    "sha256": "88a8ce26fdfb70776f11761eb912d8fbc6ea766c28bf051d99eaa5ddccf70ec6"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_kinematics.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_kinematics.json",
+    "size": 7633,
+    "sha256": "b40487a288eb5b15b603856d3477408e0ae6e24ab7a368342045bf63a3ce5cd9"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_kinematics.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_kinematics.py",
+    "size": 3530,
+    "sha256": "fe70269da92e3f7fb77a0edd289f0faab803af8c9e8faed201f4604f82e447b8"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_link.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_link.py",
+    "size": 4891,
+    "sha256": "e80014b895b938b7e92bffe56450594f8408614e68505fd1c59b3a63edfd89fd"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_motor_calibration.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_motor_calibration.json",
+    "size": 15868,
+    "sha256": "cb320e85bada70f720954e30cdccf0b4c44a3a934b9c9fda98af3f3653546bb1"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_motor_calibration_imu_20261006.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_motor_calibration_imu_20261006.json",
+    "size": 16197,
+    "sha256": "1b5f856fa34358e37e16cd4c640fe7b3f2b46e058e4c2deaeae2c10caaf17ec4"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_motor_calibration_reboot_trial.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_motor_calibration_reboot_trial.json",
+    "size": 15845,
+    "sha256": "9804e3ddf02fb2d9ca57b2d0b312bde427d383c6fca7ad02eb413284140c8628"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_motor_calibration_session_20261005.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_motor_calibration_session_20261005.json",
+    "size": 15911,
+    "sha256": "51a4511e14d6c46c748c842de286801ceee098c6fae4ea0be4667757c5d64716"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_protocol.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_protocol.py",
+    "size": 3907,
+    "sha256": "0f7fb4eb1429af5a25e76b9e29158a1653df20dc0d34c274d6f56087302942bd"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_replay.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_replay.py",
+    "size": 10235,
+    "sha256": "e09a3ba2540632b54e282a0ab4a1ec5b7b55d73c1293ef73ff68cfa359aceac1"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_replay_tests.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_replay_tests.py",
+    "size": 5740,
+    "sha256": "0cc403dd1d2a4a414bfed78a4eafe4e3b815162e29931852939772555e2c232c"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_runtime.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_runtime.py",
+    "size": 24814,
+    "sha256": "6f60627cdcb69d823fb7fb8f9028cfd482e9b0fafcca957ce84067be430ecc8d"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_runtime_tests.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_runtime_tests.py",
+    "size": 16304,
+    "sha256": "d8a0d092102f9c2d7dbac84ffd07b8b0a2ea1461286b889243239d4840d72c17"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_sim_bridge.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_sim_bridge.py",
+    "size": 9621,
+    "sha256": "066842498a87ecde1215a0eaca3b2b7a1843a1d4787767a49630c7cbec781f8a"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_sim_bridge_tests.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_sim_bridge_tests.py",
+    "size": 5691,
+    "sha256": "73bea44f923f08ed6bd4a9238ab0c31b251260ef188fb84d1f969ec872b328b0"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_tests.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_tests.py",
+    "size": 5141,
+    "sha256": "bb033e126c453472d2f8ded311c661f18f87258fae298aebfb388f2e260829e2"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dog_zero_measurements.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dog_zero_measurements.json",
+    "size": 38291,
+    "sha256": "167b488ee10d6995c088e77db104308a49d276bd10996bc1f3ea502dc52dabc7"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dogstand.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dogstand.py",
+    "size": 168,
+    "sha256": "76d7cdb10b5000bf63f01f2f6be27668a4e705317ec6a89b8ee7115066c67a83"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dogtrot.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dogtrot.py",
+    "size": 167,
+    "sha256": "2807efecf43e57f08aceb51a402b82b0ade428f709d257791db23419ab0c2630"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dogui.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dogui.py",
+    "size": 9424,
+    "sha256": "316117ce76115d7b724a57d38c9a8d8056aa59aa7a996de3d5e2f369d9e24dc3"
+  },
+  {
+    "path": "runtime/dog_tradition_real/dogwalk.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/dogwalk.py",
+    "size": 167,
+    "sha256": "6932b8072a601537a9a6cf2f7b2e3a7db581464063541026d9790293f13f290d"
+  },
+  {
+    "path": "runtime/dog_tradition_real/tools/dog_slow_stand_test.py",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime/dog_tradition_real/tools/dog_slow_stand_test.py",
+    "size": 18318,
+    "sha256": "381c26838af1fe8d7c0ef6d5ec0a1a8420d482e5b0c51ef9e0400d88daf8462e"
+  },
+  {
+    "path": "config/source/deployment.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/dog_deployment.json",
+    "size": 2292,
+    "sha256": "43507dd74fefab6398b3e4c4c40face1dc85d3a9f22578971bf596330f677fb3"
+  },
+  {
+    "path": "config/source/standpose.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/standpose.json",
+    "size": 10659,
+    "sha256": "d5b2528b4f689a1ed5f7851d85e1e58925ba3c9e50c51e80a127234acc9e6501"
+  },
+  {
+    "path": "config/source/imu_mount.json",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/imu_mount.json",
+    "size": 1067,
+    "sha256": "8aee6647b5aeddd09b7d38fd4a0e94a6ed628e461c6841aa98ab1cc7e72f6f33"
+  },
+  {
+    "path": "config/source/heading_trajectory.npz",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_heading_response_20261007_v034/heading_trajectory_v034.npz",
+    "size": 316363,
+    "sha256": "ae880bd97a1c97c2b4b7903c44e134848dea842faf9792ae11b74597457aa818"
+  },
+  {
+    "path": "config/source/teleop_table.npz",
+    "source": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/teleop_table.npz",
+    "size": 96379,
+    "sha256": "ff828ee2e7574ae101b4dd59da95072f6ab1d9068febb86dc07c557faf8b48bc"
+  },
+  {
+    "path": "config/mid360.json",
+    "source": "/home/robot/dog_navigation/config/mid360_type9_192_168_2_100.json",
+    "size": 876,
+    "sha256": "4273d94b859048349bbfd60cf4cf60025fcac798a526be8f76c3630d24bf7534"
+  },
+  {
+    "path": "config/dog_oak.yaml",
+    "source": "/home/robot/dog_vision_custom_20261026/config/dog_oak.yaml",
+    "size": 643,
+    "sha256": "558f5af64b1c381c4a41ea336cd4e2d19fa0bd4a02d9ead2b22311f25fb04868"
+  },
+  {
+    "path": "models/dog_fire_chemical_human_yolov8n.onnx",
+    "source": "/home/robot/dog_vision_custom_20261026/models/dog_fire_chemical_human_yolov8n.onnx",
+    "size": 12748156,
+    "sha256": "dcd1544872485062ee3bd7619914442992dc4c9ee89db4f55c325791b5f28cb9"
+  },
+  {
+    "path": "reference/vision_scripts/check_export.py",
+    "source": "/home/robot/dog_vision_custom_20261026/scripts/check_export.py",
+    "size": 1987,
+    "sha256": "71c57e3dd7b1b6112ca341882c60248dd38bc3aa5fa07b9b21b425bfa98566f6"
+  },
+  {
+    "path": "reference/vision_scripts/dog_custom_yolo.py",
+    "source": "/home/robot/dog_vision_custom_20261026/scripts/dog_custom_yolo.py",
+    "size": 13337,
+    "sha256": "5226118b02c54c9f52059531d7798f87c8954441b7f981f6e71daaf7d77b5bcc"
+  },
+  {
+    "path": "reference/vision_scripts/dog_vision_control.py",
+    "source": "/home/robot/dog_vision_custom_20261026/scripts/dog_vision_control.py",
+    "size": 2458,
+    "sha256": "e3c7788c154509d9076d8b6ddefd76a70816d93957bfee3c367dcd062eb57819"
+  },
+  {
+    "path": "reference/vision_scripts/dog_yolo_core.py",
+    "source": "/home/robot/dog_vision_custom_20261026/scripts/dog_yolo_core.py",
+    "size": 2772,
+    "sha256": "7709ae40a661d520079841d0d5f17607a6a69949078b53bfccdf5e513b0846db"
+  },
+  {
+    "path": "reference/vision_scripts/start_camera.sh",
+    "source": "/home/robot/dog_vision_custom_20261026/scripts/start_camera.sh",
+    "size": 345,
+    "sha256": "b9619eed1df81cd65d6bdd4894e1c85207a5de729304bfcd25cfaa0799dd47a2"
+  },
+  {
+    "path": "reference/vision_scripts/start_viewer.sh",
+    "source": "/home/robot/dog_vision_custom_20261026/scripts/start_viewer.sh",
+    "size": 270,
+    "sha256": "435a33c6f14cc6dec6637cab1eb318de5c9865b300955b5dd8062870f5ea6882"
+  },
+  {
+    "path": "reference/vision_scripts/verify_ros.py",
+    "source": "/home/robot/dog_vision_custom_20261026/scripts/verify_ros.py",
+    "size": 2525,
+    "sha256": "8a8a65422151b8a3b3357b5240b405d1584fcd9cb944bcb7a000c840c0115ccf"
+  },
+  {
+    "path": "maps/fire_scene/edit_comparison.png",
+    "source": "/home/robot/dog_navigation/maps/dog_fire_grid_20261021_manual_v1/edit_comparison.png",
+    "size": 105198,
+    "sha256": "7c0602edcd80a59898c6bf000c03317296561915e4c6bacdb7ab6061d9842f1a"
+  },
+  {
+    "path": "maps/fire_scene/edit_manifest.json",
+    "source": "/home/robot/dog_navigation/maps/dog_fire_grid_20261021_manual_v1/edit_manifest.json",
+    "size": 9665,
+    "sha256": "d1810fb698fb668f5c6e5db2f053db266d01731f385476e92dbe26833fd130e3"
+  },
+  {
+    "path": "maps/fire_scene/map.pgm",
+    "source": "/home/robot/dog_navigation/maps/dog_fire_grid_20261021_manual_v1/map.pgm",
+    "size": 372315,
+    "sha256": "f11d209097e61e5d280a8291daefdc316fbf58fe118ecabe63bb311566030208"
+  },
+  {
+    "path": "maps/fire_scene/map.yaml",
+    "source": "/home/robot/dog_navigation/maps/dog_fire_grid_20261021_manual_v1/map.yaml",
+    "size": 132,
+    "sha256": "4913eb48edeb6009467882aac774ee2c3f070e61e3ff129d7f374f881c7ef00b"
+  },
+  {
+    "path": "maps/fire_scene/reference_route.json",
+    "source": "/home/robot/dog_navigation/maps/dog_fire_grid_20261021_manual_v1/reference_route.json",
+    "size": 3508,
+    "sha256": "aaff238f573e241c2b4ec6819c90eec3e16681cfb5d46efcbbf39ae40007b510"
+  },
+  {
+    "path": "maps/fire_scene/user_annotation.png",
+    "source": "/home/robot/dog_navigation/maps/dog_fire_grid_20261021_manual_v1/user_annotation.png",
+    "size": 144818,
+    "sha256": "f886ce15310ce5a8f775c5b61fee10aa01985fe2987b4c4585c8f4f46fa1913f"
+  },
+  {
+    "path": "reference/nuc_services/default.target.wants/dog_ik_controller.service",
+    "source": "/home/robot/.config/systemd/user/default.target.wants/dog_ik_controller.service",
+    "size": 270,
+    "sha256": "2eb1f23d0e1e9dd7d3bba0005515218ee87096dcba63833cd3579e5fe96ad5eb"
+  },
+  {
+    "path": "reference/nuc_services/default.target.wants/dog_imu.service",
+    "source": "/home/robot/.config/systemd/user/default.target.wants/dog_imu.service",
+    "size": 258,
+    "sha256": "06cc9d2749adc977a8d1acffcaefa3acb657b7ccceb094cf7687889db1c5dcfb"
+  },
+  {
+    "path": "reference/nuc_services/default.target.wants/dog_web.service",
+    "source": "/home/robot/.config/systemd/user/default.target.wants/dog_web.service",
+    "size": 354,
+    "sha256": "d4be10b6e721fb0a59e77df9669fab843e98b333438fc185ef3f2cd8d4576927"
+  },
+  {
+    "path": "reference/nuc_services/dog_ik_controller.service",
+    "source": "/home/robot/.config/systemd/user/dog_ik_controller.service",
+    "size": 270,
+    "sha256": "2eb1f23d0e1e9dd7d3bba0005515218ee87096dcba63833cd3579e5fe96ad5eb"
+  },
+  {
+    "path": "reference/nuc_services/dog_ik_controller.service.d/dog_navigation.conf",
+    "source": "/home/robot/.config/systemd/user/dog_ik_controller.service.d/dog_navigation.conf",
+    "size": 134,
+    "sha256": "5b717f00f5402d50dea6b4e485b1f696d57ba9c9747e9699967906f309fee124"
+  },
+  {
+    "path": "reference/nuc_services/dog_imu.service",
+    "source": "/home/robot/.config/systemd/user/dog_imu.service",
+    "size": 258,
+    "sha256": "06cc9d2749adc977a8d1acffcaefa3acb657b7ccceb094cf7687889db1c5dcfb"
+  },
+  {
+    "path": "reference/nuc_services/dog_web.service",
+    "source": "/home/robot/.config/systemd/user/dog_web.service",
+    "size": 354,
+    "sha256": "d4be10b6e721fb0a59e77df9669fab843e98b333438fc185ef3f2cd8d4576927"
+  }
+]

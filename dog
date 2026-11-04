@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+set -eo pipefail
+ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+action="${1:-help}"
+if [[ $# -gt 0 ]]; then shift; fi
+case "$action" in
+  help|-h|--help)
+    cat <<'HELP'
+dog_final — consolidated ROS 2 commands (monitor-only)
+
+  ./dog build        Build the six project ROS packages once
+  ./dog doctor       Check files, packages, Python and active device owners
+  ./dog status       Read existing ROS/controller/service status
+  ./dog vision       OAK RGB + aligned depth + three-class YOLO + viewer :8182
+  ./dog mapping      MID-360 + FAST-LIO + 2D occupancy-grid projection
+  ./dog survey       Mapping + camera + YOLO together
+  ./dog save-map     Save the active mapping run's PCD and grid (second terminal)
+  ./dog monitor      DM IMU + IK monitor (no motor writes; rejects existing owners)
+  ./dog plan         Saved-map Nav2 planner preview; no device or motor access
+  ./dog nav-monitor  Live Nav2/perception preview; motor output fixed false
+  ./dog model        URDF and RViz only; requires a graphical desktop
+  ./dog args         Show launch arguments without starting nodes
+  ./dog test         Run organization/bringup checks without hardware access
+
+Stop a foreground launch with Ctrl+C. Save a map before stopping mapping/survey.
+All profiles use dog_bringup/dog_system.launch.py; extra args use ROS := syntax.
+Example: ./dog plan start_x:=0.6 start_y:=0.0
+HELP
+    exit 0;;
+  build) exec bash "$ROOT/scripts/dog_build.sh" "$@";;
+  build-drivers) exec bash "$ROOT/scripts/dog_build_drivers.sh" "$@";;
+  save-map) exec bash "$ROOT/scripts/dog_save_map.sh" "$@";;
+  doctor) exec python3 "$ROOT/scripts/dog_doctor.py" "$@";;
+  test) exec python3 "$ROOT/scripts/dog_validate.py" "$@";;
+  status|args|monitor|vision|mapping|survey|plan|nav-monitor|model) ;;
+  *) printf 'Unknown command: %s. Use ./dog help\n' "$action" >&2; exit 2;;
+esac
+source "$ROOT/scripts/dog_env.sh"
+if [[ ! -f "$ROOT/ros2_ws/install/setup.bash" ]]; then
+    printf 'Build the consolidated workspace first: ./dog build\n' >&2
+    exit 1
+fi
+case "$action" in
+  status) exec ros2 run dog_bringup dog_status "$@";;
+  args) exec ros2 launch dog_bringup dog_system.launch.py --show-args "$@";;
+  *) exec ros2 launch dog_bringup dog_system.launch.py "mode:=$action" "$@";;
+esac

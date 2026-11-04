@@ -1,0 +1,49 @@
+test_busy_demo_and_monitor_mode_do_not_capture_direction (test_command_receipt.CommandReceiptTests) ... ok
+test_demo_latches_before_background_preparation (test_command_receipt.CommandReceiptTests) ... ok
+test_demo_sequence_keeps_t1_after_zero_and_stand (test_command_receipt.CommandReceiptTests) ... ok
+test_direct_turn_queues_only_walk_and_commits_direction (test_command_receipt.CommandReceiptTests) ... ok
+test_direct_walk_passes_callback_receipt_time (test_command_receipt.CommandReceiptTests) ... ok
+test_branch_alignment_selects_nearest_zero_in_both_directions (test_controller.Tests) ... ok
+test_each_zero_reselects_nearest_branch_and_keeps_following_targets_consistent (test_controller.Tests) ... ok
+test_four_beat_feasible_calibrated_trajectory (test_controller.Tests) ... ok
+test_mock_enable_stand_walk_disable (test_controller.Tests) ... ok
+test_monitor_mode_cannot_write (test_controller.Tests) ... ok
+test_post_enable_pose_replaces_old_can_cache_before_gains (test_controller.Tests) ... ok
+test_uninitialized_can_cache_cannot_enable (test_controller.Tests) ... ok
+test_zero_stand_walk_sequence_finishes_holding (test_controller.Tests) ... ok
+test_command_heading_survives_preparation_and_next_command_reanchors (test_heading.HeadingTests) ... ok
+test_explicit_left_turn_is_mirror_of_right (test_heading.HeadingTests) ... ok
+test_explicit_right_turn_does_not_countersteer_back_to_start (test_heading.HeadingTests) ... ok
+test_heading_wrap (test_heading.HeadingTests) ... ok
+test_internal_walk_without_external_command_is_rejected (test_heading.HeadingTests) ... ok
+test_inverted_mount_and_gyro (test_heading.HeadingTests) ... ok
+test_missing_imu_does_not_abort_or_reanchor_and_recovers (test_heading.HeadingTests) ... ok
+test_positive_turn_outer_feet_advance_more (test_heading.HeadingTests) ... ok
+test_rejected_and_stale_commands_do_not_replace_reference (test_heading.HeadingTests) ... ok
+test_right_error_commands_left_and_reverse (test_heading.HeadingTests) ... ok
+test_stale_and_invalid_orientation_not_used (test_heading.HeadingTests) ... ok
+test_walk_queue_and_start_do_not_recapture_heading (test_heading.HeadingTests) ... ok
+test_five_degrees_uses_tested_turn_bank_quickly (test_heading_response.ResponseTests) ... ok
+test_invalid_response_configuration_is_rejected (test_heading_response.ResponseTests) ... ok
+test_manual_turns_are_identical_to_existing_response (test_heading_response.ResponseTests) ... ok
+test_missing_samples_fade_and_recovery_keeps_t1 (test_heading_response.ResponseTests) ... ok
+test_new_command_resets_trend_and_stays_within_existing_bank (test_heading_response.ResponseTests) ... ok
+test_no_three_degree_deadband_and_trend_brakes_near_target (test_heading_response.ResponseTests) ... ok
+test_three_degrees_responds_even_with_large_opposing_gyro (test_heading_response.ResponseTests) ... ok
+test_disconnect_settles_then_holds_without_new_packets (test_teleop.TeleopTests) ... ok
+test_release_does_not_resume_from_old_gesture (test_teleop.TeleopTests) ... ok
+test_requires_stand_and_fresh_command (test_teleop.TeleopTests) ... ok
+test_stream_does_not_reanchor_heading_and_turn_to_straight_does (test_teleop.TeleopTests) ... ok
+test_table_wrap_continuity (test_teleop.TeleopTests) ... ok
+test_disable_not_blocked_by_slow_service (test_web.WebTests) ... ok
+test_expired_lease_requires_fresh_gesture (test_web.WebTests) ... ok
+test_loading_page_does_not_enable (test_web.WebTests) ... ok
+test_nan_and_outside_range_rejected (test_web.WebTests) ... ok
+test_release_blocks_delayed_active_packets (test_web.WebTests) ... ok
+test_reordered_packet_is_rejected (test_web.WebTests) ... ok
+test_second_phone_cannot_take_over_but_can_disable (test_web.WebTests) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 20.120s
+
+OK

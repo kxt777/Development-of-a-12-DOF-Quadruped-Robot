@@ -1,0 +1,47 @@
+{
+  "schema": "dog_ros_imu_heading_walk_v1",
+  "runtime_root": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/runtime",
+  "motor_port": "/dev/serial/by-id/usb-STMicroelectronics_STM32_Virtual_ComPort_316F36463233-if00",
+  "body_height_m": 0.17,
+  "stand_seconds": 8.0,
+  "hold_seconds": 3.0,
+  "walk_seconds": 20.0,
+  "walk_ramp_seconds": 2.0,
+  "return_seconds": 8.0,
+  "log_directory": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/logs",
+  "imu_used": true,
+  "authorization": "User confirmed supporting robot and requested zero, stand, left turn 2026-10-07",
+  "parameters_source": "2026-10-05 19:54 real walk Kp75/Kv1.5,25mm lift,50mm support stroke; frequency1.0->1.2Hz, vx.0625->.08m/s, duty.8->.75 to retain swing time .208s and support stroke .05m. Today horizontal-hip standpose.",
+  "zero_seconds": 8.0,
+  "zero_hold_seconds": 3.0,
+  "finish_action": "hold_stand",
+  "trial": "lan_control_idle",
+  "standpose_file": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/standpose.json",
+  "imu_topic": "/dog_imu/data",
+  "ros_namespace": "/dog_ik_walk_imu",
+  "trajectory_cache": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_heading_response_20261007_v034/heading_trajectory_v034.npz",
+  "heading": {
+    "kp": 1.0,
+    "kd": 0.15,
+    "command_filter_seconds": 0.4,
+    "trajectory_yaw_rate_rad_s": 0.15,
+    "max_imu_age_s": 0.1,
+    "source": "Controller tuning; yaw envelope defines the evaluated IK interpolation bank, not a motor hardware maximum.",
+    "straight_response": {
+      "full_correction_error_deg": 5.0,
+      "braking_error_deg": 3.0,
+      "yaw_rate_filter_seconds": 0.1326291192432461,
+      "command_filter_seconds": 0.08
+    }
+  },
+  "heading_reference_policy": "accepted_external_command_receipt",
+  "software_version": "0.4.0-lan-teleop",
+  "imu_gap_policy": "continue finite walk, fade yaw correction to zero, resume original heading when fresh",
+  "encoder_branch_policy": "nearest calibrated zero at post-enable and each zero operation, fixed session offset thereafter",
+  "teleop": {
+    "max_forward_m_s": 0.08,
+    "command_timeout_s": 0.5,
+    "velocity_filter_seconds": 0.4,
+    "trajectory_cache": "/home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021/teleop_table.npz"
+  }
+}

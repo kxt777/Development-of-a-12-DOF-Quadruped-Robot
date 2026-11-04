@@ -1,0 +1,103 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2026-10-29-22-58-05-664795-robot-Default-string-7865
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: dog_final plan: /home/robot/dog_final/runs/20261030_105805_687783_plan; motor writes disabled
+[INFO] [static_transform_publisher-1]: process started with pid [7909]
+[INFO] [map_server-2]: process started with pid [7911]
+[INFO] [planner_server-3]: process started with pid [7913]
+[INFO] [lifecycle_manager-4]: process started with pid [7915]
+[planner_server-3] [INFO] [1793329085.737674376] [dog_nav.dog_planner_server]: 
+[planner_server-3] 	dog_planner_server lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-4] [INFO] [1793329085.739017477] [dog_nav.dog_planning_lifecycle_manager]: Creating
+[static_transform_publisher-1] [INFO] [1793329085.740467947] [dog_nav.dog_planning_start_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-1] translation: ('0.600000', '0.000000', '0.000000')
+[static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-1] from 'dog_lio_map' to 'dog_planning_start'
+[map_server-2] [INFO] [1793329085.741373907] [dog_nav.dog_map_server]: 
+[map_server-2] 	dog_map_server lifecycle node launched. 
+[map_server-2] 	Waiting on external lifecycle transitions to activate
+[map_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-2] [INFO] [1793329085.741420267] [dog_nav.dog_map_server]: Creating
+[lifecycle_manager-4] [INFO] [1793329085.742909928] [dog_nav.dog_planning_lifecycle_manager]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[planner_server-3] [INFO] [1793329085.743910583] [dog_nav.dog_planner_server]: Creating
+[lifecycle_manager-4] [INFO] [1793329085.743933786] [dog_nav.dog_planning_lifecycle_manager]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-4] [INFO] [1793329085.743959838] [dog_nav.dog_planning_lifecycle_manager]: [34m[1mConfiguring dog_map_server[0m[0m
+[map_server-2] [INFO] [1793329085.744109278] [dog_nav.dog_map_server]: Configuring
+[map_server-2] [INFO] [1793329085.744141682] [map_io]: Loading yaml file: /home/robot/dog_final/maps/fire_scene/map.yaml
+[map_server-2] [INFO] [1793329085.744269267] [map_io]: resolution: 0.05
+[map_server-2] [INFO] [1793329085.744273197] [map_io]: origin[0]: -11.3
+[map_server-2] [INFO] [1793329085.744275624] [map_io]: origin[1]: -8
+[map_server-2] [INFO] [1793329085.744277730] [map_io]: origin[2]: 0
+[map_server-2] [INFO] [1793329085.744279930] [map_io]: free_thresh: 0.196
+[map_server-2] [INFO] [1793329085.744282097] [map_io]: occupied_thresh: 0.65
+[map_server-2] [INFO] [1793329085.744284349] [map_io]: mode: trinary
+[map_server-2] [INFO] [1793329085.744286670] [map_io]: negate: 0
+[planner_server-3] [INFO] [1793329085.747065427] [dog_nav.dog_global_costmap.dog_global_costmap]: 
+[planner_server-3] 	dog_global_costmap lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-2] [INFO] [1793329085.747918998] [map_io]: Loading image_file: /home/robot/dog_final/maps/fire_scene/map.pgm
+[planner_server-3] [INFO] [1793329085.749263448] [dog_nav.dog_global_costmap.dog_global_costmap]: Creating Costmap
+[map_server-2] [INFO] [1793329085.768968079] [map_io]: Read map /home/robot/dog_final/maps/fire_scene/map.pgm: 850 X 438 map @ 0.05 m/cell
+[lifecycle_manager-4] [INFO] [1793329085.771828019] [dog_nav.dog_planning_lifecycle_manager]: [34m[1mConfiguring dog_planner_server[0m[0m
+[planner_server-3] [INFO] [1793329085.772120708] [dog_nav.dog_planner_server]: Configuring
+[planner_server-3] [INFO] [1793329085.772140120] [dog_nav.dog_global_costmap.dog_global_costmap]: Configuring
+[planner_server-3] [INFO] [1793329085.773926466] [dog_nav.dog_global_costmap.dog_global_costmap]: Using plugin "static_layer"
+[planner_server-3] [INFO] [1793329085.779105773] [dog_nav.dog_global_costmap.dog_global_costmap]: Subscribing to the map topic (/dog_nav/map) with transient local durability
+[planner_server-3] [INFO] [1793329085.779534654] [dog_nav.dog_global_costmap.dog_global_costmap]: Initialized plugin "static_layer"
+[planner_server-3] [INFO] [1793329085.785340871] [dog_nav.dog_planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-3] [INFO] [1793329085.785356572] [dog_nav.dog_planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1793329085.785439713] [dog_nav.dog_planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-4] [INFO] [1793329085.788402246] [dog_nav.dog_planning_lifecycle_manager]: [34m[1mActivating dog_map_server[0m[0m
+[map_server-2] [INFO] [1793329085.788475009] [dog_nav.dog_map_server]: Activating
+[map_server-2] [INFO] [1793329085.788727778] [dog_nav.dog_map_server]: Creating bond (dog_map_server) to lifecycle manager.
+[planner_server-3] [INFO] [1793329085.819355717] [dog_nav.dog_global_costmap.dog_global_costmap]: StaticLayer: Resizing costmap to 850 X 438 at 0.050000 m/pix
+[lifecycle_manager-4] [INFO] [1793329085.890610648] [dog_nav.dog_planning_lifecycle_manager]: Server dog_map_server connected with bond.
+[lifecycle_manager-4] [INFO] [1793329085.890639399] [dog_nav.dog_planning_lifecycle_manager]: [34m[1mActivating dog_planner_server[0m[0m
+[planner_server-3] [INFO] [1793329085.890885273] [dog_nav.dog_planner_server]: Activating
+[planner_server-3] [INFO] [1793329085.890906411] [dog_nav.dog_global_costmap.dog_global_costmap]: Activating
+[planner_server-3] [INFO] [1793329085.890911827] [dog_nav.dog_global_costmap.dog_global_costmap]: Checking transform
+[planner_server-3] [INFO] [1793329085.890963223] [dog_nav.dog_global_costmap.dog_global_costmap]: start
+[planner_server-3] [INFO] [1793329085.941229057] [dog_nav.dog_planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1793329085.941680058] [dog_nav.dog_planner_server]: Creating bond (dog_planner_server) to lifecycle manager.
+[lifecycle_manager-4] [INFO] [1793329086.043300963] [dog_nav.dog_planning_lifecycle_manager]: Server dog_planner_server connected with bond.
+[lifecycle_manager-4] [INFO] [1793329086.043352856] [dog_nav.dog_planning_lifecycle_manager]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-4] [INFO] [1793329086.043363862] [dog_nav.dog_planning_lifecycle_manager]: [34m[1mCreating bond timer...[0m[0m
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [lifecycle_manager-4]: sending signal 'SIGINT' to process[lifecycle_manager-4]
+[INFO] [planner_server-3]: sending signal 'SIGINT' to process[planner_server-3]
+[INFO] [map_server-2]: sending signal 'SIGINT' to process[map_server-2]
+[INFO] [static_transform_publisher-1]: sending signal 'SIGINT' to process[static_transform_publisher-1]
+[static_transform_publisher-1] [INFO] [1793329090.330778514] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-4] [INFO] [1793329090.330805612] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-4] [INFO] [1793329090.330889407] [dog_nav.dog_planning_lifecycle_manager]: Running Nav2 LifecycleManager rcl preshutdown (dog_planning_lifecycle_manager)
+[lifecycle_manager-4] [INFO] [1793329090.330923468] [dog_nav.dog_planning_lifecycle_manager]: [34m[1mTerminating bond timer...[0m[0m
+[planner_server-3] [INFO] [1793329090.330813962] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-3] [INFO] [1793329090.330859321] [dog_nav.dog_planner_server]: Running Nav2 LifecycleNode rcl preshutdown (dog_planner_server)
+[planner_server-3] [INFO] [1793329090.330928271] [dog_nav.dog_planner_server]: Deactivating
+[planner_server-3] [INFO] [1793329090.330965773] [dog_nav.dog_global_costmap.dog_global_costmap]: Deactivating
+[map_server-2] [INFO] [1793329090.330816910] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-2] [INFO] [1793329090.330877978] [dog_nav.dog_map_server]: Running Nav2 LifecycleNode rcl preshutdown (dog_map_server)
+[map_server-2] [INFO] [1793329090.330928249] [dog_nav.dog_map_server]: Deactivating
+[map_server-2] [INFO] [1793329090.330946192] [dog_nav.dog_map_server]: Destroying bond (dog_map_server) to lifecycle manager.
+[ERROR] [static_transform_publisher-1]: process has died [pid 7909, exit code -2, cmd '/opt/ros/humble/lib/tf2_ros/static_transform_publisher --x 0.6 --y 0.0 --z 0 --yaw 0 --pitch 0 --roll 0 --frame-id dog_lio_map --child-frame-id dog_planning_start --ros-args -r __node:=dog_planning_start_tf -r __ns:=/dog_nav'].
+[map_server-2] [INFO] [1793329090.341215846] [dog_nav.dog_map_server]: Cleaning up
+[map_server-2] [INFO] [1793329090.341283337] [dog_nav.dog_map_server]: Destroying bond (dog_map_server) to lifecycle manager.
+[map_server-2] [INFO] [1793329090.341570532] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-2] [INFO] [1793329090.342280065] [dog_nav.dog_map_server]: Destroying
+[lifecycle_manager-4] [INFO] [1793329090.352717003] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-4] [INFO] [1793329090.353037233] [dog_nav.dog_planning_lifecycle_manager]: Destroying dog_planning_lifecycle_manager
+[INFO] [map_server-2]: process has finished cleanly [pid 7911]
+[INFO] [lifecycle_manager-4]: process has finished cleanly [pid 7915]
+[planner_server-3] [INFO] [1793329090.891390331] [dog_nav.dog_planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1793329090.891449746] [dog_nav.dog_planner_server]: Destroying bond (dog_planner_server) to lifecycle manager.
+[planner_server-3] [INFO] [1793329090.901751498] [dog_nav.dog_planner_server]: Cleaning up
+[planner_server-3] [INFO] [1793329090.905697418] [dog_nav.dog_global_costmap.dog_global_costmap]: Cleaning up
+[planner_server-3] [INFO] [1793329090.907017975] [dog_nav.dog_planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1793329090.907147632] [dog_nav.dog_planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1793329090.909236470] [dog_nav.dog_planner_server]: Destroying bond (dog_planner_server) to lifecycle manager.
+[planner_server-3] [INFO] [1793329090.909581671] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-3] [INFO] [1793329090.909859606] [dog_nav.dog_global_costmap.dog_global_costmap]: Destroying
+[planner_server-3] [INFO] [1793329090.910745302] [dog_nav.dog_planner_server]: Destroying
+[INFO] [planner_server-3]: process has finished cleanly [pid 7913]

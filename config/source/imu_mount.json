@@ -1,0 +1,18 @@
+{
+  "status": "User approved today's inverted installation as source of truth; inferred axis-aligned mapping, not deployed",
+  "body_frame": "X forward, Y left, Z up",
+  "sensor_to_body_rotation": [[1,0,0],[0,-1,0],[0,0,-1]],
+  "vector_transform": "v_body = R_BS @ v_sensor (acceleration and angular velocity)",
+  "orientation_transform": "If quaternion gives sensor-to-world R_WS, use R_WB = R_WS @ R_BS.T. Do not flip individual quaternion or Euler components.",
+  "evidence": {
+    "static_acceleration_m_s2": [-0.082,0.044,-9.777],
+    "static_rpy_deg": [-179.573,-0.392,-90.672],
+    "right_turn": "sensor Gz positive, reported yaw decreased",
+    "left_turn": "sensor Gz negative, reported yaw increased",
+    "nose_down_acceleration_m_s2": [-4.221,-0.043,-8.675],
+    "nose_down_rpy_deg": [177.801,26.014,-88.747]
+  },
+  "pending_before_hardware_closed_loop": ["independent roll-direction check", "orientation packet freshness check; GUI showed stale indication"],
+  "supersedes": "Yesterday's verbal physical sensor-axis directions",
+  "date": "2026-10-06"
+}

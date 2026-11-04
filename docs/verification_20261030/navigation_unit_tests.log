@@ -1,0 +1,29 @@
+test_20hz_alternation_does_not_change_action_inside_four_seconds (test_discrete_actions.DiscreteTests) ... ok
+test_early_stop_does_not_allow_immediate_opposite_action (test_discrete_actions.DiscreteTests) ... ok
+test_held_sweep_checks_action_instead_of_current_nav_twist (test_discrete_actions.DiscreteTests) ... ok
+test_near_side_target_reverses_translation_without_undoing_turn (test_discrete_actions.DiscreteTests) ... ok
+test_path_geometry_handles_behind_side_and_rotated_robot (test_discrete_actions.DiscreteTests) ... ok
+test_rotated_costmap_and_footprint_interior (test_discrete_actions.DiscreteTests) ... ok
+test_six_actions_match_existing_joystick_circle_and_deadzone (test_discrete_actions.DiscreteTests) ... ok
+test_slow_approach_keeps_translation_intent (test_discrete_actions.DiscreteTests) ... ok
+test_big_endian_padded_cloud_and_truncation (test_lidar_audit.AuditTest) ... ok
+test_network_configuration_does_not_guess_mounting (test_lidar_audit.AuditTest) ... ok
+test_stamps_and_end_silence_are_distinct (test_lidar_audit.AuditTest) ... ok
+test_alignment_locks_and_tracks_sensor_timestamp (test_navigation.NavigationTests) ... [WARN] [1793329112.118801227] [dog_nav_alignment]: Controller status required before alignment
+[INFO] [1793329112.119479738] [dog_nav_alignment]: locked_initial_alignment_lio_tracking
+[WARN] [1793329112.119959813] [dog_nav_alignment]: Alignment already locked; restart localization to set a new origin
+ok
+test_command_lease_and_feedback_loss_stop_navigation (test_navigation.NavigationTests) ... ok
+test_gait_scaling_preserves_curvature_and_sign (test_navigation.NavigationTests) ... ok
+test_goal_switch_stops_old_action_and_keeps_zero_lease (test_navigation.NavigationTests) ... ok
+test_initial_alignment_composition_and_motion (test_navigation.NavigationTests) ... ok
+test_mounting_transform_with_rotation_and_lever_arm (test_navigation.NavigationTests) ... ok
+test_path_drives_reverse_despite_oscillating_nav_turn_and_stops_at_30cm (test_navigation.NavigationTests) ... ok
+test_preview_cannot_arm_or_publish_motor_topic (test_navigation.NavigationTests) ... ok
+test_replanning_only_extends_zero_with_a_live_mission (test_navigation.NavigationTests) ... ok
+test_tight_arc_uses_checked_reverse_turn_only_at_decision_boundary (test_navigation.NavigationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.088s
+
+OK

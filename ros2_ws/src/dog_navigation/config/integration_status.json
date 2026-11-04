@@ -1,0 +1,15 @@
+{
+  "sensor": "Livox MID-360 (broadcast type 9; user initially described MID-360S)",
+  "verified_device": {"type": 9, "serial": "47MDM710020256", "mac": "e4:7a:2c:b3:b8:fa", "ip": "192.168.2.100"},
+  "verified_host_network": {"interface": "enp3s0", "ip": "192.168.2.50/24", "management_wifi": "192.168.30.176", "lidar_default_route": false},
+  "historical_network_only": {"host_ip": "192.168.1.5", "lidar_ip": "192.168.1.156"},
+  "mounting_calibration": "unmeasured; do not publish a guessed base-to-lidar transform",
+  "lidar_frame": "dog_lidar_link",
+  "historical_ips_verified_on_current_hardware": false,
+  "current_driver_mode": "sensor-only",
+  "raw_imu_convention": "Recovered Livox driver reports acceleration in g, gyro in rad/s, frame_id livox_frame. FAST-LIO normalizes acceleration at initialization. Do not feed this raw topic into a generic SI IMU consumer without conversion and a calibrated frame.",
+  "live_validation": "10 Hz nonempty custom point clouds; IMU-only probe approximately 200 Hz; FAST-LIO published approximately 10 Hz registered cloud and odometry and saved first_live_20261021.pcd",
+  "mapping_mounting_and_motion_validated": false,
+  "nav2_motor_bridge": "not_connected",
+  "fire_scene_validated": false
+}

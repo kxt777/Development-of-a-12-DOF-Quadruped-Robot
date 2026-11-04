@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="dog.">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.012759 0.045954 0.063768"
+        rpy="0 0 0" />
+      <mass
+        value="2.6449" />
+      <inertia
+        ixx="0.0030258"
+        ixy="-6.1423E-06"
+        ixz="2.4106E-05"
+        iyy="0.0059451"
+        iyz="2.5418E-06"
+        izz="0.0037624" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link fl_1">
+    <inertial>
+      <origin
+        xyz="0.035857438623954 9.95518664743955E-06 0.00107656405734664"
+        rpy="0 0 0" />
+      <mass
+        value="0.209753888919461" />
+      <inertia
+        ixx="8.53819743282133E-05"
+        ixy="1.40678071510451E-08"
+        ixz="1.48463616902998E-05"
+        iyy="9.23394085105203E-05"
+        iyz="6.63532170911712E-09"
+        izz="0.000100724824492244" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fl_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fl_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fl_1"
+    type="continuous">
+    <origin
+      xyz="-0.12924 -0.10865 0.027954"
+      rpy="-1.7955 0 -3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link fl_1" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="Link fl_2">
+    <inertial>
+      <origin
+        xyz="0.0856046175140227 -0.000521760987936964 0.0199567626229598"
+        rpy="0 0 0" />
+      <mass
+        value="0.209620494270558" />
+      <inertia
+        ixx="6.43083462625864E-05"
+        ixy="3.00044163849088E-08"
+        ixz="1.38843219366743E-07"
+        iyy="0.000138999629260021"
+        iyz="1.00316255258336E-08"
+        izz="0.00017496133750003" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fl_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fl_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fl_2"
+    type="continuous">
+    <origin
+      xyz="0.044312 0 0.041219"
+      rpy="0 0 1.3076" />
+    <parent
+      link="Link fl_1" />
+    <child
+      link="Link fl_2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Link fl_3">
+    <inertial>
+      <origin
+        xyz="-0.0213808745849538 -0.0339844676223552 0.0137718403776645"
+        rpy="0 0 0" />
+      <mass
+        value="0.0627447889637955" />
+      <inertia
+        ixx="3.23506910280123E-05"
+        ixy="-1.81729357487658E-06"
+        ixz="-1.45840154027921E-10"
+        iyy="1.90409149336538E-05"
+        iyz="-1.73362965741651E-10"
+        izz="4.76366421393345E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fl_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fl_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fl_3"
+    type="continuous">
+    <origin
+      xyz="0.12 0 0.02846"
+      rpy="0 0 -3.0457" />
+    <parent
+      link="Link fl_2" />
+    <child
+      link="Link fl_3" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Link fr_1">
+    <inertial>
+      <origin
+        xyz="0.0358574401681813 9.95456043509022E-06 0.00107656345981286"
+        rpy="0 0 0" />
+      <mass
+        value="0.209753901341504" />
+      <inertia
+        ixx="8.53819714097097E-05"
+        ixy="1.40675410345453E-08"
+        ixz="1.48463617436768E-05"
+        iyy="9.23394066700999E-05"
+        iyz="6.63591495999423E-09"
+        izz="0.000100724822020863" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fr_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fr_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fr_1"
+    type="continuous">
+    <origin
+      xyz="-0.129240220695433 -0.0186452574132401 0.0279541750946736"
+      rpy="1.52542224500899 0 -3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link fr_1" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="Link fr_2">
+    <inertial>
+      <origin
+        xyz="0.0827557612314772 -5.72007456147161E-05 0.0237732482404795"
+        rpy="0 0 0" />
+      <mass
+        value="0.187533303804959" />
+      <inertia
+        ixx="5.46433895247788E-05"
+        ixy="-8.19050201947683E-09"
+        ixz="-6.06270173690759E-09"
+        iyy="0.00013174985880755"
+        iyz="1.00316360255578E-08"
+        izz="0.000159451905920201" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fr_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fr_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fr_2"
+    type="continuous">
+    <origin
+      xyz="0.0443115850024417 0 0.0385295010334133"
+      rpy="0 0 -1.90217337382526" />
+    <parent
+      link="Link fr_1" />
+    <child
+      link="Link fr_2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Link fr_3">
+    <inertial>
+      <origin
+        xyz="-0.0291962439706284 -0.0532992763417052 -0.0158525412902711"
+        rpy="0 0 0" />
+      <mass
+        value="0.0430505488365332" />
+      <inertia
+        ixx="1.93255900572134E-05"
+        ixy="3.32949570614948E-09"
+        ixz="-1.4153696160174E-10"
+        iyy="1.22506188242555E-05"
+        iyz="-2.08263186460088E-10"
+        izz="2.95576962064859E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fr_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_fr_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fr_3"
+    type="continuous">
+    <origin
+      xyz="0.12 0 0.0333913741414799"
+      rpy="3.14159265358979 0 -1.28798375648558" />
+    <parent
+      link="Link fr_2" />
+    <child
+      link="Link fr_3" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link bl_1">
+    <inertial>
+      <origin
+        xyz="0.0358574397614602 9.9547869415427E-06 0.0010765630530158"
+        rpy="0 0 0" />
+      <mass
+        value="0.209753896218724" />
+      <inertia
+        ixx="8.53819706576157E-05"
+        ixy="1.40675696244959E-08"
+        ixz="1.48463617362231E-05"
+        iyy="9.23394061798978E-05"
+        iyz="6.63604891822995E-09"
+        izz="0.000100724821358493" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_bl_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_bl_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="bl_1"
+    type="continuous">
+    <origin
+      xyz="0.103849729304567 -0.108645257413251 0.0279541750946531"
+      rpy="1.55811741200926 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link bl_1" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="Link bl_2">
+    <inertial>
+      <origin
+        xyz="0.0827557599847455 -5.72013885340172E-05 0.0263730012618208"
+        rpy="0 0 0" />
+      <mass
+        value="0.187533295069946" />
+      <inertia
+        ixx="5.464338912398E-05"
+        ixy="-8.19049907554942E-09"
+        ixz="-6.06270993025422E-09"
+        iyy="0.000131749858075354"
+        iyz="1.00316250297332E-08"
+        izz="0.000159451905068944" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_bl_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_bl_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="bl_2"
+    type="continuous">
+    <origin
+      xyz="0.0443115850024413 0 0.035929747380525"
+      rpy="0 0 -1.19273502142718" />
+    <parent
+      link="Link bl_1" />
+    <child
+      link="Link bl_2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Link bl_3">
+    <inertial>
+      <origin
+        xyz="-0.0291960234600856 -0.0532977680065144 -0.0184711984573067"
+        rpy="0 0 0" />
+      <mass
+        value="0.0430497996873549" />
+      <inertia
+        ixx="1.93255947573878E-05"
+        ixy="3.31281491944543E-09"
+        ixz="-1.5852578281836E-10"
+        iyy="1.22505513274657E-05"
+        iyz="-1.83860016043511E-10"
+        izz="2.95576189276874E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_bl_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_bl_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="bl_3"
+    type="continuous">
+    <origin
+      xyz="0.12 0 0.033373"
+      rpy="3.1416 0 -1.5827" />
+    <parent
+      link="Link bl_2" />
+    <child
+      link="Link bl_3" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link br_1">
+    <inertial>
+      <origin
+        xyz="0.0358574390222733 9.95545700434655E-06 0.00107656380962192"
+        rpy="0 0 0" />
+      <mass
+        value="0.209753891911529" />
+      <inertia
+        ixx="8.53819742618317E-05"
+        ixy="1.4067807248238E-08"
+        ixz="1.48463616893853E-05"
+        iyy="9.23394084464883E-05"
+        iyz="6.63533772001002E-09"
+        izz="0.000100724824462526" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_br_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_br_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="br_1"
+    type="continuous">
+    <origin
+      xyz="0.103849729304567 -0.0186452574132402 0.0279541750946547"
+      rpy="-1.78896748226056 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link br_1" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="Link br_2">
+    <inertial>
+      <origin
+        xyz="0.082756 -5.7202E-05 0.065684"
+        rpy="0 0 0" />
+      <mass
+        value="0.18753" />
+      <inertia
+        ixx="5.4643E-05"
+        ixy="-8.1905E-09"
+        ixz="-6.0627E-09"
+        iyy="0.00013175"
+        iyz="1.0032E-08"
+        izz="0.00015945" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_br_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_br_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="br_2"
+    type="continuous">
+    <origin
+      xyz="0.0443115850024412 0 -0.00338148606236705"
+      rpy="0 0 1.26873557248562" />
+    <parent
+      link="Link br_1" />
+    <child
+      link="Link br_2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Link br_3">
+    <inertial>
+      <origin
+        xyz="-0.0360304392041453 -0.0489095175986532 0.0616496297139297"
+        rpy="0 0 0" />
+      <mass
+        value="0.0430504468219352" />
+      <inertia
+        ixx="1.91926285677668E-05"
+        ixy="-9.71771973697972E-07"
+        ixz="-1.60540653406215E-10"
+        iyy="1.23835674816169E-05"
+        iyz="-1.65235156756795E-10"
+        izz="2.955769461381E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_br_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dog_description/meshes/Link_br_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="br_3"
+    type="continuous">
+    <origin
+      xyz="0.12 0 0.029482"
+      rpy="0 0 2.399" />
+    <parent
+      link="Link br_2" />
+    <child
+      link="Link br_3" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+</robot>

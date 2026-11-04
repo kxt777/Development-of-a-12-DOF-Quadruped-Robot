@@ -1,0 +1,43 @@
+{
+  "model": "dog_fire_chemical_human_yolov8n.onnx",
+  "classes": [
+    "fire",
+    "chemical",
+    "human"
+  ],
+  "threshold": 0.4,
+  "backend": "ONNX Runtime CPU",
+  "streams": {
+    "rgb": {
+      "age_s": 2.527345050009899,
+      "fps": 9.69844062148902
+    },
+    "yolo": {
+      "age_s": 2.3570561360102147,
+      "fps": 0.818105123212261
+    }
+  },
+  "inference_ms": 39.295697992201895,
+  "objects": [
+    {
+      "class_id": 0,
+      "label": "fire",
+      "score": 0.5522294044494629,
+      "bbox_xyxy": [
+        5.879096984863281,
+        710.4776000976562,
+        351.6954803466797,
+        951.0401153564453
+      ],
+      "xyz_m": null,
+      "depth_pair_delta_ms": null
+    }
+  ],
+  "total_frames": 2,
+  "nonempty_frames": 2,
+  "observed_labels": [
+    "fire"
+  ],
+  "errors": [],
+  "independent_validation": false
+}

@@ -1,0 +1,3 @@
+# Preserve release bytes: trajectory caches verify source hashes.
+# Shell scripts already use LF; never apply checkout line-ending conversion.
+* -text

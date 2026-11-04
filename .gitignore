@@ -1,0 +1,16 @@
+**/__pycache__/
+**/.pytest_cache/
+**/*.egg-info/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+vendor_ws/
+.venv/
+runs/
+state/
+*.pyc
+*.uvguix.*
+*.o
+*.axf
+*.crf
+*.d

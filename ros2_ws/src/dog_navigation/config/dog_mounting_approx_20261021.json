@@ -1,0 +1,18 @@
+{
+  "calibrated": false,
+  "orientation_confirmed": true,
+  "translation_assumption_accepted": true,
+  "position_measured": false,
+  "source": "User 2026-10-21 confirmed lidar X forward and Z up, then explicitly requested ignoring installation translation for this test",
+  "base_from_lidar_translation_m": [0.0, 0.0, 0.0],
+  "base_from_lidar_quaternion_xyzw": [0.0, 0.0, 0.0, 1.0],
+  "base_from_lidar_imu_translation_m": [0.011, 0.02329, -0.04412],
+  "base_from_lidar_imu_quaternion_xyzw": [0.0, 0.0, 0.0, 1.0],
+  "internal_extrinsic_source": "Retained verified FAST-LIO MID360 extrinsic_T [-0.011,-0.02329,0.04412], identity rotation. T_base_imu = T_base_lidar * inverse(T_imu_lidar).",
+  "footprint_xy_m": null,
+  "footprint_mode": "point robot for the user-authorized clear-room chain test; not a validated whole-body collision envelope",
+  "scan_min_height_m": 0.1,
+  "scan_max_height_m": 1.5,
+  "scan_slice_source": "Reuse the 0.1..1.5m obstacle-height slice of the selected original grid for initial integration; not a full-height hazard detector",
+  "note": "Same-axis zero installation translation is an explicit approximation, not a measured calibration. Internal lidar/IMU offset is retained. No automatic enable, stand, route start or motor commands."
+}

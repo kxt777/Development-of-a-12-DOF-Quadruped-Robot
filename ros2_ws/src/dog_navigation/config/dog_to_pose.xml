@@ -1,0 +1,13 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <RecoveryNode number_of_retries="3" name="DogReplanAroundObstacle">
+    <PipelineSequence name="DogFollowWithReplanning">
+      <RateController hz="1.0">
+        <ComputePathToPose goal="{goal}" path="{path}" planner_id="GridBased"/>
+      </RateController>
+      <FollowPath path="{path}" controller_id="FollowPath" goal_checker_id="dog_goal_checker"/>
+    </PipelineSequence>
+      <Wait wait_duration="1.0" server_name="wait"/>
+    </RecoveryNode>
+  </BehaviorTree>
+</root>

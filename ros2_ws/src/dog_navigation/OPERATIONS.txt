@@ -1,0 +1,437 @@
+Dog navigation deployment, 2026-10-21
+
+Scope
+FAST-LIO mapping and Nav2 planning on a measured map. No autonomous exploration.
+Walking a planned loop and depth-camera semantic recognition are later stages.
+All project nodes begin dog_. No navigation-to-motor connection is configured.
+
+NUC workspace: /home/robot/dog_navigation/ws
+Recovered original: /home/robot/dog_navigation/recovered/Dog_ROS2_20261021
+Nav2 1.1.20 (Humble) is installed. No Nav2 planner/controller is running yet.
+FAST_LIO_ROS2 ros2 branch: 2fffc570a25d0df172720bac034fbdb6a13d2162.
+Only upstream frame literals patched: camera_init -> dog_lio_map,
+body -> dog_lidar_imu. Patch: /home/robot/dog_navigation/fastlio_dog_frames.patch.
+
+Actual sensor identity and network
+Broadcast type 9 = MID-360; serial 47MDM710020256; MAC e4:7a:2c:b3:b8:fa.
+User initially described MID-360S; type 35 would denote that model.
+Actual lidar IP 192.168.2.100, host enp3s0 = 192.168.2.50/24.
+Wi-Fi management stays 192.168.30.176. No default route on the lidar interface.
+NetworkManager profile currently retains historical name dog_lidar_mid360s.
+Config: /home/robot/dog_navigation/config/mid360_type9_192_168_2_100.json.
+The first trial using the S model config received no ROS data. Preserve its logs.
+
+Live evidence
+15-second custom stream audit: 150 nonempty clouds, 19776-20256 points/frame,
+four line IDs 0..3, roughly 100 ms per-cloud point timing span, no nonfinite
+sampled XYZ or duplicate/backward stamps. Initial IMU count was affected by
+the Python audit's five-message subscription queue while decoding large clouds.
+A separate 10-second lightweight probe received about 2000 IMU messages,
+with stamp intervals 3.84-6.06 ms and no gap over 7.5 ms (diagnostic comparison,
+not a hardware safety limit). The combined audit now uses depth 512 for IMU.
+
+FAST-LIO initialized from real data, produced ~10 Hz odometry/clouds and saved
+/home/robot/dog_navigation/maps/first_live_20261021.pcd:
+134869 finite points, binary PCD. The bounded mapping session was deliberately
+stopped after saving. Launch reported signal exit -2; this was the requested
+SIGINT, not a spontaneous crash. Preview and reports are also saved in
+D:/Project/dog/dog_deployments/navigation_20261021.
+This proves the live mapping chain, not moving localization or traversability.
+
+Frames and units
+Internal lidar-to-IMU extrinsics match upstream config/mid360.yaml:
+translation [-0.011,-0.02329,0.04412] m, identity rotation. This is NOT the
+unmeasured mounting transform between lidar and dog's body.
+Raw Livox IMU acceleration is in g, angular velocity in rad/s; its driver uses
+frame_id livox_frame. FAST-LIO normalizes acceleration during initialization.
+Do not use the raw IMU topic as SI data in a generic ROS consumer without
+conversion and the correct frame. The separate dog DM IMU is untouched.
+LIO map axes originate at initialization; Z is not automatically floor height.
+FAST-LIO has no built-in loop closure or saved-map relocalization here.
+Upstream odometry currently leaves twist unset and publishes covariance one
+iteration late; address that before connecting a navigation controller.
+
+Sensor commands (check process records first; do not launch duplicates)
+source /opt/ros/humble/setup.bash
+source /home/robot/dog_navigation/ws/install/setup.bash
+ros2 launch dog_navigation dog_lidar.launch.py config_path:=/home/robot/dog_navigation/config/mid360_type9_192_168_2_100.json format:=custom
+ros2 run dog_navigation dog_lidar_audit --format custom --seconds 30 --output NEW_REPORT_PATH.json
+ros2 launch dog_navigation dog_mapping.launch.py map_path:=NEW_ABSOLUTE_PATH.pcd
+ros2 service call /dog_mapping/save_map std_srvs/srv/Trigger '{}'
+
+Map publishing accumulates snapshots in memory; use bounded acquisition sessions.
+The explicit save service writes the accumulated map. Verify the actual file,
+not just service success. Preserve old maps by choosing a new path each session.
+
+Topics
+/dog_lidar/custom, /dog_lidar/imu
+/dog_mapping/cloud_registered, /dog_mapping/cloud_body
+/dog_mapping/map_cloud, /dog_mapping/odometry, /dog_mapping/trajectory
+
+Remaining for actual path planning
+Confirm physical mounting, floor height/orientation, and dog's swept footprint.
+Collect motion observations and improve map coverage with the user's cooperation.
+Generate free/occupied/unknown grid with floor evidence; do not mark unobserved
+space free or project the ceiling into floor obstacles.
+Start planner-only Nav2 with dog-prefixed nodes and measured robot geometry,
+then verify paths on the actual grid. Do not actuate motors at this stage.
+
+Latest acceptance and capture
+User explicitly excluded saved-map relocalization. Current acceptance is 3D
+mapping, viewing and file saving. Nav2 planning is a later stage.
+Completed 60-second session:
+/home/robot/dog_navigation/sessions/dog_mapping_floor_20261021_01
+map.pcd: 234542 finite XYZ points, 7505595 bytes.
+SHA256: 7b3a4ead66fd7263e241306dc5eccc8a9b787021bea4e3e7450ad29a3b01f441
+Mapper and recorder exited normally after explicit save.
+raw_bag: ~235 MiB, 601 raw cloud messages, 11960 IMU messages, 595 odometry.
+Counts cover slightly different subscription startup times; no lossless claim.
+This is a local observed map; physical motion and complete coverage are not
+inferred from successful file saving. No motor commands were sent.
+
+Repeat a bounded capture (existing lidar driver must run; unique output folder):
+python3 /home/robot/dog_navigation/ws/src/dog_navigation/dog_navigation/capture_mapping.py --seconds 60 --output NEW_ABSOLUTE_SESSION_FOLDER
+The helper rejects another running FAST-LIO instance, records raw input,
+explicitly saves the PCD, and stops only the processes it started.
+
+View saved map on the NUC desktop (no relocalization or actuation):
+ros2 launch dog_navigation dog_mapping_view.launch.py pcd_path:=/home/robot/dog_navigation/sessions/dog_mapping_floor_20261021_01/map.pcd
+Pass show_rviz:=false for publisher-only use. Saved cloud is published on
+/dog_mapping/saved_map; names dog_saved_map and dog_mapping_view.
+The offline publisher was validated by receiving all 234542 points again.
+
+Windows artifacts:
+D:/Project/dog/dog_deployments/navigation_20261021/floor_capture_map.pcd
+D:/Project/dog/dog_deployments/navigation_20261021/floor_capture_3d.html
+D:/Project/dog/dog_deployments/navigation_20261021/floor_capture_3d.png
+HTML is self-contained (no CDN). Colors represent initial-map Z, not classes.
+The optional Z <= 1.5 m view slice changes display only, not the saved PCD.
+Optional Plotly 7.1.0 is isolated under dog_navigation/.preview_deps; existing
+IsaacLab environment packaging 23.0 was not changed.
+
+Occupancy grid conversion (completed 2026-10-21)
+User requested existing ROS2 packages, offline data now, online conversion later.
+No robot footprint, traversability test or inflation is applied at this stage.
+Packages: octomap_server 2.3.1 and nav2_map_server 1.1.20, installed via ROS apt.
+No custom occupancy conversion algorithm was implemented.
+Raw bag -> upstream FAST-LIO deskewing/TF -> octomap_server -> map_saver_cli.
+Output: /home/robot/dog_navigation/maps/dog_grid_20261021_01/map.yaml and map.pgm.
+Windows copy: D:/Project/dog/dog_deployments/navigation_20261021/dog_grid_20261021_01.
+Resolution 0.05 m; size 139 x 180; origin [-1.9,-5.45,0], frame dog_lio_map.
+Projection uses Z=0.10..1.50 m in INITIAL LIO frame, not measured height above
+ground. This is an adjustable display/projection band, not a robot hardware limit.
+Cells: 2100 occupied, 5614 observed free, 17306 unknown. No footprint inflation.
+
+Saved-map round-trip issue found and fixed:
+Humble map_saver's default free_thresh=0.25 loads gray 205 as free because
+1-205/255=0.196078<0.25. Explicit --free 0.196 --occ 0.65 preserves unknown.
+map.yaml.before_threshold_fix and hashes.initial.txt retain initial evidence.
+Do not use that archived YAML for navigation. Final map.yaml has the fixed value.
+Validation: Nav2 map_server loaded the final YAML, all 25020 cells matched the
+PGM, including image/ROS row orientation; resaving produced byte-identical PGM.
+Details: validation.json, roundtrip/resave.log and map_server_validation_fixed.log.
+
+Repeat offline using existing packages (NEW output directory each time):
+bash /home/robot/dog_navigation/dog_project_offline.sh /home/robot/dog_navigation/sessions/dog_mapping_floor_20261021_01/raw_bag NEW_OUTPUT_DIRECTORY
+The script uses localhost ROS_DOMAIN_ID=47 to isolate replay from live robot
+topics, starts named dog_ nodes, saves the map, and stops its own processes.
+
+Future online conversion, once live FAST-LIO publishes cloud_body and matching TF:
+ros2 launch dog_navigation dog_grid_projection.launch.py
+ros2 run nav2_map_server map_saver_cli -f NEW_MAP_STEM --fmt pgm --free 0.196 --occ 0.65 --ros-args -r __node:=dog_map_saver -r map:=/dog_grid/map -p map_subscribe_transient_local:=true
+Same converter launch; online uses wall time, offline uses recorded /clock.
+The min_z, max_z and resolution launch arguments are explicit projection choices.
+
+Load the saved grid with standard Nav2 (does not start a planner/controller):
+ros2 launch dog_navigation dog_grid_saved.launch.py map_yaml:=/home/robot/dog_navigation/maps/dog_grid_20261021_01/map.yaml
+Topic /dog_grid/map, nodes /dog_grid/dog_map_server and dog_grid_lifecycle_manager.
+
+Nav2 offline planning proof (completed 2026-10-21)
+Saved map -> map_server -> static costmap -> upstream NavFn -> ComputePathToPose.
+Output: /home/robot/dog_navigation/maps/dog_plan_20261021_01/path.json.
+Explicit test start [0.6,0.0], goal [1.0,2.7], dog_lio_map frame.
+Action SUCCEEDED (status 4); 2.86093 m; 0.000542303 s reported planner time.
+687 segment samples at <= 5 mm spacing were all in observed free cells.
+The direct start-goal line intersects occupied cells; Nav2 routed around them.
+No denoising, footprint, inflation, controller, BT navigator or motor commands.
+Unknown remains blocked. Test TF dog_planning_start is NOT a measured dog pose.
+
+Reproduce in two terminals, source the workspace and export in BOTH:
+source /opt/ros/humble/setup.bash
+source /home/robot/dog_navigation/ws/install/setup.bash
+export ROS_DOMAIN_ID=48 ROS_LOCALHOST_ONLY=1
+Terminal 1:
+ros2 launch dog_navigation dog_planning_offline.launch.py map_yaml:=/home/robot/dog_navigation/maps/dog_grid_20261021_01/map.yaml
+Terminal 2:
+ros2 run dog_navigation dog_plan_probe --start 0.6 0.0 --goal 1.0 2.7 --output NEW_RESULT_JSON
+The probe refuses to overwrite existing results. It only requests an upstream
+Nav2 path and audits it; it implements no search/planning algorithm.
+
+Naming compatibility: Humble 1.1.20 hardcodes its internal global_costmap node
+name and overrides launch remaps. The overlay nav2_planner is the matching
+upstream 1.1.20 source with ONLY the two internal name/namespace literals
+changed to dog_global_costmap; no algorithm changes and no apt file overwritten.
+Archive and exact diff: /home/robot/dog_navigation/vendor/.
+Actual parameters, node list, original-map hashes and planner-library hash are
+retained with path.json. TF2 also creates its own anonymous listener helper;
+all project-selected node names and interfaces carry dog_ prefixes.
+
+Nav2 path following integration, 2026-10-21 (dog_nav_v1)
+------------------------------------------------------
+Selected map: /home/robot/dog_navigation/maps/dog_fire_grid_20261021_manual_v1/map.yaml
+The original map and user annotation are preserved. Eight target anchors are
+stored in config/dog_fire_route.json. The blue reference is OPEN on its left;
+no closing segment was invented. Actual start pose always comes from TF.
+
+Chain:
+  MID360 points + internal IMU -> FAST-LIO -> mounting-aware dog_base_link odom
+  -> pointcloud_to_laserscan + AMCL map alignment -> Nav2 NavFn + regulated pure
+  pursuit + periodic replanning -> /dog_nav/cmd_vel (geometry_msgs/Twist)
+  -> dog_nav_velocity_bridge -> /dog_ik_walk_imu/nav_velocity (leased String)
+  -> existing single TeleopController motor writer -> STM32.
+
+Frames: dog_lio_map -> dog_odom -> dog_base_link -> dog_lidar_imu.
+The first transform belongs to AMCL; the second to dog_nav_odometry; the last
+is the measured mounting transform. FAST-LIO raw odometry uses dog_odom and
+publishes NO competing TF in navigation mode. Its standalone mapping defaults
+are preserved. Its current covariance is now assigned before publication.
+The adapter leaves covariance unspecified; do not fuse it into another EKF as
+if it were a calibrated covariance. Nav2 uses its pose and body twist.
+
+Two exclusive velocity sources:
+  joystick (default): retains command-time IMU heading lock.
+  navigation: continuously follows Nav2 v/w, including w=0, without re-anchoring
+  joystick heading. Localization already uses the lidar's internal IMU; the
+  DM-IMU body stream remains available but is not a second competing yaw loop.
+  /dog_ik_walk_imu/navigation_mode (std_srvs/SetBool) selects the source while
+  stopped. true=navigation, false=joystick. Switching never enables motors.
+  Existing stop/disable controls remain effective. Old navigation sessions
+  cannot resume after an operator stop; an explicit new arm is required.
+
+The bridge defaults allow_motor_output=false, creates NO motor-topic publisher
+in preview mode, and never calls enable/stand/zero. /dog_nav/arm is a SetBool
+service; arming requires a live deployment with the confirmed mounting convention, fresh map pose/odometry,
+an explicitly enabled standing controller, and navigation source selection.
+It does not arm on process start. Any missing stream/expired command disarms;
+the old gait worker settles using its existing stop ramp. This is not a
+hardware emergency stop. Commands use the NUC monotonic clock on both ends.
+The .5 second input lease matches the existing joystick lease; odometry must
+also remain fresh. LIO data interruption/reset requires localization restart
+and map pose alignment rather than silently reusing a changed origin.
+
+Speed envelopes .08 m/s and .15 rad/s are inherited from the evaluated IK
+interpolation table, NOT motor manual limits. Curvature is preserved when
+scaling v and w into this table. No motor Kp/Kd/torque settings are changed.
+RPP .35 m lookahead, .12 m/rad final tolerance, .18 m waypoint acceptance,
+2 second replanning, .1 m / 45 second progress checking are initial navigation
+tuning choices for this slow gait; they are not manufacturer specifications.
+Software proof uses a point robot and static map. Live obstacle/inflation layers
+accept a measured footprint and ground/body exclusion height slice. This first
+clear-room chain test retains the user-requested point-robot approximation. Live .15m
+inflation is provisional navigation tuning, not an asserted hardware dimension.
+
+Mounting update from the user, 2026-10-21:
+  X forward, Z up, therefore right-handed Y left. Rotation is identity.
+  User explicitly declined installation-offset measurement for this test.
+  Active config: config/dog_mounting_approx_20261021.json. T_base_lidar uses
+  zero installation translation as an accepted approximation. The verified
+  INTERNAL lidar-to-IMU offset is still retained, so T_base_imu is its inverse.
+  This is recorded as an approximation, not a measured calibration. It does
+  not block the initial chain test. The older pending file is historical.
+  Obstacle height slice 0.1..1.5m reuses the selected grid projection settings;
+  whole-body clearance and low-object avoidance are not validated by this test.
+  The DM-IMU mounting is a separate transform and has not been reused here.
+Fresh FAST-LIO has a fresh odometry origin; set/check the initial MAP pose with
+/dog_nav/initialpose (or RViz). AMCL aligns dog_lio_map -> dog_odom. The saved
+route stays fixed in map coordinates; Nav2 plans from the current localized
+pose to its ordered anchors. Do not hardcode identity map-to-odom on the real
+dog. The recorded-data test uses the known original recording origin only.
+
+Deployment:
+  /home/robot/dog_navigation/ws contains dog_navigation and matching upstream
+  Nav2 1.1.20 planner/controller overlays, changed only for dog_ costmap names.
+  /home/robot/dog_navigation/versions/dog_nav_v1_20261021 is the source snapshot.
+  /home/robot/dog_ik_walk_imu_ws_20261007_v031/versions/dog_nav_input_v041_20261021
+  contains the new input controller, separate config/cache/logs. Existing web
+  UI remains on port 8080. The old v040 source/config/cache remain untouched.
+  systemd user dog_ik_controller.service.d/dog_navigation.conf selects v041.
+
+Offline software proof (NO motor actuation):
+  source /opt/ros/humble/setup.bash
+  source /home/robot/dog_navigation/ws/install/setup.bash
+  export ROS_DOMAIN_ID=49 ROS_LOCALHOST_ONLY=1
+  ros2 run dog_navigation dog_nav_fixture --route ROUTE_JSON --output NEW_TRACE
+  ros2 launch dog_navigation dog_navigation.launch.py map_yaml:=MAP_YAML
+  ros2 run dog_navigation dog_nav_route --route ROUTE_JSON --report NEW_RESULT
+Fixture refuses to run outside that isolated domain/localhost setting. It is
+a kinematic software harness, NOT a dynamics simulator or a real walking test.
+It injects a 10 cm / -10 degree perturbation at 20 seconds. It uses only the
+preview velocity; it cannot access serial hardware. Test reports and failed
+first-attempt diagnostics are retained in evidence/nav_integration_20261021.
+
+When the user requests the later physical test (NOT executed during deployment):
+  return to the real ROS domain; do not leave ROS_DOMAIN_ID=49/50 exported.
+  ros2 launch dog_navigation dog_navigation_live.launch.py map_yaml:=MAP_YAML \
+    lidar_config:=/home/robot/dog_navigation/config/mid360_type9_192_168_2_100.json \
+    mounting_config:=/home/robot/dog_navigation/ws/install/dog_navigation/share/dog_navigation/config/dog_mounting_approx_20261021.json allow_motor_output:=false
+This launches sensing/localization and a preview bridge only. Set/check initial
+pose stationary. For the separately authorized walking test, use live launch
+with allow_motor_output:=true, prepare/enable/stand via existing operator
+controls, select navigation_mode, arm, then explicitly send dog_nav_route.
+No route starts automatically. Cancel the Nav2 action and disarm to end the
+mission. On restart all arming/source state must be selected explicitly again.
+
+Online obstacle handling: global and local costmaps combine the saved static
+map with the /dog_nav/scan obstacle layer. The BT replans through remaining
+anchors every 2 seconds. Stock controller failure_tolerance=3 seconds publishes
+zero velocity while waiting for a feasible updated path; it never continues an
+invalid command. No automatic backing-up or blind spinning recovery is enabled.
+The software obstacle test injects a new 0.2m-radius obstacle after 8 seconds,
+with both static-map planning and live scan marking/clearing active. Its geometry
+is a test stimulus, not an asserted real robot or obstacle dimension.
+
+Approximate waypoint arrival update, 2026-10-21 (dog_nav_v2)
+User requested moving toward 8 ordered targets without precise heading settling.
+RemovePassedGoals radius and final XY tolerance are now 0.35m; final yaw tolerance
+is pi, accepting any heading. RPP lookahead is 0.50m; it turns in place only when
+the lookahead target is outside the forward half-plane (>90 degrees). Otherwise
+it sends forward velocity and steering together. Existing motor gains and velocity
+bank remain unchanged. These are navigation behavior choices, not motor ratings.
+v1 physical trial stopped after 29.6s on collision prediction, with zero commanded
+forward velocity and divergent LIO/DM-IMU headings. Its recorded map trajectory is
+not reliable ground truth. Original logs and v1 configuration remain preserved.
+
+Obstacle recovery update, 2026-10-21 (dog_nav_v3)
+The 8 ordered anchors and 0.35m arrival rule remain. Production replanning now
+runs at 1Hz. The standard Nav2 RecoveryNode retries the remaining route after
+a 1s Wait when planning/control fails, instead of immediately ending the action.
+Only Wait is loaded in dog_behavior_server: no blind spin/back-up actions and no
+clearing of real sensed obstacles. The normal obstacle/inflation layers continue
+to drive NavFn around an obstacle when a route exists. Retries are finite (3).
+The route client publishes a short-lived mission lease. During recovery a fresh
+mission may extend an explicitly ZERO command, keeping the gait at stand while
+the planner works. Stale nonzero commands are never extended; missing sensors,
+expired mission lease, operator stop, or route termination still stop output.
+Lost goal acknowledgements trigger cancellation of the client's exact goal UUID.
+Tests use private domain 49/localhost and never open a motor connection.
+
+Physical v2 trial: /home/robot/dog_navigation/evidence/dog_live_v2_20261021_042154.
+Second dispatch ran 44.6567s and produced forward commands (max 0.08m/s), but did
+not complete the route. AMCL map pose and the initial-aligned LIO position differed
+by 3.4648m at the end. LIO path's minimum distance to the first anchor was 0.5827m;
+its mean distance to the blue reference was 0.2864m, including the entry segment,
+not a full-loop tracking score. Neither trajectory is external ground truth.
+Raw lidar/IMU and ROS bag are retained. Continuous localization disagreement is
+UNRESOLVED. Do not treat the new obstacle recovery as a localization fix or claim
+physical navigation succeeded. Await field confirmation of the green/red path
+before choosing a different map-alignment method. No further physical test was
+started during the obstacle-recovery code update; motors were operator-disabled.
+
+Fixed initial alignment, 2026-10-21 (dog_nav_v4)
+User confirmed the green LIO trajectory matched the observed movement better
+than AMCL, and explicitly authorized a new hardware test. Live launch now uses
+dog_nav_alignment instead of AMCL. /dog_nav/initialpose is accepted ONCE while
+the controller is stopped, paired with fresh /dog_nav/odom. The node computes
+T_map_odom from the actual initial map pose and current odometry, then locks it.
+No continuous scan-matching corrections change this transform during the route.
+It broadcasts the constant transform with each LIO timestamp; missing odometry
+does not get hidden by a wall-clock TF refresh. Restart requires new alignment.
+FAST-LIO still fuses the Livox lidar and its internal IMU, using their device
+timestamps. External DM-IMU does not introduce a second navigation heading loop.
+Nav2 v3 live obstacle marking, clearing, replanning and bounded Wait recovery,
+8 ordered anchors, 0.35m arrival radius and existing gait remain unchanged.
+This is short-run odometry tracking after initial alignment, not drift-free
+global localization. Whole-body obstacle clearance remains unvalidated with
+the explicitly accepted point-footprint approximation.
+
+v4 physical run: dog_live_v4_20261021_045921, 110.99s of active control.
+Operator stopped, then requested zero and disabled via the existing controls.
+No full route completed. The LIO estimate came within 0.425m of anchor 1.
+At that distance, the 0.50m pure-pursuit lookahead could cross the first
+out-and-back waypoint and select the outgoing leg, before the 0.35m arrival
+condition. Logged path/pose reconstruction gives a carrot heading near -145deg
+while that first waypoint was still pending. This is a separate route-control
+issue from the AMCL localization problem.
+The subsequent v4 revision dispatches NavigateToPose for ONE anchor at a time,
+keeping a single mission lease across all 8 goals. Each uses the existing
+0.35m/any-yaw goal checker and live obstacle replanning. Only action success
+advances the ordered target. This revision was NOT used in the physical run;
+its fold-back/obstacle verification is an isolated software test. Operator or
+controller disarming now cancels the remaining goal, and SIGINT preserves the
+report before publishing cleanup messages. The physical route report was
+reconstructed from recorded status because its old SIGINT cleanup raised an
+invalid-context exception. Original logs and raw bags are preserved.
+
+LATEST user correction: target arrival radius is now 0.05m (5cm), replacing
+0.35m. Both the active single-goal XY checker and the historical through-poses
+BT radius are 0.05m; any-yaw acceptance is unchanged. Historical real-run plots
+retain the 0.35m radius actually used in that test and must not be relabeled.
+The new 5cm threshold is a controller acceptance criterion, not a claim of
+5cm absolute localization accuracy. Hardware remained operator-disabled.
+
+2026-10-24 dog_nav_v5_discrete: eight fixed joystick actions, 4-second decisions.
+Names: forward/backward, forward_left/backward_left, forward_right/backward_right,
+turn_left/turn_right. Fixed values reproduce the existing web joystick's unit
+circle and per-axis 8% dead zone, including the diagonal values. The joystick
+executor, IK tables, phase, gains, startup/stop ramp and existing internal input
+smoothing are UNCHANGED, per the user's latest instruction to reuse it verbatim.
+Navigation no longer sends arbitrary continuously varying directions. It selects
+one fixed joystick position, holding it for 4s even if raw Nav2 Twist changes.
+Zero/obstacle/target arrival can stop early; after an early stop a different
+action cannot resume until the original decision deadline (except a new target).
+/dog_nav/discrete_action publishes action changes, with a stable action_id.
+The existing 20Hz /dog_ik_walk_imu/nav_velocity packets only renew the 0.5s
+watchdog, retaining identical action values and gesture between decisions;
+they do not restart the gait. Joint streaming is unchanged.
+The bridge checks the held action's swept path against Nav2's local costmap,
+including the existing 2s stop ramp, rather than relying on collision prediction
+for a different raw Twist. Real obstacles remain marked for Nav2 replanning.
+5cm target arrival stops early. Route lease includes current target identity/XY;
+old commands are cleared at a goal change, with zero-velocity lease renewal
+while waiting for the next goal's command. No automatic arming or motor enable.
+The point-robot approximation remains explicitly unvalidated for body clearance.
+This version requires offline integration validation before any physical test.
+Validation completed 2026-10-24: 14 tests passed in isolated ROS domain 49.
+The first integration exposed a slow-approach classification issue; signs with
+joystick deadzones now select the fixed action, preserving translation intent.
+Corrected integration reached 3 ordered targets with a dynamic obstacle and
+injected pose disturbance, using 5cm arrival. This is a kinematic software
+fixture, not a physical gait/stop-distance validation or full 8-target trial.
+Saved logs: /home/robot/dog_navigation/evidence/dog_v5_discrete_20261024_signfix.
+The original failed integration is retained. No motor enable/motion performed.
+
+2026-10-24 dog_nav_v6_six: user-requested six translating actions and 15cm goals.
+Removed in-place turns from the navigation output. Keep the original joystick
+executor, fixed full-stick values, 4s action decisions and existing stop ramp.
+Direction now comes from the planned path relative to dog_base_link, rather
+than the sign of Nav2's rapidly varying angular-velocity command. A waypoint
+behind can be approached by reversing; steering sign accounts for reverse travel.
+Uses existing 0.5m lookahead and joystick 8% directional deadzone. Path expiry
+of 3s matches the existing controller recovery tolerance; these are software
+settings, not motor ratings. Nav2 retains path planning and live obstacles.
+Its rotate-first stage is disabled. Zero/recovery still stops; held-action
+swept collision check remains. Arrival is 0.15m in both bridge and Nav2 checker.
+Route file explicitly selects indices [0,4,8,11,15,18,21,25], not all 26 points.
+Hardware remains disabled during deployment; no automatic enable or movement.
+The dynamic-obstacle fixture found that a fixed forward arc could cut across
+Nav2's tighter detour and repeatedly stop. At a 4s decision boundary only,
+if that turning arc is obstructed, test the opposite translation with the same
+yaw sign (another existing joystick action). Use it only if its full sweep is
+clear. Mid-action obstruction still stops immediately. This is a simple
+reversing turn, not in-place rotation; it preserves fixed speeds and duration.
+Near a lateral waypoint, preserve its initial forward/reverse heading convention
+while translation can change sign. This avoids undoing yaw progress on each
+forward/backward switch. Reset the convention for the next waypoint.
+Route input must explicitly carry anchor_indices; missing metadata is rejected
+instead of silently treating all 26 reference samples as goals. A live route
+also rejects a disarmed bridge before dispatch; preview remains non-actuating.
+Validation notes: 18 focused tests passed. Preserve all integration attempts.
+Dynamic-obstacle fixtures did NOT establish robust avoidance: one stopped at
+waypoint 3, a later variant oscillated near waypoint 4, and the latest variant
+still changed approach around the injected obstacle. Do not present these as
+successful avoidance or expand this build's acceptance to arbitrary obstacles.
+A separate saved-map-only eight-goal fixture is used for the requested basic
+traversal; its result is recorded in version.json. It is kinematic software only.
+The first saved-map test was contaminated by unit tests sharing ROS domain 49;
+its interruption is invalid as a navigation performance result and is retained.
+No hardware actuation occurred during v6 changes or software validation.

@@ -1,0 +1,55 @@
+{
+  "frame_id": "dog_lio_map",
+  "source": "User blue markers and red direction arrows, 2026-10-24",
+  "points_xy_m": [
+    [
+      1.45,
+      0.71
+    ],
+    [
+      1.44,
+      -0.64
+    ],
+    [
+      -0.32,
+      -0.59
+    ]
+  ],
+  "anchor_indices": [
+    0,
+    1,
+    2
+  ],
+  "closed": false,
+  "arrival_radius_m": 0.3,
+  "action_hold_s": 4,
+  "source_pixels": [
+    [
+      667,
+      344
+    ],
+    [
+      666,
+      476
+    ],
+    [
+      495,
+      471
+    ]
+  ],
+  "image_axes_calibration": {
+    "left": 41,
+    "right": 1206,
+    "top": 25,
+    "bottom": 996,
+    "x_range": [
+      -5,
+      7
+    ],
+    "y_range": [
+      -6,
+      4
+    ]
+  },
+  "note": "Three blue goals in order upper-right, lower-right, lower-left; red line is order only, not extra goals. Coordinates approximate from annotation."
+}

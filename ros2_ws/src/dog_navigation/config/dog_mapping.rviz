@@ -1,0 +1,81 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Background Color: 15; 18; 24
+    Fixed Frame: dog_lio_map
+    Frame Rate: 20
+  Displays:
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Live accumulated map
+      Enabled: true
+      Topic:
+        Value: /dog_mapping/map_cloud
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 1
+      Color Transformer: AxisColor
+      Axis: Z
+      Autocompute Value Bounds:
+        Value: true
+      Position Transformer: XYZ
+      Style: Points
+      Size (Pixels): 2
+      Alpha: 1
+      Decay Time: 0
+      Use Fixed Frame: true
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Saved map (offline)
+      Enabled: true
+      Topic:
+        Value: /dog_mapping/saved_map
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 1
+      Color Transformer: AxisColor
+      Axis: Z
+      Autocompute Value Bounds:
+        Value: true
+      Position Transformer: XYZ
+      Style: Points
+      Size (Pixels): 2
+      Alpha: 1
+      Decay Time: 0
+      Use Fixed Frame: true
+    - Class: rviz_default_plugins/Path
+      Name: Measured LIO trajectory
+      Enabled: true
+      Topic:
+        Value: /dog_mapping/trajectory
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 1
+      Color: 50; 255; 100
+      Line Style: Lines
+      Line Width: 0.025
+      Alpha: 1
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 10
+      Pitch: 0.7
+      Yaw: 0.8
+      Focal Point:
+        X: 0.8
+        Y: -2
+        Z: 0.5
+      Target Frame: dog_lio_map
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+Window Geometry:
+  Width: 1280
+  Height: 800

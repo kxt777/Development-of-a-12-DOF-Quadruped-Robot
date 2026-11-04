@@ -1,0 +1,160 @@
+{
+  "schema": "dog_tradition_real_v2",
+  "release_scope": "desktop_ui_and_calibrated_runtime",
+  "allow_actuation": false,
+  "sim_candidate": {
+    "physics_dt": 0.001,
+    "control_dt": 0.005,
+    "body_height": 0.19,
+    "foot_x": 0.145,
+    "foot_y": 0.13,
+    "foot_radius": 0.012,
+    "contact_model": "original_mesh",
+    "friction": [
+      0.8,
+      0.005,
+      0.0001
+    ],
+    "kp": [
+      50,
+      50,
+      50
+    ],
+    "kd": [
+      1,
+      1,
+      1
+    ],
+    "torque_limit": [
+      6,
+      6,
+      6
+    ],
+    "joint_target_rate": 8,
+    "joint_velocity_target_limit": 8,
+    "frequency": 1.2,
+    "duty_factor": 0.65,
+    "step_height": 0.025,
+    "forward_speed": 0.03,
+    "mode_profiles": {
+      "trot": {
+        "frequency": 2.8,
+        "forward_speed": 0
+      },
+      "walk": {
+        "frequency": 1.2,
+        "forward_speed": 0.06
+      }
+    },
+    "settle_seconds": 2,
+    "ramp_seconds": 2,
+    "foot_placement_gain": 0.05,
+    "body_reference_max_error": 0.025,
+    "body_position_gain": [
+      20,
+      30,
+      100
+    ],
+    "body_velocity_gain": [
+      8,
+      10,
+      20
+    ],
+    "body_orientation_gain": [
+      8,
+      8,
+      4
+    ],
+    "body_angular_velocity_gain": [
+      0.5,
+      0.5,
+      0.3
+    ],
+    "max_normal_force": 60,
+    "contact_force_threshold": 0.5,
+    "foot_contact_region_radius": 0.025,
+    "fall_height": 0.08,
+    "fall_tilt": 0.75
+  },
+  "motor": {
+    "port": null,
+    "baudrate": 921600,
+    "mode": "MIT",
+    "id_order_is_candidate": false,
+    "feedback_has_per_motor_freshness": false,
+    "host_command_watchdog_confirmed": false,
+    "calibration_file": "dog_motor_calibration_imu_20261006.json",
+    "usb_serial": "316F36463233",
+    "mapping_ranges": {
+      "position_rad": 12.5,
+      "velocity_rad_s": 10.0,
+      "torque_nm": 10.0
+    },
+    "mapping_ranges_confirmed": true,
+    "mapping_ranges_confirmation": {
+      "date": "2026-10-04",
+      "source": "User confirmed the previously discussed motor mapping parameter correction is complete; not independently read back over USB."
+    },
+    "enforce_soft_limits": false,
+    "kp": 75.0,
+    "kd": 1.5,
+    "gains_source": "Initial values inherited from dog_tradition/dog_config.json; not computed by IK or verified under real load."
+  },
+  "imu": {
+    "port": "/dev/serial/by-id/usb-DM-Tech_DM-IMU-L1_DMIMU20250212-if00",
+    "baudrate": 921600,
+    "body_mount_quaternion_wxyz": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "pending": [
+    "CAN IDs, directions=-1 and new zero positions are recorded in dog_motor_calibration.json. Mechanical soft limits deferred; MIT Kp/Kd default to existing simulation config.",
+    "On 2026-10-04 the user confirmed the previously discussed motor mapping parameter correction is complete. mapping_ranges_confirmed records that user confirmation; the USB protocol cannot independently read driver registers.",
+    "Current firmware has cached feedback and no verified host watchdog; USB loss cannot be covered by the desktop disable button.",
+    "Body-frame kinematic demonstration; no IMU-based balance controller is implemented."
+  ],
+  "runtime": {
+    "control_dt": 0.02,
+    "stand_seconds": 6.0,
+    "gain_ramp_seconds": 2.0,
+    "gait_ramp_seconds": 2.0,
+    "standing_tolerance_rad": 0.15,
+    "feedback_timeout": 0.15,
+    "disable_timeout": 1.5,
+    "max_control_gap": 0.15,
+    "max_temperature": 60.0,
+    "max_measured_velocity": 8.0,
+    "max_measured_torque": 6.0,
+    "max_target_velocity": 4.0,
+    "max_tracking_error_rad": 0.3,
+    "max_estimated_pd_torque": 6.0,
+    "max_ik_error_m": 0.001,
+    "gaits": {
+      "walk": {
+        "frequency": 1.2,
+        "forward_speed": 0.08,
+        "duty_factor": 0.75,
+        "phase_offsets": [
+          0.0,
+          0.5,
+          0.25,
+          0.75
+        ]
+      },
+      "trot": {
+        "frequency": 2.8,
+        "forward_speed": 0.0,
+        "duty_factor": 0.65,
+        "phase_offsets": [
+          0.0,
+          0.5,
+          0.5,
+          0.0
+        ]
+      }
+    }
+  }
+}

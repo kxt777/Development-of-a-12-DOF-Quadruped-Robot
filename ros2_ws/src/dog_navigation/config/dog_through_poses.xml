@@ -1,0 +1,16 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <RecoveryNode number_of_retries="3" name="DogReplanAroundObstacles">
+    <PipelineSequence name="DogFollowWithReplanning">
+      <RateController hz="1.0">
+        <ReactiveSequence>
+          <RemovePassedGoals input_goals="{goals}" output_goals="{goals}" radius="0.30" global_frame="dog_lio_map" robot_base_frame="dog_base_link"/>
+          <ComputePathThroughPoses goals="{goals}" path="{path}" planner_id="GridBased"/>
+        </ReactiveSequence>
+      </RateController>
+      <FollowPath path="{path}" controller_id="FollowPath" goal_checker_id="dog_goal_checker"/>
+    </PipelineSequence>
+      <Wait wait_duration="1.0" server_name="wait"/>
+    </RecoveryNode>
+  </BehaviorTree>
+</root>
